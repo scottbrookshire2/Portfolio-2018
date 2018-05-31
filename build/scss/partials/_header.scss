@@ -16,17 +16,17 @@ img {
     // visibility: hidden;
 	@extend .transition;
     path, rect, circle{
-        fill:$secColor;
+        fill:$grey500;
         opacity: .9;
         @extend .transition;
         }
     &:hover path, &:hover circle, &:hover rect{
-        fill:$linkHover;
+        fill:$black;
         opacity:1;
         @extend .transitionHover;
     }
     &:active path, &:visited path{
-        fill:$linkHover;
+        fill:$black;
     }
     @include media($medium){
         max-width:3em;
@@ -43,17 +43,17 @@ img {
 
 #brandedPage .logo{
     path, rect, circle{
-        fill:darken($linkHoverRev, 10%);
+        fill:darken($white, 10%);
         opacity: .9;
         @extend .transition;
         }
     &:hover path{
-        fill:$hoverAlt;
+        fill:$brandColor;
         opacity:1;
         @extend .transitionHover;
     }
     &:active path, &:visited path{
-        fill:$linkHover;
+        fill:$black;
     }
 }
 
@@ -78,7 +78,7 @@ nav{
         padding-top:8px;
     }
    a{
-        color:darken($linkHoverRev, 20%);
+        color:darken($white, 20%);
         font-size: 14px;
         letter-spacing: 4px;
         // text-transform: uppercase;
@@ -90,13 +90,13 @@ nav{
         @extend .transition;
         @include media($medium){
             padding:2.2em 0 0 0;
-            color: darken($primColor, 10%);
+            color: darken($grey300, 10%);
         }
         @include media($small){
             font-size: .9em;
         }
         &:hover, a:hover{
-            color:$hoverAlt;
+            color:$brandColor;
             transform: translate(-10px);
         }
     }
@@ -112,7 +112,7 @@ nav{
     width: 300px;
     -webkit-transform: rotate(-90deg);
     h4{
-        color:darken($linkHoverRev, 70%);
+        color:darken($white, 70%);
         font-size: 12px;
         letter-spacing: 4px;
     }
@@ -122,12 +122,13 @@ nav{
     position:absolute;
     content:"";
     display:block;
-    background-color:darken($linkHoverRev, 70%);
+    // background-color:darken($white, 70%);
+    border: 1px solid darken($white, 70%);
     width: 10%;
-    height: 1px;
+    height: 150px;
     z-index: 1;
     left:0;
-    top: 57%;
+    top: 50%;
     opacity:.2;
 
 }
@@ -135,7 +136,7 @@ nav{
     position:absolute;
     content:"";
     display:block;
-    background-color:darken($linkHoverRev, 70%);
+    background-color:darken($white, 70%);
     width: 30%;
     height: 1px;
     z-index: 1;
@@ -148,13 +149,13 @@ nav{
 .embelishment{
     position:fixed;
     z-index: 1;
-    left:2%;
+    left:0%;
     bottom: 4%;
     display:block;
     content:"";
     display: block;
-    background-color:darken($linkHoverRev, 70%);
-    width:5%;
+    background-color:darken($white, 70%);
+    width:7%;
     height: 1px;
     opacity:.4;
 }

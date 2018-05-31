@@ -6,10 +6,10 @@
 		font-size: 1.05em;
 		padding: 16px 32px;
 		display:inline-block;
-		color:$linkHoverRev;
-		background-color: darken($secColor, 10%);
+		color:$white;
+		background-color: darken($grey500, 10%);
 		border-radius: 2px;
-		// border:2px solid $secColor;
+		// border:2px solid $grey500;
 		text-transform: uppercase;
 		margin: 24px 0;
 		letter-spacing: 3px;
@@ -20,7 +20,7 @@
 		&:hover{
 			color:black;
 			@extend .boxShadow;
-			background-color: $linkHoverRev;
+			background-color: $white;
 		}
 	}
 }

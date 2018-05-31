@@ -6,7 +6,7 @@
 	// @include outer-container;
 	// margin-bottom:3em;
 	.after a{
-		background-color: darken($secColor, 10%);
+		background-color: darken($grey500, 10%);
 		
 	}
 	.before a{
@@ -34,7 +34,7 @@
 			font-size: .8em;
 		}
 		&:hover{
-			background-color: #fff;
+			background-color: $white;
 			color:black;
 			@extend .boxShadow;
 		}
@@ -56,12 +56,12 @@
 footer{
 	z-index: 9990;
 	position: relative;
-	@include linear-gradient(to right, #232121 66.666%, $tertColor 66.666%, $fallback: #333);
+	@include linear-gradient(to right, darken($grey900, 2%) 66.666%, $brandColor 66.666%, $fallback: $grey700);
 	@include media($small){
-				@include linear-gradient(to top, $tertColor 43%, #232121 43%, $fallback: #333);
+				@include linear-gradient(to top, $brandColor 43%, darken($grey900, 2%) 43%, $fallback: $grey700);
 			}
 	@media (min-width: 1300px){
-			@include linear-gradient(to right, #232121 60%, $tertColor 60%, $fallback: #333);
+			@include linear-gradient(to right, darken($grey900, 2%) 60%, $brandColor 60%, $fallback: $grey700);
 		}
 	clear: both;
 	.wrapper{
@@ -92,7 +92,7 @@ footer{
 				&::after{
 					padding-top: 4%;
 					@extend .borderFlare;
-					border-color:darken($primColor, 40%);
+					border-color:darken($grey300, 40%);
 				}
 			}
 			@media (max-width: 720px){
@@ -100,26 +100,26 @@ footer{
 			}
 		}
 		a:link, a:visited, a:active{
-			color:darken($linkHoverRev, 15%);
+			color:darken($white, 15%);
 		}
 		a:hover{
-			color:$linkHoverRev;
+			color:$white;
 		}
 		.socialIcons{
 			display:inline-block;
 			width: 100%;
-			max-width:2.8em;
+			max-width:40px;
 			margin-right: 4%;
-			height:30%;
+			height:40px;
 			@include media($small){
 				max-width:2.2em;
 			}
 			path, rect, circle{
-				fill:darken($linkHoverRev, 50%);
+				fill:darken($white, 50%);
 				@extend .transition;
 			}
 			&:hover path, &:hover circle, &:hover rect{
-				fill:$linkHoverRev;
+				fill:$white;
 				@extend .transitionHover;
 			}
 		}
@@ -145,7 +145,7 @@ footer{
 		}
 		h5{
 			letter-spacing: 4px;
-			color: $linkHoverRev;
+			color: $white;
 			padding-bottom: 0em;
 			margin-bottom: 0;
 			&:first-child{
@@ -156,7 +156,7 @@ footer{
 			}
 		}
 		span{
-			color:darken($primColor, 20%);
+			color:darken($grey300, 20%);
 		}
 		
 		

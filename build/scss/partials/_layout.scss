@@ -1,7 +1,7 @@
 /* Layout
 ------------------------------------------------------------ */
 body{
-	background-color: $bodyColor;
+	background-color: $white;
 	font-size: 1em;
   line-height: 1.4;
   @include media($small){
@@ -11,7 +11,7 @@ body{
 
 #brandedPage {
   // @extend .bodyGradient;
-  background-color: #19191C;
+  background-color: $grey900;
 }
 .wrapper{
 	@include outer-container;
@@ -72,7 +72,7 @@ $marginMobile    :13%;
 .borderFlare{
   // content: "";
   display:block;
-  border-bottom: 4px solid $primColor;
+  border-bottom: 4px solid $grey300;
   opacity:.9;
   width:1.75em;
   padding:.7em 0 0 0;

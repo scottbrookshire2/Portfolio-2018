@@ -55,17 +55,17 @@
 			margin-left:-2.5em;
 		}
 		polygon{
-            fill:$primColor;
+            fill:$grey300;
             opacity: 1;
             @extend .transition;
             }
         &:hover polygon{
-            fill:$linkHover;
+            fill:$black;
             @extend .transitionHover;
         }
 	}
 	h1{
-		color:$primColor;
+		color:$grey300;
 		@include media($small){
 				line-height: 1.5em;
 			}
@@ -86,7 +86,7 @@
 		// @extend .slideRight;
 	}
 	p{
-		color:$primColor;
+		color:$grey300;
 		letter-spacing: .05em;
 		font-size: 1.4em;
 		// @extend .slideRight;
@@ -108,16 +108,11 @@
 	background-color: white;
 	// @include background-image(linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,.6)));
 	@extend .backgroundImage;
+	@extend .transition;
 	background-position: 50% 49%;
-	-webkit-transition:background-position 500ms ease;
-	-moz-transition:background-position 500ms ease;
-	transition:background-position 500ms ease;
+	opacity: .9;	
 	&:hover{
-			-webkit-transition:background-position 1500ms ease;
-			-moz-transition:background-position 1500ms ease;
-			transition:background-position 1500ms ease;
-			background-position: 50% 49%;
-
+		opacity:1;
 		}
 	&:nth-child(1){
 		background-image: url("../img/eventbrite-app-home.jpg");
@@ -151,7 +146,7 @@
 		background-image: url("../img/illustration-hero.png");
 		text-align: right;
 		h2, h3{
-			color: $linkHoverRev;
+			color: $white;
 		}
 		p{
 			color:rgba(255,255,255,.3);
@@ -181,7 +176,33 @@
 			color:rgba(255,255,255,.3);
 		}
 	}
-	
+	&:nth-child(6){
+		// @include background-image(linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../img/project1.jpg"));
+		background-image: url("../img/posters-hero.jpg");
+		text-align: right;
+		h2, h3{
+			color: $white;
+		}
+		p{
+			color:rgba(255,255,255,.3);
+		}
+			clear:both;
+			&::after{
+				// @extend .borderFlare;
+				right:0;
+				position:absolute;
+				display:block;
+				@include media($small){
+					left:0;
+					position:absolute;
+				}
+			}
+		
+	}
+
+	&:last-child{
+		margin-bottom:100px;
+	}
 	.wrapper{
 		padding-top: 22em;
 		margin:0 auto;
@@ -200,7 +221,7 @@
 		}
 	}
 	h2{
-		color:$secColor;
+		color:$grey500;
 		clear:both;
 		display:block;
 		padding-bottom: 20px;
@@ -226,16 +247,16 @@
 	// }
 	// a{
 	// 	text-transform: uppercase;
-	// 	color: $primColor;
+	// 	color: $grey300;
 	// 	padding:1.3em 2.2em;
 	// 	letter-spacing: .3em;
 	// 	font-size: .9em;
-	// 	box-shadow: 0px 0px 0px 2px $primColor;
+	// 	box-shadow: 0px 0px 0px 2px $grey300;
 	// 	@extend .transition;
 
 	// 	&:hover{
-	// 		background-color: $primColor;
-	// 		color:$secColor;
+	// 		background-color: $grey300;
+	// 		color:$grey500;
 	// 		font-weight: 400;
 	// 		@extend .transitionHover;
 	// 	}
@@ -315,7 +336,7 @@
 		}
 		p{
 			display:none;
-			color:darken($primColor, 5%);
+			color:darken($grey300, 5%);
 			margin-right: 3%;
 			margin-bottom: .25em;
 			letter-spacing: .05em;
