@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html style="width: 100%;height: 100%">
+<head>
+     <script src="lottie.js"></script>
+     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+     <style>
+        .logoBottmFill {fill: red;}
+        .logoFill {fill: red; }
+        body {background-color:white; margin: 0;height: 100%;}
+    </style>
+</head>
+<body>
+
+<div style="width:50%;height:50%;background-color:rgba(255,255,255,0.02);position: absolute;left:0;right:0;top:0;bottom:0;margin:auto" id="bodymovin"></div>
+
+<script>
+
+    var animData = {
+        wrapper: document.getElementById('bodymovin'),
+        animType: 'svg',
+        loop: false,
+        prerender: true,
+        autoplay: true,
+        path: 'js/data.json'
+
+
+    };
+    var anim = bodymovin.loadAnimation(animData);
+    bodymovin.setSubframeRendering(false);
+</script>
+</body>
+</html>
+
+
+<!-- lottie.loadAnimation({
+  container: element, // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'data.json' // the path to the animation json
+}); -->

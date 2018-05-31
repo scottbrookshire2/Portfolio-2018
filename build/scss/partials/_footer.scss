@@ -1,0 +1,162 @@
+/* Footer
+------------------------------------------------------------ */
+// #71A0A8  light teal blue
+
+.projectNav{
+	// @include outer-container;
+	// margin-bottom:3em;
+	.after a{
+		background-color: darken($secColor, 10%);
+		
+	}
+	.before a{
+		background-color: lighten(#191616, 5%);
+		display:none;
+	}
+	a{
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		width:100%;
+		// background-color: #191616;
+		float:left;
+		text-align: center;
+		padding:2em;
+		color:white;
+		@include media($small){
+
+		}
+		@media (max-width:500px){
+			letter-spacing: .05em;
+
+		}
+		@media (max-width:400px){
+			letter-spacing: .05em;
+			font-size: .8em;
+		}
+		&:hover{
+			background-color: #fff;
+			color:black;
+			@extend .boxShadow;
+		}
+	}
+	span{
+		display: block;
+		font-size: 12px;
+		letter-spacing: 3px;
+		opacity: 0.5;
+		// padding-bottom: 5px;
+		&:hover{
+			color:black;
+		}
+	}
+	
+}
+
+
+footer{
+	@include linear-gradient(to right, #232121 66.666%, $tertColor 66.666%, $fallback: #333);
+	@include media($small){
+				@include linear-gradient(to top, $tertColor 43%, #232121 43%, $fallback: #333);
+			}
+	@media (min-width: 1300px){
+			@include linear-gradient(to right, #232121 60%, $tertColor 60%, $fallback: #333);
+		}
+	clear: both;
+	.wrapper{
+		visibility: hidden;
+	}
+	.socialFoot{
+	
+		// width:66.666666666666%;
+		// float:left;
+		height:19em;
+		padding-top: 9%;
+		margin-right: 0;
+		@include span-columns (8);
+		@include omega();
+		@include media ($small) { 
+			@include span-columns (12);
+			padding-top:3.5em;
+			height:inherit;
+		}
+		h5{
+			color:#888;
+			padding-bottom: 16px;
+			text-transform: none;
+			letter-spacing: .07em;
+			line-height: 1.5em;
+			&:nth-child(2){
+				padding-top: 0;
+				&::after{
+					padding-top: 4%;
+					@extend .borderFlare;
+					border-color:darken($primColor, 40%);
+				}
+			}
+			@media (max-width: 720px){
+				letter-spacing: .05em
+			}
+		}
+		a:link, a:visited, a:active{
+			color:darken($linkHoverRev, 15%);
+		}
+		a:hover{
+			color:$linkHoverRev;
+		}
+		.socialIcons{
+			display:inline-block;
+			width: 100%;
+			max-width:2.8em;
+			margin-right: 4%;
+			height:30%;
+			@include media($small){
+				max-width:2.2em;
+			}
+			path, rect, circle{
+				fill:darken($linkHoverRev, 50%);
+				@extend .transition;
+			}
+			&:hover path, &:hover circle, &:hover rect{
+				fill:$linkHoverRev;
+				@extend .transitionHover;
+			}
+		}
+
+	}
+
+	.cFoot{
+		padding:13% 0 0 0em;
+		height:10em;
+
+		@include span-columns (4);
+		@include omega();
+		@media (min-width: 900px){
+			padding-left: 5em;
+		}
+		@include media ($small) { 
+			@include span-columns (12);
+			height:13em;
+			padding-top: 6em;
+			padding-bottom: 5%;
+			padding-left: 0;
+
+		}
+		h5{
+			letter-spacing: 1px;
+			color: $linkHoverRev;
+			padding-bottom: 0em;
+			margin-bottom: 0;
+			&:first-child{
+				&::after{
+					padding-top: 4%;
+			
+				}
+			}
+		}
+		span{
+			color:darken($primColor, 20%);
+		}
+		
+		
+	}
+}

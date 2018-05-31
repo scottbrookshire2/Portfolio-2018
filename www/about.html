@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <!-- Basics
+        ================================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Scott Brookshire – Portfolio</title>
+        <meta name="description" content="I am a visual + interactive designer based in San Francisco. This is my portfolio. Enjoy!">
+        <link rel="author" href="http://www.scottbrookshiredesign.com/humans.txt" />
+
+        <!-- Mobile Specific Metas
+        ================================================== -->
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Web Fonts
+        ================================================== -->
+        <script src="//use.typekit.net/fmf1ejz.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+       <!-- <script src="//use.typekit.net/eae4twn.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+        -->
+        <!-- CSS/ SASS
+        ================================================== -->
+        <link rel="stylesheet" href="css/style.css">
+
+         <!-- MODERNIZR
+        ================================================== -->
+        <script src="js/libs/modernizr-2.6.2.min.js"></script>
+
+
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+   <script>
+window.onload = function () {
+    var styles = 
+[
+    {
+        "featureType": "landscape",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 65
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 51
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 30
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 40
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.province",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "lightness": -25
+            },
+            {
+                "saturation": -100
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "hue": "#ffff00"
+            },
+            {
+                "lightness": -25
+            },
+            {
+                "saturation": -97
+            }
+        ]
+    }
+];
+
+var options = {
+    mapTypeControlOptions: {
+        mapTypeIds: ['Styled']
+    },
+    center: new google.maps.LatLng(37.774929500000000000, -122.419415500000010000),
+    zoom:12,
+    disableDefaultUI: true, 
+    scrollwheel: false,
+    mapTypeId: 'Styled'
+};
+var div = document.getElementById('map-canvas');
+var map = new google.maps.Map(div, options);
+var styledMapType = new google.maps.StyledMapType(styles, { name: 'Styled' });
+map.mapTypes.set('Styled', styledMapType);
+}
+</script>
+
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div>
+
+        <!--  <header > -->
+        <!--Logo -->
+        <div class="logo pulseOver">
+            <a href="index.html" class="scroll ">
+                <img src="img/icons/logo.svg" class="svg"/>
+            </a>
+        </div>
+        <!-- Menu Button -->
+        <div class="menu-btn pulseOver"> 
+            <img src="img/icons/overflow.svg" class="svg "/>    
+        </div> 
+        <!-- Pushy Menu -->
+        <nav class="pushy pushy-left">
+        <!-- <img src="img/icons/x.svg" class="svg xIcon"/> -->
+            <ul>
+             <!-- <h3 class="beta"> Scott Brookshire</h3>
+                <p>Crafting experiences and seeking to make the complex clear & beautiful.</p> -->
+                <li><a href="index.html#projectMain" class="scroll">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="http://creativeclique.co/" target="_blank">Blog</a></li>
+                 <p class="contactMenu">You can contact me at <a href="mailto:scott.e.brookshire@gmail.com" title="Email">scott.e.brookshire@gmail.com</a></p>               
+            </ul>
+        </nav>
+
+
+        <!-- Site Overlay -->
+        <div class="site-overlay"></div>
+
+        <!-- Hero
+        ================================================== -->
+         <!-- <section id="main" class="hero videoHero aboutHero" style="background-image:url("../img/about-hero.jpg"); background-size:cover;"> -->
+        <section id="main" class="hero videoHero aboutHero">
+            <video id="bgvid" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+                <source src="video/about-city.webm" type="video/webm">
+                <source src="video/about-city.mp4" type="video/mp4">
+            </video>
+            <div class="wrapper">
+                <div class="tag tagProject">
+                  <!--   <h1> Hi, I'm Scott</h1> -->
+                </div>
+                <a href="#aboutMe" class="scroll " title="Learn more about me">
+                <img src="img/icons/arrow.svg" class="svg arrow floating"/>
+            </a>
+            </div>
+        </section>
+        
+        <!-- About header
+        ================================================== -->
+        <section id="aboutMe" class="projectBrief">
+            <div class="wrapper animateUp">
+                <div class="aboutDescription">
+                    <h4 class="title animateUp">Hi, my name is Scott </h4>
+                    <p>This is the story all about how my life got flipped turned upside down.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+        <!-- About description
+        ================================================== -->
+        <section class="about">
+            <div class="wrapper animateUp">
+                <div class="column1">
+                    <img src="img/wreaking_ball.jpg">
+                </div>
+                <div class="column2">
+                    <p>I love design. My exposure to the art world started with watercolors and pastels, but I now specialize in UI, UX, motion graphics, prototyping, web design, identity work, and logo design.
+                    </p>
+                    <p>I enjoy creating rich user experiences that feel both immersive and effortless. When designing I pay close attention to my client's brand. I believe that concept is paramount and harmony should always be adhered to. A strong ideation process should always play a key role in every design decision. But before anything, I always start on paper. Whether it's logo sketches or wireframes, I utilize the tried and true art of pen and paper.</p>
+                    <p>Interested in working together? Shoot me an email at <a href="mailto:scott.e.brookshire@gmail.com" class="bodyLink" title="Email">scott.e.brookshire@gmail.com</a></p>
+                    <p>Oh, and my spirt animal is a <a href="http://scottbrookshiredesign.com/tauntaun/" class="bodyLink" target="_blank">tauntaun</a>. Here are some songs I like and I hope you enjoy my work!</p>
+
+                    <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/518617605&color=%233c3430&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!-- Map
+        ================================================== -->
+        <section class="map">
+             <div id="map-canvas"></div>
+        </section>
+
+       
+         <!-- Footer
+        ================================================== -->
+        <footer>
+            <div class="wrapper animateUp"> 
+                <div class="socialFoot">
+                    <h3>Interested in working together?
+                    </br>Contact me at <a href="mailto:scott.e.brookshire@gmail.com" title="Email">scott.e.brookshire@gmail.com</a></h3>
+                    <!-- Dribble -->
+                    <div class="pulseOver socialIcons">
+                        <a href="https://dribbble.com/scottbrookshire" title="Dribble" target="_blank">
+                            <img src="img/icons/dribble.svg" class="svg" alt="Dribble" title="Check out my Dribble"/>
+                        </a>
+                    </div>
+                     <!-- Behance -->
+                    <div class="pulseOver socialIcons">
+                        <a href="https://www.behance.net/scottbrookshire" title="Behance" target="_blank">
+                            <img src="img/icons/behance.svg" class="svg " alt="Behance" title="Check out my Behance"/>
+                        </a>
+                    </div>
+                    <!-- Vimeo -->
+                    <div class="pulseOver socialIcons">
+                        <a href="https://vimeo.com/user25882394" title="Vimeo" target="_blank">
+                            <img src="img/icons/vimeo.svg" class="svg" alt="Vimeo" title="Check out my Vimeo"/>
+                        </a>
+                    </div>
+                     <!-- Linkedin -->
+                    <div class="pulseOver socialIcons">
+                        <a href="http://www.linkedin.com/pub/scott-brookshire/78/48a/5bb" title="Linkedin" target="_blank">
+                            <img src="img/icons/linkedin.svg" class="svg" alt="Linkedin" title="View my Linkedin profile"/>
+                        </a>
+                    </div>
+                    <!-- Resume -->
+                    <div class="pulseOver socialIcons">
+                         <a href="resume-scott_brookshire.pdf" title="Resume" target="_blank">
+                            <img src="img/icons/resume.svg" class="svg" alt="Resume" title="View my resume"/>
+                        </a>
+                    </div> 
+                </div>
+            
+            <div class="cFoot">                    
+                    <h3>&copy; Scott Brookshire</h3>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JQUERY Lib
+        ================================================== -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/libs/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js//libs/jquery.easing.1.3.js"></script>
+        
+        <!-- GOOGLE ANALYTICS
+        ================================================== -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-42785587-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+        
+    </body>
+</html>

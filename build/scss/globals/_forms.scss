@@ -1,0 +1,27 @@
+/* Forms
+------------------------------------------------------------ */
+
+.button{
+	a{
+		font-size: 1.05em;
+		padding: 16px 32px;
+		display:inline-block;
+		color:$linkHoverRev;
+		background-color: darken($secColor, 10%);
+		border-radius: 2px;
+		// border:2px solid $secColor;
+		text-transform: uppercase;
+		margin: 24px 0;
+		letter-spacing: 3px;
+		// @extend .boxShadow;
+		@include media($small){
+			font-size: .85em;
+		}
+		&:hover{
+			color:black;
+			@extend .boxShadow;
+			background-color: $linkHoverRev;
+		}
+	}
+}
+

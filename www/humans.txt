@@ -1,0 +1,45 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM OF PEERS
+	
+	Designed, photographed, prototyped, developed, art directed, voice overed, animated, directed, and motion animated by Scott Brookshire.
+    Thank for the guidance and help from all my peers, friends, and fellow geeks. Especially those who collaborated with my projects. 
+
+# THANKS TO MY TEACHERS
+
+    To everyone who helped me along the way – all of my teachers including Justin Metros, Greg Mar, DC Scarpelli, Ryan Berkey, and Colin Sebastian.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, SCSS, CSS3
+    Bourbon, Bourbon Neat
+    jQuery, Modernizr
+    p5.js, TWEEN.js, DATGUI
+    Flexslider
+
+
+
+
+
+░░░░░░░░░░░░░░░░░░░▄▄▄████████░░░░░░░░░
+░░░░░░░░░░░░░░░░▄▄█████████████░░░░▄███
+░░░░░░░░░░░░░░▄████████████████▄▄████▀░
+░░░░░░░░░░░░░░▀████████████████████▀░░░
+░░░░░░░░░░░░░░░███████████████▀░█▀░░░░░
+░░░░░░░░░░░░░░░▀█░░░░▀▀▀▀▀░░░░░░░▀▄░░░░
+░░░░░░░░░░░░░░░░█░░░░░░░░▀▀▀▄░░░░▀█▄░░░
+░░░░░░░░░░░░░░░░█░░░░░▄▄▀██▀█░▄▀▀█▀█░░░
+░░░░░░░░░░░░░░░▄█▄░░░░▀▄░░░▄▀░░▀▄▄▄▀░░░
+░░░░░░░░░░░░░░█▄▄▄░░░░░░███▄▄▄▄░░░█▄░░░
+░░░░░░░░░░░░░░▀▄█▄░░░░░░▄▀░░░░▀▀▀▀░░▀▄░
+░░░░░░░░░░░░░░▄▄█░░░░░░█░░░░░░░░░░░░░░█
+░░░░░░░░░░░░░████░░░░░█░░▄▀▄▀▄▀▄▀▄▀▄▀▄█
+░░░░░░░░░▄▄█████░░░░░░▀▄▀░░░░░░▄█░░░░░░
+░░░░░░▄█████████▄░░░░░░░░░░░░▄█░░░░░░░░
+░░░▄▄███████████▀▀▄▄▄░░░░░▄███▄░░░░░░░░
+░▄██████████████░░░░▀▀▀▀▀▀▀░████▄░░░░░░
+▄███████████████░░░░░░░░░░░░█████▄░░░░░
+█████████████████▄▄▄▄▄▄▄▄▄▄▄██████▄░░░░
+
+

@@ -1,0 +1,124 @@
+/* Typography
+------------------------------------------------------------ */
+
+// Modular Scale
+$bodyFontSize	           		: 19px;
+$bodyLineHeight		            : 1.5;
+$scaleFactor		            : 2; // http://modularscale.com/
+
+body { @include rhythm(0); }
+html{
+	text-rendering: optimizeLegibility !important;
+
+-webkit-font-smoothing: antialiased !important;
+}
+
+h1,.alpha   { font-size: 50px; line-height: 1.2; }
+h2,.beta    { font-size: 28px; line-height: 1.2; }
+h3,.gamma   { font-size: 25px; line-height: 1.2; }
+h4,.delta   { font-size: 20px; line-height: 1.2; }
+h5,.epsilon { font-size: 18px; line-height: 1.2; }
+h6,.zeta    { font-size: 12px; line-height: 1.2; }
+p, ul, ol   { font-size: 18px; line-height: 1.4; }
+
+
+// 
+$headlineFont				:  "din-2014", "ff-din-web", 'Verdana', sans-serif;
+$bodyFont					:  "din-2014", "ff-din-web", 'Helvetica', sans-serif;
+h1, h2{
+	color: $secColor;
+	font-family: $headlineFont;
+	font-weight: light;
+	letter-spacing: .5px;
+}
+
+h1{
+	@include media ($small) { 
+		font-size: 30px;
+		line-height: 1.4;
+	}
+}
+
+h2, .beta{
+	@include media ($small) { 
+		font-size: 20px;
+	}
+}
+
+h3{
+	@include media ($small) { 
+		font-size: 1em;
+	}
+}
+
+h3, h4, h5, h6{
+	color: $secColor;
+	font-family: $headlineFont;
+	font-weight: regular;	
+	letter-spacing: .75px;
+	@include media ($small) { 
+	}
+}
+
+li{
+	color: $primColor;
+	font-family: $headlineFont;
+	text-transform: uppercase;
+	font-weight: regular;	
+	letter-spacing: 5px;
+	@include media ($small) { 
+		font-size: .9em;
+		letter-spacing: 4px;
+	}
+}
+
+
+p, a{
+	font-family: $bodyFont;
+	line-height: 1.8;
+	letter-spacing: .5px;
+	color: $primColor;
+	@include media($small){
+		line-height: 1.6;
+		font-family: $bodyFont;
+		font-size: 16px;
+	}
+}
+
+a{
+	color: $linkColor;
+	text-decoration: none;
+	&:link, &:visited, &:active{
+		color:$linkHover;
+		@extend .transition; 
+	}	
+	&:hover{
+		color: $linkHover;
+		@extend .transitionHover;
+	}
+	@include media($small){
+	}
+}
+
+.title{
+	display:block;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	line-height: 1.4;
+	color:$secColor;
+	@include media ($small) { 
+		letter-spacing: 8px;
+	}
+}
+
+.sectionTitle{
+	// display:block;
+	// text-transform: uppercase;
+	// letter-spacing: 10px;
+	// line-height: 1.4;
+	text-align:center;
+	// color:$secColor;
+	// @include media ($small) { 
+	// 	letter-spacing: 8px;
+	// }
+}
