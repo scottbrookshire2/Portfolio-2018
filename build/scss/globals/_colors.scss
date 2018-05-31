@@ -1,20 +1,36 @@
 /* Colors
 ------------------------------------------------------------ */
 
+$white	  				: #fff; // white
+$grey100				: #f8f8fa; 
+$grey300				: #828385;
+$grey500				: #505256; 
+$grey700				: #303034; 
+$grey900				: #19191C; //dark grey
+
+$brandColor				: #D4C724; //dark grey
+
+
+
+
+
+
 $primColor				: #888; // #F2F0F0
-$primHover				: #000; //#E03243 Red
+// $primHover				: #000; //#E03243 Red
 
 $secColor				: #555;
-$secHover				: #000; //#E03243 Red
+// $secHover				: #000; //#E03243 Red
 
 $tertColor				: #D14E58;
 
-$headlineColor			: #F1F1F1;
+// $quatColor 				: #333;
+// $headlineColor			: #F1F1F1;
 $bodyColor          	: #FFFFFF;
 
-$linkColor				: #F1F1F1;
+$linkColor	  			: #F1F1F1;
 $linkHover				: #000; //CC4058
 $linkHoverRev			: #FFF; //CC4058
+$hoverAlt				: #D4C724; //CC4058
 
 // $projectColor1			: @include background-image(linear-gradient(to top, #C8CCCC, #C0C4C4));
 
@@ -22,6 +38,9 @@ $linkHoverRev			: #FFF; //CC4058
 	 @include background-image(linear-gradient(to right, #ffffff, #f8f8f8));
 }
 
+.bodyGradient{
+	@include background-image(linear-gradient(to right, #19191C, #080809));
+}
 ::-moz-selection {
     background: $tertColor;
     text-shadow: none;

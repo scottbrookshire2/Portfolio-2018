@@ -295,16 +295,16 @@ body {
 
 
 
-.logoBottmFill {fill: #333;}
-.logoFill {fill: #333; }
+.logoBottmFill {fill: #fff;}
+.logoFill {fill: #fff; }
 
 #bodymovin {
 	width:45%;
 	height:45%;
 	// background-color:rgba(255,255,255,0.02);
 	position: absolute;
-	left:180px;
-	right:0;
+	left:0;
+	right:400px;
 	top:180px;
 	bottom:0;
 	margin:auto;

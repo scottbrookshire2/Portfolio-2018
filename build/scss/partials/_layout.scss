@@ -9,6 +9,10 @@ body{
   }
 }
 
+#brandedPage {
+  // @extend .bodyGradient;
+  background-color: #19191C;
+}
 .wrapper{
 	@include outer-container;
 
