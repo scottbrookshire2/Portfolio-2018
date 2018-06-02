@@ -21,7 +21,7 @@ img {
         @extend .transition;
         }
     &:hover path, &:hover circle, &:hover rect{
-        fill:$black;
+        fill:$brandColor;
         opacity:1;
         @extend .transitionHover;
     }
@@ -29,15 +29,18 @@ img {
         fill:$black;
     }
     @include media($medium){
-        max-width:3em;
+        max-width:5em;
         // margin-top: -4.9em; 
         height:10%;
+        left:0%;
+        padding-top:16px;
     }
     @include media($small){
         max-width:4.5em; 
         margin-left: -.9em;
         margin-top: 0;
         padding-top:0px;
+        left:2%;
     }
 }
 
@@ -61,7 +64,6 @@ nav{
     position:fixed;
     z-index: 9990;
 	max-width:100px;
-	// width:100%;
 	cursor:pointer;
     right:2%;
     padding-top:12px;
@@ -72,28 +74,22 @@ nav{
         height:10%;
     }
     @include media($small){
-        max-width:3.7em; 
-        margin-right: -.5em;
-        margin-top: 0;
-        padding-top:8px;
+        padding:8px 0 0 0;
     }
    a{
         color:darken($white, 20%);
         font-size: 14px;
         letter-spacing: 4px;
-        // text-transform: uppercase;
         text-align:right;
         display: block;
-
-
         padding: 20px 0 0 0;
         @extend .transition;
         @include media($medium){
-            padding:2.2em 0 0 0;
-            color: darken($grey300, 10%);
+            padding:16px 0 0 0;
         }
         @include media($small){
-            font-size: .9em;
+            padding-top: 12px;
+            font-size:12px;
         }
         &:hover, a:hover{
             color:$brandColor;
@@ -103,14 +99,24 @@ nav{
     
 }
 
+.selected{
+    // transform: translate(-10px);
+}
+
 .name {
     position:fixed;
     z-index: 1;
-    right:-8%;
+    right:-120px;
     bottom: 24%;
     display:block;
     width: 300px;
     -webkit-transform: rotate(-90deg);
+    @include media($medium){
+        right:-19%;
+    }
+    @include media($small){
+        right:-39%;
+    }
     h4{
         color:darken($white, 70%);
         font-size: 12px;
@@ -123,20 +129,23 @@ nav{
     content:"";
     display:block;
     // background-color:darken($white, 70%);
-    border: 1px solid darken($white, 70%);
+    border: 1px solid darken($white, 60%);
     width: 10%;
     height: 150px;
     z-index: 1;
     left:0;
     top: 50%;
     opacity:.2;
-
+    @include media($small){
+        width: 5%;
+    }
 }
+
 .headerEmbelishment2{
     position:absolute;
     content:"";
     display:block;
-    background-color:darken($white, 70%);
+    background-color:darken($white, 60%);
     width: 30%;
     height: 1px;
     z-index: 1;
@@ -154,11 +163,31 @@ nav{
     display:block;
     content:"";
     display: block;
-    background-color:darken($white, 70%);
+    background-color:darken($white, 60%);
     width:7%;
     height: 1px;
     opacity:.4;
 }
+
+.aboutEmbelishments{
+    .name{
+
+    }
+    .headerEmbelishment{
+        top: 50%;
+        height: 300px;
+    }
+
+    .headerEmbelishment2{
+        top: 90%;
+    }
+
+    .embelishment{
+
+    }
+}
+
+
 html, body{
 	-webkit-tap-highlight-color: rgba(0,0,0,0); /* disable webkit tap highlight */
 }

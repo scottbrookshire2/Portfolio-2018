@@ -57,12 +57,15 @@ footer{
 	z-index: 9990;
 	position: relative;
 	@include linear-gradient(to right, darken($grey900, 2%) 66.666%, $brandColor 66.666%, $fallback: $grey700);
+	@include media($medium){
+		@include linear-gradient(to right, darken($grey900, 2%) 60.666%, $brandColor 60.666%, $fallback: $grey700);
+	}
 	@include media($small){
-				@include linear-gradient(to top, $brandColor 43%, darken($grey900, 2%) 43%, $fallback: $grey700);
-			}
+		@include linear-gradient(to top, $brandColor 36%, darken($grey900, 2%) 36%, $fallback: $grey700);
+	}
 	@media (min-width: 1300px){
-			@include linear-gradient(to right, darken($grey900, 2%) 60%, $brandColor 60%, $fallback: $grey700);
-		}
+		@include linear-gradient(to right, darken($grey900, 2%) 60%, $brandColor 60%, $fallback: $grey700);
+	}
 	clear: both;
 	.wrapper{
 		visibility: hidden;
@@ -71,14 +74,14 @@ footer{
 	
 		// width:66.666666666666%;
 		// float:left;
-		height:19em;
-		padding-top: 9%;
+		height:16em;
+		padding-top: 7.5%;
 		margin-right: 0;
 		@include span-columns (8);
 		@include omega();
 		@include media ($small) { 
 			@include span-columns (12);
-			padding-top:3.5em;
+			padding-top:2.5em;
 			height:inherit;
 		}
 		h5{
@@ -127,7 +130,7 @@ footer{
 	}
 
 	.cFoot{
-		padding:13% 0 0 0em;
+		padding:11.5% 0 0 0em;
 		height:10em;
 
 		@include span-columns (4);
@@ -137,8 +140,8 @@ footer{
 		}
 		@include media ($small) { 
 			@include span-columns (12);
-			height:13em;
-			padding-top: 6em;
+			height:8em;
+			padding-top: 4em;
 			padding-bottom: 5%;
 			padding-left: 0;
 

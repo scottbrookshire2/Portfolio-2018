@@ -43,17 +43,27 @@ $marginMobile    :13%;
 
 #main video {
   position:absolute;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0px 4px 4px 0px;
   left:0px;
   top:180px;
   min-width: 10%; 
-  min-height: 10%; 
+  min-height: 15%; 
   width: 50%; 
   height:auto;
   z-index: -100; 
-  background:url("../img/record-player.jpg") no-repeat;
+  // background:url("../img/record-player.jpg") no-repeat;
   background-size: cover;
   box-shadow: 0px 4px 40px 0 rgba(0,0,0,0.03), 0px 2px 10px 0 rgba(0,0,0,0.05);
+  @include media ($medium){
+    width:830px;
+    height:470px;
+    left:-310px;
+    top:225px;
+  }
+  @include media ($small){
+    width:580px;
+    top:80px;
+  }
 
 }
 
@@ -64,7 +74,8 @@ $marginMobile    :13%;
 
 #bgvid{
   @include media($medium){
-    display:none;}
+    // display:none;
+  }
 }
 
 // @extend styles.
@@ -101,7 +112,7 @@ $marginMobile    :13%;
     
   &.home{
     @include media($medium){
-      background:url("../img/record-player.png") no-repeat;
+      // background:url("../img/record-player.png") no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -110,7 +121,7 @@ $marginMobile    :13%;
   }
   &.aboutHero{
     @include media($medium){
-      background:url("../img/about-hero2.jpg") no-repeat;
+      // background:url("../img/about-hero2.jpg") no-repeat;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

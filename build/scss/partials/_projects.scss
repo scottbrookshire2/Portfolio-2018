@@ -37,22 +37,10 @@
 	}
 	.tagProject{
 		bottom:45%;
-
 		@include media($small){
 		}
-		h1{
-			font-size: 35px;
-			color: $white;
-			@include media($small){
-				font-size: 20px;
-			}
-			&::after{
-				border:none;
-				margin:0 auto;
-				@include media($small){
-				margin:0;
-				}
-			}
+		.lightColor{
+		color: $white;
 		}
 	}
 }
@@ -509,7 +497,7 @@
 	}
 }
 
-.protoLayout{
+.mediaDescriber{
 	padding-top: $margin;
 	padding-bottom: $margin;
 	position:relative;

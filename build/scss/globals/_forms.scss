@@ -25,3 +25,33 @@
 	}
 }
 
+.mediaDescriber{
+	a{
+		background-color:rgba(255,255,255,0);
+		border: 1px solid $white;
+	}
+}
+
+a{
+	color: $grey100;
+	font-family: $headlineFont;
+	text-decoration: none;
+	@include media($small){
+	}
+	&:link, &:visited, &:active{
+		@extend .transition; 
+	}	
+	&:hover{
+		color: $black;
+		@extend .transitionHover;
+	}
+	&.linkOnDark{
+	border-bottom: 1px solid $white;
+	text-decoration-skip: ink;
+		&:hover{
+			border-color:$brandColor;
+			color:$brandColor;
+		}
+	}
+}
+
