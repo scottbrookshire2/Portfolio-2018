@@ -3,6 +3,8 @@
 // #71A0A8  light teal blue
 
 .projectNav{
+	z-index:1000;
+	position:relative;
 	// @include outer-container;
 	// margin-bottom:3em;
 	.after a{
@@ -34,8 +36,8 @@
 			font-size: .8em;
 		}
 		&:hover{
-			background-color: $white;
-			color:black;
+			background-color: darken($brandColor, 5%);
+			color:$white;
 			@extend .boxShadow;
 		}
 	}
@@ -46,7 +48,7 @@
 		opacity: 0.5;
 		// padding-bottom: 5px;
 		&:hover{
-			color:black;
+			color:$white;
 		}
 	}
 	
@@ -106,7 +108,7 @@ footer{
 			color:darken($white, 15%);
 		}
 		a:hover{
-			color:$white;
+			color:$brandColor;
 		}
 		.socialIcons{
 			display:inline-block;
@@ -122,7 +124,7 @@ footer{
 				@extend .transition;
 			}
 			&:hover path, &:hover circle, &:hover rect{
-				fill:$white;
+				fill:$brandColor;
 				@extend .transitionHover;
 			}
 		}

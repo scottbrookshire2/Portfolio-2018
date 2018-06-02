@@ -32,9 +32,10 @@ h1, h2{
 }
 
 h1{
-	font-weight: 200;
+	font-weight: 300;
 	@include media ($medium){
 		font-size: 50px;
+		font-weight: 300;
 	}
 	@include media ($small) { 
 		font-size: 40px;
@@ -45,7 +46,8 @@ h1{
 h2, .beta{
 	font-weight: 300;
 	@include media ($small) { 
-		font-size: 24px;
+		font-size: 20px;
+		font-weight: 400;
 	}
 }
 
@@ -91,7 +93,7 @@ p{
 	@include media($small){
 		line-height: 1.6;
 		font-family: $bodyFont;
-		font-size: 16px;
+		font-size: 18px;
 	}
 }
 
@@ -104,7 +106,7 @@ p{
 	// line-height: 1.4;
 	color:$grey500;
 	@include media ($small) { 
-		letter-spacing: 5px;
+		letter-spacing: 4px;
 	}
 }
 

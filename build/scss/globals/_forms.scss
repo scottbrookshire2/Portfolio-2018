@@ -6,10 +6,9 @@
 		font-size: 1.05em;
 		padding: 16px 32px;
 		display:inline-block;
-		color:$white;
-		background-color: darken($grey500, 10%);
+		color:$grey700;
 		border-radius: 2px;
-		// border:2px solid $grey500;
+		border: 1px solid $grey700;
 		text-transform: uppercase;
 		margin: 24px 0;
 		letter-spacing: 3px;
@@ -20,15 +19,29 @@
 		&:hover{
 			color:black;
 			@extend .boxShadow;
-			background-color: $white;
+			background-color: $brandColor;
+			border-color:$brandColor;
+			color: $white;
+		}
+		&:active, &:visited{
+	        fill:darken($brandColor, 20%);
 		}
 	}
 }
 
-.mediaDescriber{
-	a{
-		background-color:rgba(255,255,255,0);
-		border: 1px solid $white;
+#brandedPage{
+	.mediaDescriber{
+		a{
+			color:$white;
+			border-color:$white;
+			&:hover{
+				color: $grey900;
+				border-color:$brandColor;
+			}
+			&:active, &:visited{
+		        fill: darken($brandColor, 20%);
+			}
+		}
 	}
 }
 
@@ -38,12 +51,16 @@ a{
 	text-decoration: none;
 	@include media($small){
 	}
-	&:link, &:visited, &:active{
+	&:link{
 		@extend .transition; 
 	}	
 	&:hover{
-		color: $black;
+		color: $brandColor;
 		@extend .transitionHover;
+	}
+
+	&:active{
+		color: darken($brandColor, 20%);
 	}
 	&.linkOnDark{
 	border-bottom: 1px solid $white;

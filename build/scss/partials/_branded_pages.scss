@@ -19,12 +19,17 @@
 			padding-top:60%;
 		}
 		@include media($small){
-			@include span-columns(11);
-			@include shift(1);
+			@include span-columns(11.5);
+			@include shift(.5);
 			padding-top:50%;
 		}
 		h1{
 			color:$white;
+		}
+		&.mixes{
+			@include media ($small){
+				padding-top:60%;
+			}
 		}
 }
 
@@ -51,9 +56,9 @@
 
 }
 
-#brandedPage {
+.aboutPage {
 	h3, p{
-			color:$white;
+			color:darken($white, 10%);
 		}
 	.textSnippet{
 		background-image:none;
@@ -118,30 +123,27 @@
 }
 
 
-
-
 #brandedPage{
 	.mediaDescriber{
 		padding-top: $margin*.7;
 		@include media($small){
-			padding-top: $marginMobile;
-			padding-bottom: $marginMobile;
+			padding-top: 32px;
+			padding-bottom: 40px;
 		}
 		.mediaContent{
 			// background-color:red;
 			padding:10px;
 			@include span-columns(6);
-			@include shift(0);
-			// &::after{
-			// 	content:"";
-			// 	display: block;
-			// 	position:absolute;
-			// 	top:20%;
-			// 	center:0;
-			// 	width:200;
-			// 	height:200;
-			// 	background-color:blue;
-			// }
+			@include shift(1);
+			@include media($medium){
+				@include shift(0);
+			}
+			@include media($small){
+				padding:8px 0 16px 4px;
+				@include span-columns(12);
+				@include shift(0);
+				// padding-top:24px;
+			}
 		}
 		.info{
 			// background-color:green;
@@ -149,6 +151,14 @@
 			@include shift(0);
 			@include omega();
 			padding-top:140px;
+			@include media($medium){
+				@include span-columns(6);
+				padding-top:24px;
+			}
+			@include media($small){
+				@include span-columns(12);
+				padding-top:24px;
+			}			
 			h3{
 				padding-bottom: 24px;
 			}

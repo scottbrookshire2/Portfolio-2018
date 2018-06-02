@@ -124,10 +124,11 @@ h1, h2 {
   letter-spacing: .5px; }
 
 h1 {
-  font-weight: 200; }
+  font-weight: 300; }
   @media screen and (max-width: 899px) {
     h1 {
-      font-size: 50px; } }
+      font-size: 50px;
+      font-weight: 300; } }
   @media screen and (max-width: 640px) {
     h1 {
       font-size: 40px;
@@ -137,7 +138,8 @@ h2, .beta {
   font-weight: 300; }
   @media screen and (max-width: 640px) {
     h2, .beta {
-      font-size: 24px; } }
+      font-size: 20px;
+      font-weight: 400; } }
 
 @media screen and (max-width: 640px) {
   h3, .gamma {
@@ -173,7 +175,7 @@ p {
     p {
       line-height: 1.6;
       font-family: "din-2014", "ff-din-web", "Helvetica", sans-serif;
-      font-size: 16px; } }
+      font-size: 18px; } }
 
 .title {
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
@@ -183,7 +185,7 @@ p {
   color: #505256; }
   @media screen and (max-width: 640px) {
     .title {
-      letter-spacing: 5px; } }
+      letter-spacing: 4px; } }
 
 .sectionTitle {
   text-align: center; }
@@ -194,9 +196,9 @@ p {
   font-size: 1.05em;
   padding: 16px 32px;
   display: inline-block;
-  color: #fff;
-  background-color: #37393c;
+  color: #303034;
   border-radius: 2px;
+  border: 1px solid #303034;
   text-transform: uppercase;
   margin: 24px 0;
   letter-spacing: 3px; }
@@ -205,18 +207,29 @@ p {
       font-size: .85em; } }
   .button a:hover {
     color: black;
-    background-color: #fff; }
+    background-color: #BA4141;
+    border-color: #BA4141;
+    color: #fff; }
+  .button a:active, .button a:visited {
+    fill: #6e2727; }
 
-.mediaDescriber a {
-  background-color: rgba(255, 255, 255, 0);
-  border: 1px solid #fff; }
+#brandedPage .mediaDescriber a {
+  color: #fff;
+  border-color: #fff; }
+  #brandedPage .mediaDescriber a:hover {
+    color: #19191C;
+    border-color: #BA4141; }
+  #brandedPage .mediaDescriber a:active, #brandedPage .mediaDescriber a:visited {
+    fill: #6e2727; }
 
 a {
   color: #f8f8fa;
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
   text-decoration: none; }
   a:hover {
-    color: #000; }
+    color: #BA4141; }
+  a:active {
+    color: #6e2727; }
   a.linkOnDark {
     border-bottom: 1px solid #fff;
     text-decoration-skip: ink; }
@@ -363,12 +376,12 @@ slideLeft
   100% {
     -webkit-transform: translateY(0%); } }
 
-.transition, a:link, a:visited, a:active, .logo, .logo path, .logo rect, .logo circle, #brandedPage .logo path, #brandedPage .logo rect, #brandedPage .logo circle, nav, nav a, .topProject, footer .socialFoot .socialIcons path, footer .socialFoot .socialIcons rect, footer .socialFoot .socialIcons circle {
+.transition, a:link, .logo, .logo path, .logo rect, .logo circle, nav, nav a, .topProject, footer .socialFoot .socialIcons path, footer .socialFoot .socialIcons rect, footer .socialFoot .socialIcons circle {
   -webkit-transition: all 250ms ease-in-out;
   -moz-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out; }
 
-.transitionHover, a:hover, .logo:hover path, .logo:hover circle, .logo:hover rect, #brandedPage .logo:hover path, .projectHover:hover h2,
+.transitionHover, a:hover, .logo:hover path, .logo:hover circle, .logo:hover rect, .projectHover:hover h2,
 .projectHover:hover p, .projectHover:hover h3, footer .socialFoot .socialIcons:hover path, footer .socialFoot .socialIcons:hover circle, footer .socialFoot .socialIcons:hover rect {
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
@@ -504,7 +517,7 @@ img {
   width: 1.75em;
   padding: .7em 0 0 0; }
 
-.backgroundImage, .topProject, .fullImg {
+.backgroundImage, .topProject, #projectPage .hero, .fullImg {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -551,14 +564,8 @@ img {
   width: 100%;
   padding: 32px 0 0 0;
   left: 2.2%; }
-  .logo path, .logo rect, .logo circle {
-    fill: #505256;
-    opacity: .9; }
-  .logo:hover path, .logo:hover circle, .logo:hover rect {
-    fill: #BA4141;
-    opacity: 1; }
   .logo:active path, .logo:visited path {
-    fill: #000; }
+    fill: #6e2727; }
   @media screen and (max-width: 899px) {
     .logo {
       max-width: 5em;
@@ -572,17 +579,6 @@ img {
       margin-top: 0;
       padding-top: 0px;
       left: 2%; } }
-
-#brandedPage .logo path, #brandedPage .logo rect, #brandedPage .logo circle {
-  fill: #e6e5e5;
-  opacity: .9; }
-
-#brandedPage .logo:hover path {
-  fill: #BA4141;
-  opacity: 1; }
-
-#brandedPage .logo:active path, #brandedPage .logo:visited path {
-  fill: #000; }
 
 nav {
   position: fixed;
@@ -599,7 +595,7 @@ nav {
     nav {
       padding: 8px 0 0 0; } }
   nav a {
-    color: #cccccc;
+    opacity: .5;
     font-size: 14px;
     letter-spacing: 4px;
     text-align: right;
@@ -612,9 +608,37 @@ nav {
       nav a {
         padding-top: 12px;
         font-size: 12px; } }
-    nav a:hover, nav a a:hover {
-      color: #BA4141;
+    nav a:hover, nav a a:link {
       transform: translate(-10px); }
+
+#brandedPage .logo path, #brandedPage .logo rect, #brandedPage .logo circle {
+  fill: #828385;
+  opacity: .9; }
+
+#brandedPage .logo:hover path, #brandedPage .logo:hover circle, #brandedPage .logo:hover rect {
+  fill: #BA4141;
+  opacity: 1; }
+
+#brandedPage nav a {
+  color: #828385;
+  opacity: .9; }
+  #brandedPage nav a:hover, #brandedPage nav a:link {
+    color: #BA4141;
+    opacity: 1; }
+
+#projectPage .logo path, #projectPage .logo rect, #projectPage .logo circle {
+  fill: #303034;
+  opacity: .5; }
+
+#projectPage .logo:hover path, #projectPage .logo:hover circle, #projectPage .logo:hover rect {
+  fill: #BA4141;
+  opacity: 1; }
+
+#projectPage nav a {
+  color: #19191C; }
+  #projectPage nav a:hover {
+    color: #BA4141;
+    opacity: 1; }
 
 .name {
   position: fixed;
@@ -623,6 +647,7 @@ nav {
   bottom: 24%;
   display: block;
   width: 300px;
+  opacity: .5;
   -webkit-transform: rotate(-90deg); }
   @media screen and (max-width: 899px) {
     .name {
@@ -709,7 +734,7 @@ html, body {
   left: -9999px; }
 
 .hero h1 {
-  color: #828385; }
+  color: #505256; }
   @media screen and (max-width: 640px) {
     .hero h1 {
       line-height: 1.5em; } }
@@ -928,9 +953,19 @@ figure figcaption > a {
   background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/error-hero.jpg");
   background-image: linear-gradient(to top, transparent, transparent), url("../img/error-hero.jpg"); }
 
-.hero .tagProject {
-  bottom: 45%; }
-  .hero .tagProject .lightColor {
+.hero .projectTitle {
+  padding-top: 35%;
+  text-align: left; }
+  @media screen and (max-width: 899px) {
+    .hero .projectTitle {
+      padding-top: 700px; } }
+  @media screen and (max-width: 640px) {
+    .hero .projectTitle {
+      padding-top: 400px; } }
+  .hero .projectTitle h3 {
+    padding-bottom: 16px;
+    opacity: .5; }
+  .hero .projectTitle .lightColor {
     color: #fff; }
 
 .projectBrief {
@@ -946,6 +981,8 @@ figure figcaption > a {
     visibility: hidden; }
   .projectBrief .descriptionHeader {
     padding-bottom: 20px; }
+    .projectBrief .descriptionHeader h2 {
+      font-weight: 400; }
   .projectBrief .description {
     float: left;
     display: block;
@@ -969,6 +1006,7 @@ figure figcaption > a {
     .projectBrief .description.web::after {
       border: none; }
   .projectBrief .tags {
+    padding-top: 4px;
     float: left;
     display: block;
     margin-right: 2.3576515979%;
@@ -1786,39 +1824,39 @@ html[xmlns] .slides {
 
 /* Footer
 ------------------------------------------------------------ */
-.projectNav .after a {
-  background-color: #37393c; }
-
-.projectNav .before a {
-  background-color: #272222;
-  display: none; }
-
-.projectNav a {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  width: 100%;
-  float: left;
-  text-align: center;
-  padding: 2em;
-  color: white; }
-  @media (max-width: 500px) {
-    .projectNav a {
-      letter-spacing: .05em; } }
-  @media (max-width: 400px) {
-    .projectNav a {
-      letter-spacing: .05em;
-      font-size: .8em; } }
-  .projectNav a:hover {
-    background-color: #fff;
-    color: black; }
-
-.projectNav span {
-  display: block;
-  font-size: 12px;
-  letter-spacing: 3px;
-  opacity: 0.5; }
-  .projectNav span:hover {
-    color: black; }
+.projectNav {
+  z-index: 1000;
+  position: relative; }
+  .projectNav .after a {
+    background-color: #37393c; }
+  .projectNav .before a {
+    background-color: #272222;
+    display: none; }
+  .projectNav a {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 2em;
+    color: white; }
+    @media (max-width: 500px) {
+      .projectNav a {
+        letter-spacing: .05em; } }
+    @media (max-width: 400px) {
+      .projectNav a {
+        letter-spacing: .05em;
+        font-size: .8em; } }
+    .projectNav a:hover {
+      background-color: #a73a3a;
+      color: #fff; }
+  .projectNav span {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 3px;
+    opacity: 0.5; }
+    .projectNav span:hover {
+      color: #fff; }
 
 footer {
   z-index: 9990;
@@ -1886,7 +1924,7 @@ footer {
     footer .socialFoot a:link, footer .socialFoot a:visited, footer .socialFoot a:active {
       color: #d9d9d9; }
     footer .socialFoot a:hover {
-      color: #fff; }
+      color: #BA4141; }
     footer .socialFoot .socialIcons {
       display: inline-block;
       width: 100%;
@@ -1899,7 +1937,7 @@ footer {
       footer .socialFoot .socialIcons path, footer .socialFoot .socialIcons rect, footer .socialFoot .socialIcons circle {
         fill: #807f7f; }
       footer .socialFoot .socialIcons:hover path, footer .socialFoot .socialIcons:hover circle, footer .socialFoot .socialIcons:hover rect {
-        fill: #fff; }
+        fill: #BA4141; }
   footer .cFoot {
     padding: 11.5% 0 0 0em;
     height: 10em;
@@ -1969,13 +2007,16 @@ footer {
       float: left;
       display: block;
       margin-right: 2.3576515979%;
-      width: 91.4701957002%;
-      margin-left: 8.5298042998%;
+      width: 95.7350978501%;
+      margin-left: 4.2649021499%;
       padding-top: 50%; }
       .brandPageTag:last-child {
         margin-right: 0; } }
   .brandPageTag h1 {
     color: #fff; }
+  @media screen and (max-width: 640px) {
+    .brandPageTag.mixes {
+      padding-top: 60%; } }
 
 .blurb {
   background-image: none;
@@ -2011,10 +2052,10 @@ footer {
   .blurb .wrapper {
     padding-left: 0; }
 
-#brandedPage h3, #brandedPage p {
-  color: #fff; }
+.aboutPage h3, .aboutPage p {
+  color: #e6e5e5; }
 
-#brandedPage .textSnippet {
+.aboutPage .textSnippet {
   background-image: none;
   padding: 10% 0 11% 0; }
 
@@ -2097,17 +2138,30 @@ footer {
   padding-top: 4.2%; }
   @media screen and (max-width: 640px) {
     #brandedPage .mediaDescriber {
-      padding-top: 13%;
-      padding-bottom: 13%; } }
+      padding-top: 32px;
+      padding-bottom: 40px; } }
   #brandedPage .mediaDescriber .mediaContent {
     padding: 10px;
     float: left;
     display: block;
     margin-right: 2.3576515979%;
     width: 48.821174201%;
-    margin-left: 0%; }
+    margin-left: 8.5298042998%; }
     #brandedPage .mediaDescriber .mediaContent:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 899px) {
+      #brandedPage .mediaDescriber .mediaContent {
+        margin-left: 0%; } }
+    @media screen and (max-width: 640px) {
+      #brandedPage .mediaDescriber .mediaContent {
+        padding: 8px 0 16px 4px;
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 100%;
+        margin-left: 0%; }
+        #brandedPage .mediaDescriber .mediaContent:last-child {
+          margin-right: 0; } }
   #brandedPage .mediaDescriber .info {
     float: left;
     display: block;
@@ -2118,6 +2172,24 @@ footer {
     padding-top: 140px; }
     #brandedPage .mediaDescriber .info:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 899px) {
+      #brandedPage .mediaDescriber .info {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 48.821174201%;
+        padding-top: 24px; }
+        #brandedPage .mediaDescriber .info:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 640px) {
+      #brandedPage .mediaDescriber .info {
+        float: left;
+        display: block;
+        margin-right: 2.3576515979%;
+        width: 100%;
+        padding-top: 24px; }
+        #brandedPage .mediaDescriber .info:last-child {
+          margin-right: 0; } }
     #brandedPage .mediaDescriber .info h3 {
       padding-bottom: 24px; }
   #brandedPage .mediaDescriber.textRight .mediaContent {

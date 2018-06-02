@@ -3613,6 +3613,17 @@
 		"oA": 0,
 		"oAP": "\/www\/img\/mix1-artwork.png",
 		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/www\/img\/mix2-artwork.png": {
+		"ft": 32768,
+		"iS": 1235538,
+		"oA": 0,
+		"oAP": "\/www\/img\/mix2-artwork.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,

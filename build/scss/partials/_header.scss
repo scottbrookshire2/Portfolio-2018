@@ -10,23 +10,18 @@ img {
     z-index: 9990;
 	max-width:5em;
 	width:100%;
-    padding: 32px 0 0 0;
-  
+    padding: 32px 0 0 0;    
     left: 2.2%;
     // visibility: hidden;
 	@extend .transition;
     path, rect, circle{
-        fill:$grey500;
-        opacity: .9;
         @extend .transition;
         }
     &:hover path, &:hover circle, &:hover rect{
-        fill:$brandColor;
-        opacity:1;
         @extend .transitionHover;
     }
     &:active path, &:visited path{
-        fill:$black;
+        fill: darken($brandColor, 20%);
     }
     @include media($medium){
         max-width:5em;
@@ -44,21 +39,6 @@ img {
     }
 }
 
-#brandedPage .logo{
-    path, rect, circle{
-        fill:darken($white, 10%);
-        opacity: .9;
-        @extend .transition;
-        }
-    &:hover path{
-        fill:$brandColor;
-        opacity:1;
-        @extend .transitionHover;
-    }
-    &:active path, &:visited path{
-        fill:$black;
-    }
-}
 
 nav{
     position:fixed;
@@ -77,7 +57,7 @@ nav{
         padding:8px 0 0 0;
     }
    a{
-        color:darken($white, 20%);
+        opacity:.5;
         font-size: 14px;
         letter-spacing: 4px;
         text-align:right;
@@ -91,8 +71,7 @@ nav{
             padding-top: 12px;
             font-size:12px;
         }
-        &:hover, a:hover{
-            color:$brandColor;
+        &:hover, a:link{
             transform: translate(-10px);
         }
     }
@@ -103,6 +82,53 @@ nav{
     // transform: translate(-10px);
 }
 
+
+#brandedPage {
+    .logo{
+        path, rect, circle{
+            fill:$grey300;
+            opacity: .9;
+        }
+        &:hover path, &:hover circle, &:hover rect{
+            fill: $brandColor;
+            opacity:1;
+        }
+
+    }
+    nav{
+        a{
+            color: $grey300;
+            opacity:.9;
+            &:hover, &:link{
+                color:$brandColor;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+#projectPage{
+    .logo{
+        path, rect, circle{
+        fill:$grey700;
+        opacity: .5;
+        }
+        &:hover path, &:hover circle, &:hover rect{
+            fill: $brandColor;
+            opacity:1;
+        }
+    }
+    nav{
+        a{
+            color: $grey900;
+            &:hover{
+                color:$brandColor;
+                opacity: 1;
+            }
+        }
+    }
+
+}
 .name {
     position:fixed;
     z-index: 1;
@@ -110,6 +136,7 @@ nav{
     bottom: 24%;
     display:block;
     width: 300px;
+    opacity:.5;
     -webkit-transform: rotate(-90deg);
     @include media($medium){
         right:-19%;
