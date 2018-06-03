@@ -5,6 +5,9 @@
 	&.eventbriteAppHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/eventbrite-app-hero.jpg"));
 	}
+	&.motionStyleGuideHero{
+		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/motion-styleguide-hero.jpg"));
+	}
 	&.stitchHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/stitch-hero5.jpg"));
 	}
@@ -36,7 +39,7 @@
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/error-hero.jpg"));
 	}
 	.projectTitle{
-		padding-top:35%;
+		padding-top:30%;
 		text-align: left;
 		@include media($medium){
 			padding-top:700px;
@@ -373,6 +376,10 @@
 		padding-top: $margin*.5;
 		padding-bottom: $margin*.5;
 		@include background-image(linear-gradient(to top, #222, #222));
+	}
+	&.abstractMotionGraphic{
+		@include background-image(linear-gradient(to left, #0EEFBB, #39C2DF));
+
 	}
 }
 

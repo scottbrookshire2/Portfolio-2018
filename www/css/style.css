@@ -153,7 +153,7 @@ h3, h4, h5, h6 {
   color: #505256;
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
   font-weight: 400;
-  letter-spacing: .75px; }
+  letter-spacing: .5px; }
 
 li {
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
@@ -451,6 +451,34 @@ body {
       left: -20px;
       top: 140px; } }
 
+#motionLarge {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: auto; }
+  @media screen and (max-width: 899px) {
+    #motionLarge {
+      width: 100%;
+      height: 100%;
+      left: -20px;
+      top: 140px; } }
+
+#motionHeader {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  left: 60%;
+  right: 0;
+  top: 0%;
+  bottom: 0;
+  margin: auto; }
+  @media screen and (max-width: 899px) {
+    #motionHeader {
+      width: 100%;
+      height: 100%;
+      left: -20px;
+      top: 140px; } }
+
 /* Partials : Sections
 ------------------------------------------------------------ */
 /* Layout
@@ -611,6 +639,10 @@ nav {
     nav a:hover, nav a a:link {
       transform: translate(-10px); }
 
+.selected a {
+  color: #BA4141;
+  opacity: 1; }
+
 #brandedPage .logo path, #brandedPage .logo rect, #brandedPage .logo circle {
   fill: #828385;
   opacity: .9; }
@@ -657,7 +689,7 @@ nav {
       right: -39%; } }
   .name h4 {
     color: #4d4c4c;
-    font-size: 12px;
+    font-size: 10px;
     letter-spacing: 4px; }
 
 .headerEmbelishment {
@@ -913,6 +945,10 @@ figure figcaption > a {
   background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/eventbrite-app-hero.jpg");
   background-image: linear-gradient(to top, transparent, transparent), url("../img/eventbrite-app-hero.jpg"); }
 
+.hero.motionStyleGuideHero {
+  background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/motion-styleguide-hero.jpg");
+  background-image: linear-gradient(to top, transparent, transparent), url("../img/motion-styleguide-hero.jpg"); }
+
 .hero.stitchHero {
   background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/stitch-hero5.jpg");
   background-image: linear-gradient(to top, transparent, transparent), url("../img/stitch-hero5.jpg"); }
@@ -954,7 +990,7 @@ figure figcaption > a {
   background-image: linear-gradient(to top, transparent, transparent), url("../img/error-hero.jpg"); }
 
 .hero .projectTitle {
-  padding-top: 35%;
+  padding-top: 30%;
   text-align: left; }
   @media screen and (max-width: 899px) {
     .hero .projectTitle {
@@ -1346,6 +1382,9 @@ figure figcaption > a {
     padding-bottom: 3%;
     background-image: -webkit-linear-gradient(bottom, #222, #222);
     background-image: linear-gradient(to top, #222, #222); }
+  .fullImgContain.abstractMotionGraphic {
+    background-image: -webkit-linear-gradient(right, #0EEFBB, #39C2DF);
+    background-image: linear-gradient(to left, #0EEFBB, #39C2DF); }
 
 .fullImgBkg {
   padding-top: 12%;
@@ -1986,7 +2025,7 @@ footer {
   float: left;
   display: block;
   margin-right: 2.3576515979%;
-  width: 53.0860763509%;
+  width: 54.7920372109%;
   margin-left: 32.4132563393%;
   margin-right: 0;
   padding-top: 20%; }

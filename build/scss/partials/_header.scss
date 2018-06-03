@@ -79,7 +79,10 @@ nav{
 }
 
 .selected{
-    // transform: translate(-10px);
+    a{
+        color:$brandColor;
+        opacity: 1;
+    }
 }
 
 
@@ -146,7 +149,7 @@ nav{
     }
     h4{
         color:darken($white, 70%);
-        font-size: 12px;
+        font-size: 10px;
         letter-spacing: 4px;
     }
 }

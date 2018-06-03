@@ -3629,6 +3629,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/www\/img\/motion-styleguide-hero.jpg": {
+		"ft": 16384,
+		"iS": 32291,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/www\/img\/motion-styleguide-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/www\/img\/motion-styleguide-home.jpg": {
 		"ft": 16384,
 		"iS": 354752,
@@ -4706,6 +4717,22 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/www\/js\/motion-abstract.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/www\/js\/motion-abstract-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/www\/js\/motion-header.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/www\/js\/motion-header-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/www\/js\/plugins.js": {
 		"ft": 64,
 		"ma": 0,
@@ -4745,6 +4772,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/www\/mixes.html",
+		"oF": 0
+		},
+	"\/www\/motion-styleguide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/motion-styleguide.html",
 		"oF": 0
 		},
 	"\/www\/oaklanize.html": {
