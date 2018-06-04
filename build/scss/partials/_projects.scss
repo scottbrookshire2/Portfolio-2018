@@ -9,6 +9,9 @@
 	&.motionStyleGuideHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/motion-styleguide-hero.jpg"));
 	}
+	&.unlabelHero{
+		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/unlabel-hero.jpg"));
+	}
 	&.stitchHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/stitch-hero5.jpg"));
 		h1{
@@ -347,6 +350,9 @@
 	&.eventbriteAppColor{
 		background-image: url("../img/eventbrite-app-color-study.jpg");
 		height: 100%;
+	}
+	&.unlbabelGrid{
+		background-image: url("../img/unlabel-full-image.jpg");
 	}
 	&.stitchGrid{
 		background-image: url("../img/stitch-home2.jpg");

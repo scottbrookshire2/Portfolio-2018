@@ -979,6 +979,9 @@ figure figcaption > a {
   .hero.motionStyleGuideHero {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/motion-styleguide-hero.jpg");
     background-image: linear-gradient(to top, transparent, transparent), url("../img/motion-styleguide-hero.jpg"); }
+  .hero.unlabelHero {
+    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/unlabel-hero.jpg");
+    background-image: linear-gradient(to top, transparent, transparent), url("../img/unlabel-hero.jpg"); }
   .hero.stitchHero {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/stitch-hero5.jpg");
     background-image: linear-gradient(to top, transparent, transparent), url("../img/stitch-hero5.jpg"); }
@@ -1372,6 +1375,8 @@ figure figcaption > a {
   .fullImg.eventbriteAppColor {
     background-image: url("../img/eventbrite-app-color-study.jpg");
     height: 100%; }
+  .fullImg.unlbabelGrid {
+    background-image: url("../img/unlabel-full-image.jpg"); }
   .fullImg.stitchGrid {
     background-image: url("../img/stitch-home2.jpg"); }
   .fullImg.enrichFull {
@@ -2312,16 +2317,14 @@ footer {
       padding-bottom: 24px; }
 
 /* Tokens
------------------------------------------------------------- */
+--------------------------------------------------------------------------------- */
 .tokens {
-  padding-top: 9%;
-  padding-bottom: 4.8%; }
+  margin-top: 6%;
+  margin-bottom: 3%; }
   @media screen and (max-width: 640px) {
     .tokens {
       margin-top: 13%;
       margin-bottom: 13%; } }
-  .tokens .sectionTitle {
-    padding-bottom: 6%; }
 
 .thumbnail {
   display: inline-block;
