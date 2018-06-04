@@ -326,8 +326,6 @@ body {
 	 @include media($medium){
 	 	width:100%;
 		height:100%;
-		left:-20px;	
-		top:140px;
 	}
 }
 
@@ -343,12 +341,47 @@ body {
 	// background-color:red;
 	margin:auto;
 	 @include media($medium){
-	 	width:100%;
-		height:100%;
-		left:-20px;	
-		top:140px;
+	 	width:60%;
+		height:80%;
+		left:200px;
+		// right: 190px;	
+		top:-200px;
 
+	}
+	@include media($small){
+		top:100px;
+		left: 120px;
 	}
 }
 
 
+#badgeAnimation{
+	width:20%;
+	height:20%;
+	position: relative;
+	margin:6% auto;
+	display:block;
+	// background-color:rgba(0,0,0,.1);
+	// background-color:red;
+	 @include media($medium){
+	 	width:60%;
+		height:60%;
+		margin:13% auto;
+	}
+
+}
+
+#ebLogoAnimation{
+	width:45%;
+	height:45%;
+	position: relative;
+	margin:6% auto 3% auto;
+	display:block;
+	// background-color:rgba(0,0,0,.1);
+	// background-color:red;
+	 @include media($medium){
+	 	width:70%;
+		height:70%;
+		margin:13% auto;
+	}
+}

@@ -105,6 +105,10 @@ $marginMobile    :13%;
   background-color: red; 
 }
 
+.softContainer{
+  box-shadow: 0 2px 40px 0 rgba(0,0,0,.1), 0 2px 5px 0 rgba(0,0,0,.05);
+  border-radius: 8px;
+}
 .boxShadow{
   box-shadow: 0 2px 40px 0 rgba(0,0,0,.05), 0 2px 5px 0 rgba(0,0,0,.01);
 }

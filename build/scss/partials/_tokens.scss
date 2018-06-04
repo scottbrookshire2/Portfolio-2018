@@ -1,0 +1,374 @@
+/* Tokens
+------------------------------------------------------------ */
+// -- TIMING -- //
+$animation-delay-increment: 40ms;
+$instantly: 0ms;  
+
+$immediately: $animation-delay-increment;
+$quickly: $animation-delay-increment * 4; // 160ms
+$promptly: 240ms;
+$slowly: 340ms;
+
+// -- DELAY -- //
+$lag: 40ms;
+$interupt: 80ms;
+$stall: 120ms;
+$halt: 200ms;
+
+// -- EASING -- //
+$linear: linear;
+$outgoing: cubic-bezier(.4,0,1,1);
+$incoming: cubic-bezier(0,0,.25,1);
+$persistent: cubic-bezier(.4,0,.3,1);
+
+$color2:#39C2C9;
+$color3:red;
+
+// -- SCALE -- //
+$scale-0: scale(.75, .75);
+$scale-1: scale(.75, .75);
+$scale-2: scale(.75, .75);
+$scale-3: scale(.75, .75);
+
+// -- POSTION -- //
+$postion-0: translate(0,0);
+
+$position-up-1: translateY(4px);
+$position-up-2: translateY(12px);
+$position-up-3: translateY(20px);
+$position-up-4: translateY(50%);
+
+$position-down-1: translateY(-4px);
+$position-down-2: translateY(-12px);
+$position-down-3: translateY(-20px);
+$position-down-4: translateY(-50%);
+
+$position-up-1: translateX(4px);
+$position-up-2: translateX(12px);
+$position-up-3: translateX(20px);
+$position-up-4: translateX(50%);
+
+$position-down-1: translateX(-4px);
+$position-down-2: translateX(-12px);
+$position-down-3: translateX(-20px);
+$position-down-4: translateX(-50%);
+
+// -- Rotation -- //
+$rotation-cw-0: rotate(0deg);
+$rotation-cw-1: rotate(20deg);
+$rotation-cw-2: rotate(180deg);
+$rotation-cw-3: rotate(360deg);
+
+$rotation-ccw-1: rotate(-20deg);
+$rotation-ccw-2: rotate(-180deg);
+$rotation-ccw-3: rotate(-360deg);
+
+// -- ELEVATION -- //
+$elevation-0: 0 0 0 0 rgba(0, 0, 0, 0);
+$elevation-1: 0px 2px 2px 0 rgba(40,44,53, 0.1), 0px 4px 15px rgba(40,44,53, 0.15);
+$elevation-2: 0px 2px 5px 0 rgba(40,44,53, 0.1), 0px 1px 17px rgba(40,44,53, 0.1);
+$elevation-3: 0 1px 10px 2px rgba(0, 0, 0, 0.2), 0px 12px 10px 2px rgba(40,44,53, .15);
+
+/////////////////////////////////////////
+//   GLOBAL STYLES   //
+/////////////////////////////////////////
+
+.tokens{
+  padding-top: $margin*1.5;
+  padding-bottom: $margin*.8;
+  @include media ($small){
+    margin-top: $marginMobile;
+    margin-bottom: $marginMobile;
+  }
+  .sectionTitle{
+    padding-bottom:$margin;
+  }
+}
+.thumbnail{
+  display:inline-block;
+  position:relative;
+  width:20%;
+  margin-right:6%;
+  height:260px;
+  margin-bottom:6%;
+  // padding:20px;
+  border-radius:4px;
+  // background-color:rgba(0,0,0,.1);
+  @extend .boxShadow;
+  text-align: center;
+  @include media ($medium){
+    width:23%;
+    margin-right:2%;
+    margin-bottom:2.5%;
+    &:nth-child(4n){
+      // background-color:red;
+      margin-right:0;
+    }
+  }
+  @include media ($small){
+    width:47%;
+    // height:;
+    margin-right:4%;
+    margin-bottom:6%;
+    &:nth-child(2n){
+      // background-color:red;
+      margin-right:0;
+    }
+  }
+  h4{
+
+  }
+  p{
+    font-size:14px;
+    opacity: .5;
+  }
+  // border: solid 1px rgba(0,0,0,.1);
+}
+
+.thumbnail:nth-child(4n){
+    margin-right:0;
+}
+
+.thumbnail:nth-child(4n+1){
+    margin-left:0;
+}
+
+
+.blob{
+  display:block;
+  width:80px;
+  height:80px;
+  border-radius:75px;
+  border:none;
+  box-shadow: $elevation-1;
+  margin:60px auto 24px auto;
+
+  &.color1{
+    background-color:#F6682F;
+    }
+  &.color2{
+    background-color:#007F8C;
+    }
+  &.color3{
+    background-color:#39C2C9;
+    }
+  &.color44{
+    background-color:#6AEDC7;
+    } 
+  &.color4{
+    @include background-image(linear-gradient(to left, #0EEFBB, #39C2DF));
+
+    } 
+}
+
+/////////////////////////////////////////
+//   ATOMS   //
+/////////////////////////////////////////
+
+// -- MOVE  -- //
+// .move {
+//   transform: translate(0px,0);
+//   transition:transform $persistent $promptly; 
+//   &:hover{
+//     transform: translate(20px,0);
+//     transition:transform $persistent $quickly;
+//   }
+// }
+
+// .move--small{
+  
+//   @extend .move;
+  
+//   &:hover{
+//     transform: translate(10px,0);
+//   }
+// }
+
+@mixin eds-fx-move($distance: 20px) {
+  transform: translateX(0);
+  transition: transform $persistent $promptly; 
+
+  &.eds-fx-on,
+  &:hover {
+    transform: translateX($distance);
+    transition-timing-function: $quickly;
+  }
+}
+
+.eds-fx-move {
+    @include eds-fx-move();
+}
+
+
+// -- FADE  -- //
+.fade{
+  opacity:1;
+  transition: opacity $linear $promptly;
+  &:hover{
+    opacity:0;  
+    transition:opacity $linear $promptly;
+  }
+}
+
+// -- FADE & MOVE -- //
+.fade-and-move{
+  transition:opacity $linear $quickly , transform $incoming $promptly; 
+  opacity:1;
+  transform: translate(0px,0);
+  &:hover{
+    transition:opacity $linear $quickly $stall, transform $outgoing $promptly;
+    opacity:0;  
+    transform: translate(20px,0); 
+  }
+}
+
+// -- Elevate  -- //
+.elevate{
+  // transform: scale(1, 1);
+  transform: perspective(200px) translateZ(0px);
+  transition: transform $persistent $promptly, box-shadow $persistent $promptly; 
+  &:hover{
+    // transform: scale(1.2, 1.2);
+    transform: perspective(200px) translateZ(30px);
+    box-shadow: $elevation-3;
+    transition: transform $persistent $quickly, box-shadow $persistent $promptly;
+  }
+}
+
+// -- Jiggle  -- //
+.shake:hover {
+  animation: jiggle $slowly $persistent;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes jiggle {
+  20%{
+    transform: translate3d(-2px, 0, 0);
+  }
+  40%{
+    transform: translate3d(4px, 0, 0);
+  }
+   60%{
+    transform: translate3d(-4px, 0, 0);
+  }
+   80%{
+    transform: translate3d(2px, 0, 0);
+  } 
+}
+
+// -- Grow  -- //
+.grow{
+  transform: scale(1, 1);
+  transition: transform $persistent $promptly; 
+  &:hover{
+    transform: scale(1.2, 1.2);
+    transition: transform $persistent $promptly;
+  }
+}
+
+// // Depress  // //
+.depress{
+  transform: scale(1, 1);
+  transition: transform $persistent $promptly; 
+  &:hover{
+    transform: scale(.8, .8);
+    transition: transform $persistent $promptly;
+  }
+}
+  
+  // -- Shorten  -- //
+.shorten{
+  transform: scale(1, 1);
+  transition: transform $persistent $promptly; 
+  &:hover{
+    transform: scale(1.5, .5);
+    transition: transform $persistent $quickly;
+  }
+}
+
+// -- Pop  -- //
+.pop:hover {
+  animation: tap-pop $slowly $persistent;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes tap-pop {
+   20%{
+    transform: scale(.9, .9);
+  }
+  50%{
+    transform: scale(1.20, 1.20);
+  }
+}
+
+// -- Bounce  -- //
+.bounce:hover {
+  animation: bounce 700ms $persistent;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes bounce {
+ 20%{
+  transform: scale(.75, .75);
+  }
+ 50%{
+  transform: scale(1.2, 1.2);
+  }
+ 70%{
+  transform: scale(.85, .85);
+  }
+ 85%{
+  transform: scale(1.08, 1.08);
+  } 
+ 90%{
+  transform: scale(.95, .95);
+  } 
+ 95%{
+  transform: scale(1.05, 1.05);
+  }  
+}
+
+// -- Lighten  -- //
+.blob.lighten{
+  transition: background-color $quickly $linear;
+ 
+  &:hover{
+    background-color: lighten($color2, 25%);
+    transition: background-color $quickly $linear;
+  }
+}
+
+// -- Darken  -- //
+.blob.darken{
+  transition: background-color $quickly $linear;
+  &:hover{
+    background-color: darken($color2, 25%);
+    transition: background-color $quickly $linear;
+  }
+}
+  
+// -- ROTATE 2D  -- //
+.rotate2d{
+   transform: rotateZ(0deg);
+   transition: transform $persistent $promptly;
+    &.color4{
+      border-radius:4px;
+    }
+    &:hover{
+      transform: rotateZ(180deg);
+      transition: transform $persistent $promptly;
+      }
+  }
+
+// -- ROTATE 3D  -- //
+.rotate3d{
+   transform: rotateY(0deg);
+   transition: transform $persistent $promptly;
+    &.color4{
+      border-radius:4px;
+    }
+    &:hover{
+      transform: rotateY(180deg);
+      transition: transform $persistent $slowly;
+      }
+  }

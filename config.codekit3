@@ -2433,6 +2433,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/build\/scss\/partials\/_tokens.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/scss\/css\/_tokens.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/build\/scss\/partials\/config.rb": {
 		"cB": 0,
 		"ft": 8192,
@@ -2478,6 +2491,28 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/test-animation\/images\/img_0.png": {
+		"ft": 32768,
+		"iS": 16897,
+		"oA": 0,
+		"oAP": "\/test-animation\/images\/img_0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/test-animation\/images\/img_1.png": {
+		"ft": 32768,
+		"iS": 15202,
+		"oA": 0,
+		"oAP": "\/test-animation\/images\/img_1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/test-animation\/index.html": {
 		"cB": 0,
@@ -3662,6 +3697,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/www\/img\/motion-styleguide-token-code.png": {
+		"ft": 32768,
+		"iS": 528918,
+		"oA": 0,
+		"oAP": "\/www\/img\/motion-styleguide-token-code.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/www\/img\/oaklanize-app1.png": {
 		"ft": 32768,
 		"iS": 40910,
@@ -4659,6 +4705,14 @@
 		"oAP": "\/www\/index.html",
 		"oF": 0
 		},
+	"\/www\/js\/badge-animation.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/www\/js\/badge-animation-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/www\/js\/data.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -4666,6 +4720,25 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"\/www\/js\/eb-logo-animation.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/www\/js\/eb-logo-animation-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/www\/js\/images\/img_0.png": {
+		"ft": 32768,
+		"iS": 16897,
+		"oA": 0,
+		"oAP": "\/www\/js\/images\/img_0.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/www\/js\/libs\/jquery-1.10.1.min.js": {
 		"ft": 64,
@@ -4898,6 +4971,62 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/www\/video\/hero-home.webm",
+		"oF": 0
+		},
+	"\/www\/video\/motion-styleguide\/badge-mockup-animation.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/motion-styleguide\/badge-mockup-animation.mp4",
+		"oF": 0
+		},
+	"\/www\/video\/motion-styleguide\/badge-solo-animation.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/motion-styleguide\/badge-solo-animation.mp4",
+		"oF": 0
+		},
+	"\/www\/video\/motion-styleguide\/booking-on-card.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/motion-styleguide\/booking-on-card.mp4",
+		"oF": 0
+		},
+	"\/www\/video\/motion-styleguide\/bookmark-animation.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/motion-styleguide\/bookmark-animation.mp4",
+		"oF": 0
+		},
+	"\/www\/video\/motion-styleguide\/card-transition.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/motion-styleguide\/card-transition.mp4",
+		"oF": 0
+		},
+	"\/www\/video\/motion-styleguide\/logo-solo.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/motion-styleguide\/logo-solo.mp4",
+		"oF": 0
+		},
+	"\/www\/video\/motion-styleguide\/quantity-selection-animation.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/motion-styleguide\/quantity-selection-animation.mp4",
+		"oF": 0
+		},
+	"\/www\/video\/motion-styleguide\/tab-transition.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/motion-styleguide\/tab-transition.mp4",
 		"oF": 0
 		},
 	"\/www\/video\/Seasons gif perspective.webmhd.webm": {

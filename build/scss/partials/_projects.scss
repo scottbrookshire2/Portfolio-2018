@@ -2,6 +2,7 @@
 ------------------------------------------------------------ */
 
 .hero{
+	display: relative;
 	&.eventbriteAppHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/eventbrite-app-hero.jpg"));
 	}
@@ -10,6 +11,9 @@
 	}
 	&.stitchHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/stitch-hero5.jpg"));
+		h1{
+			color:$white;
+		}
 	}
 	&.enrichHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../img/enrich-hero.jpg"));
@@ -25,6 +29,9 @@
 	}
 	&.posterHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("../img/posters-hero.jpg"));
+		h1{
+			color:$white;
+		}
 	}
 	&.lacunaHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/lacuna-hero.jpg"));
@@ -45,7 +52,7 @@
 			padding-top:700px;
 		}
 		@include media($small){
-			padding-top:400px;
+			padding-top:300px;
 		}
 		h3{
 			padding-bottom:16px;
@@ -63,7 +70,6 @@
 	}
 }
 .projectBrief{
-	// @extend .projectGradient;
 	padding:7.5% 0 6% 0;
 	z-index: 500;
 	
@@ -71,7 +77,7 @@
 		padding:10% 0 10% 0;
 	}
 	@include media($small){
-		padding:0px 0 10% 0;
+		padding:10% 0 10% 0;
 	}
 	.wrapper{
 		visibility:hidden;
@@ -127,7 +133,13 @@
 	&.lacuna{
 		@extend .projectGradient;
 	}
+	.video1{
+		margin:0 auto;
+
+	}
 }
+
+
 .video1{
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -252,7 +264,7 @@
 			// padding:0 1.5em;
 			@include media($small){
 				@include span-columns(12);
-				padding:0 15% 5% 15%;
+				padding:0 5%;
 			}
 		}
 	}
@@ -380,6 +392,18 @@
 	&.abstractMotionGraphic{
 		@include background-image(linear-gradient(to left, #0EEFBB, #39C2DF));
 
+	}
+	&.tokenCode{
+		background-color: #272822;
+	}
+	video{
+	    position: relative;
+	    display: block;
+	    width: 40%;
+	    margin: 0 auto;
+	    @include media($small){
+	    	width:90%;
+	    }
 	}
 }
 
@@ -534,43 +558,67 @@
 		padding-top: $marginMobile;
 		padding-bottom: $marginMobile;
 	}
-	&.textLeft{
-		// background-color:grey;
-		.mediaContent{
-			@include span-columns(5);
-			@include shift(1);
-		}
-		.info{
-			@include span-columns(4);
-			@include shift(1);
-			@include omega();
-			padding-top:260px;
-			// background-color:violet;
-			h3{
-				padding-bottom: 24px;
-			}
-
+	// background-color:grey;
+	.mediaContent{
+		@include span-columns(5);
+		@include shift(1);
+		// background-color:red;
+		@include media ($small){
+			@include span-columns(12);
+			@include shift(0);
 		}
 	}
-	&.textRight{
-		// background-color:orange;
-		.mediaContent{
-			@include span-columns(5);
-			@include shift(1);
+	.info{
+		@include span-columns(4);
+		@include shift(1);
+		@include omega();
+		padding-top:200px;
+		@include media ($small){
+			@include span-columns(8);
+			@include shift(2);
+			padding-top: 8px
 		}
-		.info{
+		// background-color:violet;
+		h3{
+			padding-bottom: 24px;
+		}
+
+	}
+}
+
+.bgColor1{
+	background-color: #F8FAF9;
+}
+
+.ebColor1{
+	background-color: $ebColor1;
+	h3, p{
+		color:$white;
+	}
+}
+
+.ebColor2{
+	background-color: $ebColor2;
+}
+
+.ebColor3{
+	background-color: $ebColor3;
+}
+
+.badgeMockup{
+
+}
+
+.mediaDescriber.textLeft, .mediaDescriber.textRight{
+	.mediaContent{
+		&.phoneContent{
+			@extend .softContainer;
 			@include span-columns(4);
-			@include shift(1);
-			@include omega();
-			// background-color:violet;
-			padding-top:260px;
-			vertical-align: middle;
-			h3{
-				padding-bottom: 24px;
-			}
+			@include shift(2);
 		}
 	}
 }
+
 
 // div.gfyitem {
 //     width:100%;

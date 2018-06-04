@@ -32,11 +32,11 @@
 
 		}
 		@media (max-width:400px){
-			letter-spacing: .05em;
+			letter-spacing: 3px;
 			font-size: .8em;
 		}
 		&:hover{
-			background-color: darken($brandColor, 5%);
+			background-color: $brandColor;
 			color:$white;
 			@extend .boxShadow;
 		}
@@ -46,7 +46,7 @@
 		font-size: 12px;
 		letter-spacing: 3px;
 		opacity: 0.5;
-		// padding-bottom: 5px;
+		padding-bottom: 4px;
 		&:hover{
 			color:$white;
 		}
@@ -58,15 +58,15 @@
 footer{
 	z-index: 9990;
 	position: relative;
-	@include linear-gradient(to right, darken($grey900, 2%) 66.666%, $brandColor 66.666%, $fallback: $grey700);
+	@include linear-gradient(to right, darken($grey900, 2%) 66.666%, darken($grey900,4%) 66.666%, $fallback: $grey700);
 	@include media($medium){
-		@include linear-gradient(to right, darken($grey900, 2%) 60.666%, $brandColor 60.666%, $fallback: $grey700);
+		@include linear-gradient(to right, darken($grey900, 2%) 60.666%, darken($grey900,4%) 60.666%, $fallback: $grey700);
 	}
 	@include media($small){
-		@include linear-gradient(to top, $brandColor 36%, darken($grey900, 2%) 36%, $fallback: $grey700);
+		@include linear-gradient(to top, darken($grey900,4%) 36%, darken($grey900, 2%) 36%, $fallback: $grey700);
 	}
 	@media (min-width: 1300px){
-		@include linear-gradient(to right, darken($grey900, 2%) 60%, $brandColor 60%, $fallback: $grey700);
+		@include linear-gradient(to right, darken($grey900, 2%) 60%, darken($grey900,4%) 60%, $fallback: $grey700);
 	}
 	clear: both;
 	.wrapper{
