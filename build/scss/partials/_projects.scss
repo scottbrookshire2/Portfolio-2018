@@ -4,13 +4,16 @@
 .hero{
 	display: relative;
 	&.eventbriteAppHero{
-		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/eventbrite-app-hero.jpg"));
+		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/eventbrite-app-home.jpg"));
 	}
 	&.motionStyleGuideHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/motion-styleguide-hero.jpg"));
 	}
 	&.unlabelHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/unlabel-hero.jpg"));
+	}
+	&.illustrationsHero{
+		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/illustrations-hero.jpg"));
 	}
 	&.stitchHero{
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/stitch-hero5.jpg"));
@@ -49,13 +52,18 @@
 		@include background-image(linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,0)), url("../img/error-hero.jpg"));
 	}
 	.projectTitle{
-		padding-top:30%;
+		position:absolute;
+		display:box;
+		bottom:20%;
+		left:10%;
 		text-align: left;
 		@include media($medium){
-			padding-top:700px;
+			bottom:15%;
+			left:2%;
 		}
 		@include media($small){
-			padding-top:300px;
+			bottom:15%;
+			left:1%;
 		}
 		h3{
 			padding-bottom:16px;
@@ -70,6 +78,10 @@
 #projectPage{
 	.hero{
 		@extend .backgroundImage;
+		&.eventbriteAppHero{
+			@include media ($small)
+				background-position: 65% 20%;
+			}
 	}
 }
 .projectBrief{
@@ -115,6 +127,10 @@
 		@include media($small){
 			@include span-columns(12);
 			@include shift(0);
+		}
+		.role{
+			font-weight:bold;
+			color:$grey900;
 		}
 		li{
 			padding-bottom: 1em;
@@ -190,7 +206,9 @@
 			@include span-columns(6 of 6);
 			margin-bottom: 5%;
 			@include media($small){
-				padding-top: 10%;
+				padding-top: 5%;
+				margin-bottom: 0%;
+
 				@include span-columns(12);
 			}
 		}
@@ -214,8 +232,8 @@
 	padding-top: $margin;
 	padding-bottom: $margin;
 	@include media($small){
-		padding-top: $marginMobile;
-		padding-bottom: $marginMobile;
+		padding-top: $marginMobile -32px;
+		padding-bottom: $marginMobile -32px;
 	}
 	img:nth-child(odd){
 		@include span-columns(6);
@@ -226,7 +244,7 @@
 		}
 	}
 	&.odd{
-		@extend .projectGradient;
+		// @extend .projectGradient;
 	}
 	img:nth-child(even){
 		@include span-columns(6);
@@ -267,7 +285,7 @@
 			// padding:0 1.5em;
 			@include media($small){
 				@include span-columns(12);
-				padding:0 5%;
+				padding:0 1%;
 			}
 		}
 	}
@@ -421,6 +439,11 @@
 	background-position: 50% 10%;
 	background-position:50% 50%9 !important;
 	height: 100%;
+	@include media($small){
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+
 	&.ebGroup1{
 		background-image: url("../img/background-wave-1.jpg");
 	}
@@ -430,11 +453,13 @@
 	&.ebGroup3{
 		background-image: url("../img/background-wave-2.jpg");
 	}
-	@include media($small){
-		padding-top: 24px;
-		padding-bottom: 24px;
+	&.unlabel{
+		padding-bottom: 0px;
+		@include media($small){
+			// padding-top: 24px;
+			padding-bottom: 0;
 	}
-
+	}
 	.layer{
 		clear: both;
 		display: block;
@@ -451,6 +476,9 @@
 
 		&.single{
 			width:60%;
+			@include media($small){
+				width: 100%;
+			}
 		}
 
 	}

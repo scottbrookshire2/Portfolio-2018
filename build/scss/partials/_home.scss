@@ -65,7 +65,6 @@
  //        }
 	// }
 	h1{
-		color:$grey500;
 		@include media($small){
 				line-height: 1.5em;
 			}
@@ -102,7 +101,7 @@
 .topProject{
 	margin: auto;
     width: 90%;
-    height: 40em;
+    // height: 40em;
     margin-bottom:50px;
     border-radius: 2px;
 	background-color: $white;
@@ -164,21 +163,25 @@
 	}
 
 	.wrapper{
-		padding-top: 22em;
+		padding: 340px 80px 220px 80px;
+		// background-color: rgba(100,2,34,.2);
 		margin:0 auto;
 		cursor:pointer;
 		&:nth-child(2){
 			text-align: right;
 			clear:both;
 		}
+		@media (min-width: 1600px){
+			padding: 500px 80px 420px 80px;
+
+		}
 		@include media($medium){
-			padding-top:12em;
+			padding: 200px 40px 160px 40px;
 		
 		}
 		@include media($small){
 			text-align: left;
-			padding-top:8em;
-			padding-left: 24px;
+			padding: 100px 20px 80px 20px;
 		}
 	}
 	h2{
@@ -224,11 +227,11 @@
 		
 	// }
 	@include media($medium){
-		height:22em;
+		// height:22em;
 
 	}
 	@include media($small){
-		height:220px;
+		// height:220px;
 		width:92%;
 		margin-bottom:16px;
 	}

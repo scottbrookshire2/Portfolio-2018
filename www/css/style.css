@@ -2,6 +2,12 @@
 ------------------------------------------------------------ */
 /* Grid Settings
 ------------------------------------------------------------ */
+.l-pad-4-bot {
+  padding-bottom: 60px; }
+  @media (max-width: 600px) {
+    .l-pad-4-bot {
+      padding-bottom: 24px; } }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -64,7 +70,7 @@ a, a:hover, a:focus, a:active {
    ========================================================================== */
 /* Colors
 ------------------------------------------------------------ */
-.projectGradient, .topVideo.lacuna, .layout4.odd, .textSnippet, .invision {
+.projectGradient, .topVideo.lacuna, .textSnippet, .invision {
   background-image: -webkit-linear-gradient(left, #ffffff, #f8f8f8);
   background-image: linear-gradient(to right, #ffffff, #f8f8f8); }
 
@@ -119,7 +125,7 @@ p, ul, ol {
   line-height: 1.4; }
 
 h1, h2 {
-  color: #505256;
+  color: #19191C;
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
   letter-spacing: .5px; }
 
@@ -156,14 +162,13 @@ h3, h4, h5, h6 {
   letter-spacing: .5px; }
 
 li {
+  color: #505256;
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
-  text-transform: uppercase;
   font-weight: regular;
-  letter-spacing: 5px; }
+  letter-spacing: 0.5px; }
   @media screen and (max-width: 640px) {
     li {
-      font-size: .9em;
-      letter-spacing: 4px; } }
+      font-size: .9em; } }
 
 p {
   font-family: "din-2014", "ff-din-web", "Helvetica", sans-serif;
@@ -181,8 +186,7 @@ p {
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
   display: block;
   text-transform: uppercase;
-  letter-spacing: 10px;
-  color: #505256; }
+  letter-spacing: 10px; }
   @media screen and (max-width: 640px) {
     .title {
       letter-spacing: 4px; } }
@@ -198,7 +202,7 @@ p {
   display: inline-block;
   color: #303034;
   border-radius: 2px;
-  border: 1px solid #303034;
+  border: 1.5px solid #828385;
   text-transform: uppercase;
   margin: 24px 0;
   letter-spacing: 3px; }
@@ -522,7 +526,7 @@ body {
 
 .wrapper {
   *zoom: 1;
-  max-width: 68.75em;
+  max-width: 81.25em;
   margin-left: auto;
   margin-right: auto; }
   .wrapper:before, .wrapper:after {
@@ -654,6 +658,7 @@ nav {
       padding: 8px 0 0 0; } }
   nav a {
     opacity: .5;
+    text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 4px;
     text-align: right;
@@ -795,22 +800,22 @@ html, body {
   top: -9999px;
   left: -9999px; }
 
-.hero h1 {
-  color: #505256; }
+@media screen and (max-width: 640px) {
+  .hero h1 {
+    line-height: 1.5em; } }
+
+.hero h1::after {
+  margin: 0 auto; }
   @media screen and (max-width: 640px) {
-    .hero h1 {
-      line-height: 1.5em; } }
-  .hero h1::after {
-    margin: 0 auto; }
-    @media screen and (max-width: 640px) {
-      .hero h1::after {
-        margin: 0; } }
-  .hero h1 span {
-    font-weight: 100;
-    font-size: .5em; }
-    @media screen and (max-width: 640px) {
-      .hero h1 span {
-        letter-spacing: .35em; } }
+    .hero h1::after {
+      margin: 0; } }
+
+.hero h1 span {
+  font-weight: 100;
+  font-size: .5em; }
+  @media screen and (max-width: 640px) {
+    .hero h1 span {
+      letter-spacing: .35em; } }
 
 .hero p {
   color: #828385;
@@ -825,7 +830,6 @@ html, body {
 .topProject {
   margin: auto;
   width: 90%;
-  height: 40em;
   margin-bottom: 50px;
   border-radius: 2px;
   background-color: #fff;
@@ -865,20 +869,22 @@ html, body {
   .topProject:nth-child(even) {
     text-align: right; }
   .topProject .wrapper {
-    padding-top: 22em;
+    padding: 340px 80px 220px 80px;
     margin: 0 auto;
     cursor: pointer; }
     .topProject .wrapper:nth-child(2) {
       text-align: right;
       clear: both; }
+    @media (min-width: 1600px) {
+      .topProject .wrapper {
+        padding: 500px 80px 420px 80px; } }
     @media screen and (max-width: 899px) {
       .topProject .wrapper {
-        padding-top: 12em; } }
+        padding: 200px 40px 160px 40px; } }
     @media screen and (max-width: 640px) {
       .topProject .wrapper {
         text-align: left;
-        padding-top: 8em;
-        padding-left: 24px; } }
+        padding: 100px 20px 80px 20px; } }
   .topProject h2 {
     color: #505256;
     clear: both;
@@ -890,12 +896,8 @@ html, body {
     display: block;
     text-transform: uppercase;
     letter-spacing: 4px; }
-  @media screen and (max-width: 899px) {
-    .topProject {
-      height: 22em; } }
   @media screen and (max-width: 640px) {
     .topProject {
-      height: 220px;
       width: 92%;
       margin-bottom: 16px; } }
 
@@ -974,14 +976,17 @@ figure figcaption > a {
 .hero {
   display: relative; }
   .hero.eventbriteAppHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/eventbrite-app-hero.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/eventbrite-app-hero.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/eventbrite-app-home.jpg");
+    background-image: linear-gradient(to top, transparent, transparent), url("../img/eventbrite-app-home.jpg"); }
   .hero.motionStyleGuideHero {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/motion-styleguide-hero.jpg");
     background-image: linear-gradient(to top, transparent, transparent), url("../img/motion-styleguide-hero.jpg"); }
   .hero.unlabelHero {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/unlabel-hero.jpg");
     background-image: linear-gradient(to top, transparent, transparent), url("../img/unlabel-hero.jpg"); }
+  .hero.illustrationsHero {
+    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/illustrations-hero.jpg");
+    background-image: linear-gradient(to top, transparent, transparent), url("../img/illustrations-hero.jpg"); }
   .hero.stitchHero {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/stitch-hero5.jpg");
     background-image: linear-gradient(to top, transparent, transparent), url("../img/stitch-hero5.jpg"); }
@@ -1017,19 +1022,27 @@ figure figcaption > a {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/error-hero.jpg");
     background-image: linear-gradient(to top, transparent, transparent), url("../img/error-hero.jpg"); }
   .hero .projectTitle {
-    padding-top: 30%;
+    position: absolute;
+    display: box;
+    bottom: 20%;
+    left: 10%;
     text-align: left; }
     @media screen and (max-width: 899px) {
       .hero .projectTitle {
-        padding-top: 700px; } }
+        bottom: 15%;
+        left: 2%; } }
     @media screen and (max-width: 640px) {
       .hero .projectTitle {
-        padding-top: 300px; } }
+        bottom: 15%;
+        left: 1%; } }
     .hero .projectTitle h3 {
       padding-bottom: 16px;
       opacity: .5; }
     .hero .projectTitle .lightColor {
       color: #fff; }
+
+#projectPage .hero.eventbriteAppHero {
+  background-position: 65% 20%; }
 
 .projectBrief {
   padding: 7.5% 0 6% 0;
@@ -1087,6 +1100,9 @@ figure figcaption > a {
         margin-left: 0%; }
         .projectBrief .tags:last-child {
           margin-right: 0; } }
+    .projectBrief .tags .role {
+      font-weight: bold;
+      color: #19191C; }
     .projectBrief .tags li {
       padding-bottom: 1em; }
       @media screen and (max-width: 640px) {
@@ -1171,7 +1187,8 @@ figure figcaption > a {
         margin-right: 0; }
       @media screen and (max-width: 640px) {
         .layout1 .column img:nth-child(1) {
-          padding-top: 10%;
+          padding-top: 5%;
+          margin-bottom: 0%;
           float: left;
           display: block;
           margin-right: 2.3576515979%;
@@ -1211,8 +1228,8 @@ figure figcaption > a {
   padding-bottom: 6%; }
   @media screen and (max-width: 640px) {
     .layout4 {
-      padding-top: 13%;
-      padding-bottom: 13%; } }
+      padding-top: 13% -32px;
+      padding-bottom: 13% -32px; } }
   .layout4 img:nth-child(odd) {
     float: left;
     display: block;
@@ -1280,7 +1297,7 @@ figure figcaption > a {
           display: block;
           margin-right: 2.3576515979%;
           width: 100%;
-          padding: 0 5%; }
+          padding: 0 1%; }
           .layout5 .row img:last-child {
             margin-right: 0; } }
 
@@ -1438,16 +1455,21 @@ figure figcaption > a {
   background-position: 50% 10%;
   background-position: 50% 50% 9 !important;
   height: 100%; }
+  @media screen and (max-width: 640px) {
+    .fullImgBkg {
+      padding-top: 24px;
+      padding-bottom: 24px; } }
   .fullImgBkg.ebGroup1 {
     background-image: url("../img/background-wave-1.jpg"); }
   .fullImgBkg.ebGroup2 {
     background-image: url("../img/background-wave-2.jpg"); }
   .fullImgBkg.ebGroup3 {
     background-image: url("../img/background-wave-2.jpg"); }
-  @media screen and (max-width: 640px) {
-    .fullImgBkg {
-      padding-top: 24px;
-      padding-bottom: 24px; } }
+  .fullImgBkg.unlabel {
+    padding-bottom: 0px; }
+    @media screen and (max-width: 640px) {
+      .fullImgBkg.unlabel {
+        padding-bottom: 0; } }
   .fullImgBkg .layer {
     clear: both;
     display: block;
@@ -1462,6 +1484,9 @@ figure figcaption > a {
       padding-bottom: 0; }
     .fullImgBkg .layer.single {
       width: 60%; }
+      @media screen and (max-width: 640px) {
+        .fullImgBkg .layer.single {
+          width: 100%; } }
   .fullImgBkg .typeStudy {
     float: left;
     display: block;
@@ -1934,29 +1959,29 @@ html[xmlns] .slides {
     background-color: #272222;
     display: none; }
   .projectNav a {
-    text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
     width: 100%;
     float: left;
+    font-size: 24px;
     text-align: center;
     padding: 2em;
     color: white; }
-    @media (max-width: 500px) {
-      .projectNav a {
-        letter-spacing: .05em; } }
     @media (max-width: 400px) {
       .projectNav a {
-        letter-spacing: 3px;
-        font-size: .8em; } }
+        font-size: 16px; } }
     .projectNav a:hover {
       background-color: #BA4141;
       color: #fff; }
   .projectNav span {
     display: block;
-    font-size: 12px;
-    letter-spacing: 3px;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
     opacity: 0.5;
     padding-bottom: 4px; }
+    @media screen and (max-width: 640px) {
+      .projectNav span {
+        font-size: 14px; } }
     .projectNav span:hover {
       color: #fff; }
 
@@ -1986,8 +2011,6 @@ footer {
       background-image: -webkit-gradient(linear, left top, left bottom, color-stop(60%, #141417), color-stop(60%, #0f0f11));
       background-image: -webkit-linear-gradient(left, #141417 60%, #0f0f11 60%);
       background-image: linear-gradient(to right,#141417 60%, #0f0f11 60%); } }
-  footer .wrapper {
-    visibility: hidden; }
   footer .socialFoot {
     height: 16em;
     padding-top: 7.5%;
