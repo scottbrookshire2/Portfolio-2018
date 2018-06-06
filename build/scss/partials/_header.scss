@@ -100,13 +100,13 @@ nav{
 
     }
     nav{
-        a{
+        a:link, a:visited{
             color: $grey300;
             opacity:.9;
-            &:hover, &:link{
-                color:$brandColor;
-                opacity: 1;
-            }
+        }
+        a:hover{  
+            color:$brandColor;
+            opacity: 1;
         }
     }
 }

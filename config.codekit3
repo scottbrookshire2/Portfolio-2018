@@ -3235,7 +3235,7 @@
 		"oAP": "\/www\/img\/eventbrite-app-home.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/www\/img\/eventbrite-app-home.png": {
@@ -3372,7 +3372,7 @@
 		},
 	"\/www\/img\/eventbrite-app-type.png": {
 		"ft": 32768,
-		"iS": 156339,
+		"iS": 243020,
 		"oA": 0,
 		"oAP": "\/www\/img\/eventbrite-app-type.png",
 		"oF": 0,
@@ -3389,6 +3389,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/www\/img\/Group 26@2x.png": {
+		"ft": 32768,
+		"iS": 242302,
+		"oA": 0,
+		"oAP": "\/www\/img\/Group 26@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

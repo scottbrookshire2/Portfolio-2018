@@ -160,6 +160,9 @@
 	}
 	&:nth-child(even){
 		text-align: right;
+		h2{
+			margin-right:-8px;
+		}
 	}
 
 	.wrapper{

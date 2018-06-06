@@ -47,11 +47,12 @@
 
 a{
 	color: $grey100;
+	opacity: 1;
 	font-family: $headlineFont;
 	text-decoration: none;
 	@include media($small){
 	}
-	&:link{
+	&:link, &:visited{
 		@extend .transition; 
 	}	
 	&:hover{

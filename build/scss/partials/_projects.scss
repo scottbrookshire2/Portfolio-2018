@@ -74,7 +74,9 @@
 		}
 	}
 }
-
+.lightColor{
+	color: $white;
+}
 #projectPage{
 	.hero{
 		@extend .backgroundImage;
@@ -101,6 +103,7 @@
 		padding-bottom:20px;
 		h2{
 			font-weight: 400;
+			color: $grey500;
 		}
 	}
 	.description{
@@ -120,17 +123,20 @@
 		}
 	}
 	.tags{
-		padding-top: 4px;
+		margin-top: -45px;
 		@include span-columns(2);
 		@include shift(1);
 		@include omega();
 		@include media($small){
+			margin-top: 8px;
+			padding-top: 30px;
+			border-top: solid 1px lighten($grey300, 40%);
 			@include span-columns(12);
 			@include shift(0);
 		}
 		.role{
-			font-weight:bold;
-			color:$grey900;
+			font-weight:600;
+			color:$grey500;
 		}
 		li{
 			padding-bottom: 1em;
@@ -311,12 +317,14 @@
 		padding-bottom: $marginMobile;
 	}
 	.column {
+
 		@include span-columns(4);
 		@include media($small){
 			@include span-columns(12);
 		}
 
 		.group{
+
 			padding-top: 35%;
 			@include media($medium){
 				padding-top: 10%;
@@ -324,11 +332,11 @@
 			@include media($small){
 				padding-top: 0;
 			}			
-			h4{
-				color:darken($grey300, 15%);
+			h3{
+				color:$white;
 			}
 			p{
-				color:darken($grey300, 35%);
+				color:darken($white, 35%);
 			}
 		}
 

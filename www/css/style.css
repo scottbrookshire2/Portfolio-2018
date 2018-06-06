@@ -79,11 +79,11 @@ a, a:hover, a:focus, a:active {
   background-image: linear-gradient(to right, #19191C, #080809); }
 
 ::-moz-selection {
-  background: #BA4141;
+  background: #F0CA4D;
   text-shadow: none; }
 
 ::selection {
-  background: #BA4141;
+  background: #F0CA4D;
   text-shadow: none; }
 
 /* Typography
@@ -162,7 +162,7 @@ h3, h4, h5, h6 {
   letter-spacing: .5px; }
 
 li {
-  color: #505256;
+  color: #828385;
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
   font-weight: regular;
   letter-spacing: 0.5px; }
@@ -211,35 +211,36 @@ p {
       font-size: .85em; } }
   .button a:hover {
     color: black;
-    background-color: #BA4141;
-    border-color: #BA4141;
+    background-color: #F0CA4D;
+    border-color: #F0CA4D;
     color: #fff; }
   .button a:active, .button a:visited {
-    fill: #6e2727; }
+    fill: #c69c11; }
 
 #brandedPage .mediaDescriber a {
   color: #fff;
   border-color: #fff; }
   #brandedPage .mediaDescriber a:hover {
     color: #19191C;
-    border-color: #BA4141; }
+    border-color: #F0CA4D; }
   #brandedPage .mediaDescriber a:active, #brandedPage .mediaDescriber a:visited {
-    fill: #6e2727; }
+    fill: #c69c11; }
 
 a {
   color: #f8f8fa;
+  opacity: 1;
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
   text-decoration: none; }
   a:hover {
-    color: #BA4141; }
+    color: #F0CA4D; }
   a:active {
-    color: #6e2727; }
+    color: #c69c11; }
   a.linkOnDark {
     border-bottom: 1px solid #fff;
     text-decoration-skip: ink; }
     a.linkOnDark:hover {
-      border-color: #BA4141;
-      color: #BA4141; }
+      border-color: #F0CA4D;
+      color: #F0CA4D; }
 
 .slideDown {
   animation-name: slideDown;
@@ -380,7 +381,7 @@ slideLeft
   100% {
     -webkit-transform: translateY(0%); } }
 
-.transition, a:link, .logo, .logo path, .logo rect, .logo circle, nav, nav a, .topProject, footer .socialFoot .socialIcons path, footer .socialFoot .socialIcons rect, footer .socialFoot .socialIcons circle {
+.transition, a:link, a:visited, .logo, .logo path, .logo rect, .logo circle, nav, nav a, .topProject, footer .socialFoot .socialIcons path, footer .socialFoot .socialIcons rect, footer .socialFoot .socialIcons circle {
   -webkit-transition: all 250ms ease-in-out;
   -moz-transition: all 250ms ease-in-out;
   transition: all 250ms ease-in-out; }
@@ -444,7 +445,7 @@ body {
   height: 45%;
   position: absolute;
   left: 0;
-  right: 400px;
+  right: 410px;
   top: 180px;
   bottom: 0;
   margin: auto; }
@@ -627,7 +628,7 @@ img {
   padding: 32px 0 0 0;
   left: 2.2%; }
   .logo:active path, .logo:visited path {
-    fill: #6e2727; }
+    fill: #c69c11; }
   @media screen and (max-width: 899px) {
     .logo {
       max-width: 5em;
@@ -675,7 +676,7 @@ nav {
       transform: translate(-10px); }
 
 .selected a {
-  color: #BA4141;
+  color: #F0CA4D;
   opacity: 1; }
 
 #brandedPage .logo path, #brandedPage .logo rect, #brandedPage .logo circle {
@@ -683,28 +684,29 @@ nav {
   opacity: .9; }
 
 #brandedPage .logo:hover path, #brandedPage .logo:hover circle, #brandedPage .logo:hover rect {
-  fill: #BA4141;
+  fill: #F0CA4D;
   opacity: 1; }
 
-#brandedPage nav a {
+#brandedPage nav a:link, #brandedPage nav a:visited {
   color: #828385;
   opacity: .9; }
-  #brandedPage nav a:hover, #brandedPage nav a:link {
-    color: #BA4141;
-    opacity: 1; }
+
+#brandedPage nav a:hover {
+  color: #F0CA4D;
+  opacity: 1; }
 
 #projectPage .logo path, #projectPage .logo rect, #projectPage .logo circle {
   fill: #303034;
   opacity: .5; }
 
 #projectPage .logo:hover path, #projectPage .logo:hover circle, #projectPage .logo:hover rect {
-  fill: #BA4141;
+  fill: #F0CA4D;
   opacity: 1; }
 
 #projectPage nav a {
   color: #19191C; }
   #projectPage nav a:hover {
-    color: #BA4141;
+    color: #F0CA4D;
     opacity: 1; }
 
 .name {
@@ -868,6 +870,8 @@ html, body {
         margin-bottom: 40px; } }
   .topProject:nth-child(even) {
     text-align: right; }
+    .topProject:nth-child(even) h2 {
+      margin-right: -8px; }
   .topProject .wrapper {
     padding: 340px 80px 220px 80px;
     margin: 0 auto;
@@ -1041,6 +1045,9 @@ figure figcaption > a {
     .hero .projectTitle .lightColor {
       color: #fff; }
 
+.lightColor {
+  color: #fff; }
+
 #projectPage .hero.eventbriteAppHero {
   background-position: 65% 20%; }
 
@@ -1058,7 +1065,8 @@ figure figcaption > a {
   .projectBrief .descriptionHeader {
     padding-bottom: 20px; }
     .projectBrief .descriptionHeader h2 {
-      font-weight: 400; }
+      font-weight: 400;
+      color: #505256; }
   .projectBrief .description {
     float: left;
     display: block;
@@ -1082,7 +1090,7 @@ figure figcaption > a {
     .projectBrief .description.web::after {
       border: none; }
   .projectBrief .tags {
-    padding-top: 4px;
+    margin-top: -45px;
     float: left;
     display: block;
     margin-right: 2.3576515979%;
@@ -1093,6 +1101,9 @@ figure figcaption > a {
       margin-right: 0; }
     @media screen and (max-width: 640px) {
       .projectBrief .tags {
+        margin-top: 8px;
+        padding-top: 30px;
+        border-top: solid 1px #e9e9ea;
         float: left;
         display: block;
         margin-right: 2.3576515979%;
@@ -1101,8 +1112,8 @@ figure figcaption > a {
         .projectBrief .tags:last-child {
           margin-right: 0; } }
     .projectBrief .tags .role {
-      font-weight: bold;
-      color: #19191C; }
+      font-weight: 600;
+      color: #505256; }
     .projectBrief .tags li {
       padding-bottom: 1em; }
       @media screen and (max-width: 640px) {
@@ -1348,10 +1359,10 @@ figure figcaption > a {
       @media screen and (max-width: 640px) {
         .functionality2 .column .group {
           padding-top: 0; } }
-      .functionality2 .column .group h4 {
-        color: #5c5d5e; }
+      .functionality2 .column .group h3 {
+        color: #fff; }
       .functionality2 .column .group p {
-        color: #2a2a2b; }
+        color: #a6a6a6; }
   .functionality2 .videoContainer {
     position: relative;
     padding-bottom: 37%;
@@ -1962,7 +1973,7 @@ html[xmlns] .slides {
     letter-spacing: 1px;
     width: 100%;
     float: left;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     padding: 2em;
     color: white; }
@@ -1970,14 +1981,14 @@ html[xmlns] .slides {
       .projectNav a {
         font-size: 16px; } }
     .projectNav a:hover {
-      background-color: #BA4141;
+      background-color: #F0CA4D;
       color: #fff; }
   .projectNav span {
     display: block;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: capitalize;
     letter-spacing: 1px;
-    opacity: 0.5;
+    opacity: 0.8;
     padding-bottom: 4px; }
     @media screen and (max-width: 640px) {
       .projectNav span {
@@ -2049,7 +2060,7 @@ footer {
     footer .socialFoot a:link, footer .socialFoot a:visited, footer .socialFoot a:active {
       color: #d9d9d9; }
     footer .socialFoot a:hover {
-      color: #BA4141; }
+      color: #F0CA4D; }
     footer .socialFoot .socialIcons {
       display: inline-block;
       width: 100%;
@@ -2062,7 +2073,7 @@ footer {
       footer .socialFoot .socialIcons path, footer .socialFoot .socialIcons rect, footer .socialFoot .socialIcons circle {
         fill: #807f7f; }
       footer .socialFoot .socialIcons:hover path, footer .socialFoot .socialIcons:hover circle, footer .socialFoot .socialIcons:hover rect {
-        fill: #BA4141; }
+        fill: #F0CA4D; }
   footer .cFoot {
     padding: 11.5% 0 0 0em;
     height: 10em;
@@ -2342,12 +2353,17 @@ footer {
 /* Tokens
 --------------------------------------------------------------------------------- */
 .tokens {
-  margin-top: 6%;
-  margin-bottom: 3%; }
+  padding-top: 6%;
+  padding-bottom: 3%; }
   @media screen and (max-width: 640px) {
     .tokens {
-      margin-top: 13%;
-      margin-bottom: 13%; } }
+      padding-top: 13%;
+      padding-bottom: 13%; } }
+  .tokens .sectionTitle {
+    padding-bottom: 4.2%; }
+    @media screen and (max-width: 640px) {
+      .tokens .sectionTitle {
+        padding-bottom: 6.5%; } }
 
 .thumbnail {
   display: inline-block;

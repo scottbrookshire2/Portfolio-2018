@@ -21,7 +21,7 @@
 		width:100%;
 		// background-color: #191616;
 		float:left;
-		font-size: 24px;
+		font-size: 22px;
 		text-align: center;
 		padding:2em;
 		color:white;
@@ -44,10 +44,10 @@
 	}
 	span{
 		display: block;
-		font-size: 16px;
+		font-size: 14px;
 		text-transform:capitalize;
 		letter-spacing: 1px;
-		opacity: 0.5;
+		opacity: 0.8;
 		padding-bottom: 4px;
 		@include media ($small){
 			font-size:14px;
