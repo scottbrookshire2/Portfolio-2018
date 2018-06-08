@@ -5442,6 +5442,13 @@
 		"oAP": "\/www\/unlabel.html",
 		"oF": 0
 		},
+	"\/www\/video\/24-hour-ticket-animation.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/24-hour-ticket-animation.mp4",
+		"oF": 0
+		},
 	"\/www\/video\/about-city.mp4": {
 		"cB": 0,
 		"ft": 8192,
@@ -5454,6 +5461,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/www\/video\/about-city.webm",
+		"oF": 0
+		},
+	"\/www\/video\/calendar-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/calendar-prototype.mp4",
 		"oF": 0
 		},
 	"\/www\/video\/enrich-demo.mp4": {
@@ -5510,6 +5524,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/www\/video\/hero-home.webm",
+		"oF": 0
+		},
+	"\/www\/video\/live-events-prototype.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/video\/live-events-prototype.mp4",
 		"oF": 0
 		},
 	"\/www\/video\/motion-styleguide\/badge-mockup-animation.mp4": {

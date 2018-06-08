@@ -73,3 +73,21 @@ a{
 	}
 }
 
+.projectBrief a{
+	color: $grey500;
+	opacity: 1;
+	font-family: $headlineFont;
+	border-bottom: 1px solid $grey500;
+	text-decoration-skip: ink;
+	text-decoration: none;
+	&:active{
+		color: darken($brandColor, 20%);
+	}
+	&:link, &:visited{
+
+		&:hover{
+			border-color:$brandColor;
+			color:$brandColor;
+		}
+	}
+}

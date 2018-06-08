@@ -101,7 +101,7 @@
                     <h2 class="gamma">Creating our first motion system</h2>
                 </div>
                 <div class="description">
-                    <p>Our primary user need was centered around helping people find fun things to do. We reshaped our event discovery experience across our ecosystem to bring more life, levity and fun to the app. To become more of a truset source we elevated the emphasis on city and integreated editorial and third party content. For this effort, my role was to redesign and systematize the visual language accross the app. I also led the product design effort for the feed, on-boarding, profiles, likes tab, and event listings. I worked with a small team of designers and developers. Special thanks to Dave Obrien, Sara Kremer, Marina Vu, Sadie Williams, and Lumen  Bigott for collaborating on the experience, illustrations, city icones and UI icons. </p>
+                    <p>We wanted to create a system for motion design at Eventbrite, but were never able to dedicate resources to do so. As a side project, a few designers got together and created our first motion design sytlyeguide. Inspired by atomic design and with the goal of being thoughtfully incorporated into the Eventbrite Design System, we started from the bottom and worked our way up. I helped project manage the effort, shape our current brand tenants around motion principles, animate abstract concepts into a concrete ideas, develop the first rev of tokens (centered around easing, timing and delay) and created and facilitated After Effects workshops for the design org. Shout out to <a href="https://dribbble.com/obrien” title="Dave O Brien Dribbble" target="_blank">Dave O Brien</a> and <a href="https://sundai.me” title="Sun Dai Portfolio" target="_blank">Sun Dai</a> for collaborating on the effort.</p>
                 </div>
                 <div class="tags">
                     <ul>
@@ -129,17 +129,17 @@
         ================================================== -->
         <section class="textSnippet  columnLayout">
             <div class="wrapper animateUp">
-                <h3 class="gamma"> The challenge</h3>
-                <p>There was no precedent for a motion system at Eventbrite, and to make this system feel like us we had to understand who we were. Our first step was to relate our brand tenants to animation principles. </p>
+                <h3 class="gamma"> The Challenge</h3>
+                <p>There was no precedent for a motion system at Eventbrite, and to make this system feel like us we had to understand who we were. Our first step was to relate our brand tenants to animation principles.</p>
             </div>
         </section>
 
          <!-- 5 Radically Simple - Card 2 Content
         ================================================== -->
-        <section class="mediaDescriber textRight">
-            <div class="wrapper">
+        <section class="">
+            <div class="wrapper flex">
                 <div class="mediaContent phoneContent">
-                    <video no-controls muted autoplay loop>
+                    <video no-controls muted autoplay loop class="softContainer">
                          <source src="video/motion-styleguide/card-transition.mp4" type="video/mp4">
                         <!-- <source src="video/motion-styleguide/card-transition.ogv" type="video/ogg"> -->
 
@@ -155,29 +155,29 @@
 
         <!-- 6 Inviting - Subtraction
         ================================================== -->
-        <section class="mediaDescriber textLeft ebColor1">
-            <div class="wrapper">
-                <div class="info">
-                    <h3>Inviting</h3>
-                    <p>Motion and animation should draw the user into the brand experience. They should create a connection between the viewer and the content, sparking an emotional response and inviting interaction.</p>
-                </div>
-                <div class="mediaContent">
-                    <video no-controls muted autoplay loop>
+        <section class="ebColor1">
+            <div class="wrapper flex">
+                <div class="mediaContent reverse">
+                    <video no-controls muted autoplay loop class="softContainer">
                          <source src="video/motion-styleguide/quantity-selection-animation.mp4" type="video/mp4">
                         <!-- <source src="video/motion-styleguide/quantity-selection-animation.ogv" type="video/ogg"> -->
 
                     Your browser does not support the video tag.
                     </video>
                 </div>
+                <div class="info reverse">
+                    <h3>Inviting</h3>
+                    <p>Motion and animation should draw the user into the brand experience. They should create a connection between the viewer and the content, sparking an emotional response and inviting interaction.</p>
+                </div>
             </div>
         </section>
 
         <!-- 7 Trustworthy - Tabs
         ================================================== -->
-        <section class="mediaDescriber textRight">
-            <div class="wrapper">
+        <section class="">
+            <div class="wrapper flex">
                 <div class="mediaContent phoneContent">
-                    <video no-controls muted autoplay loop>
+                    <video no-controls muted autoplay loop class="softContainer">
                          <source src="video/motion-styleguide/tab-transition.mp4" type="video/mp4">
                         <!-- <source src="video/motion-styleguide/tab-transition.ogv" type="video/ogg"> -->
 
@@ -193,13 +193,9 @@
 
         <!-- 8 Dynamic - Bookmark
         ================================================== -->
-        <section class="mediaDescriber textLeft bgColor1">
-            <div class="wrapper">
-                <div class="info">
-                    <h3>Dynamic</h3>
-                    <p>Motion and animation transform an ordinary interaction into a meaningful and memorable one. They create moments of delight by introducing unexpected experiences. Our motion isn’t sterile or mechanical, it brings life into the interface and deepens the user’s connection with our content.</p>
-                </div>
-                <div class="mediaContent">
+        <section class="bgColor1">
+            <div class="wrapper flex">
+                <div class="mediaContent reverse">
                     <video no-controls muted autoplay loop>
                          <source src="video/motion-styleguide/bookmark-animation.mp4" type="video/mp4">
                         <!-- <source src="video/motion-styleguide/bookmark-animation.ogv" type="video/ogg"> -->
@@ -207,14 +203,18 @@
                     Your browser does not support the video tag.
                     </video>
                 </div>
+                <div class="info reverse">
+                    <h3>Dynamic</h3>
+                    <p>Motion and animation transform an ordinary interaction into a meaningful and memorable one. They create moments of delight by introducing unexpected experiences. Our motion isn’t sterile or mechanical, it brings life into the interface and deepens the user’s connection with our content.</p>
+                </div>
             </div>
         </section>
 
-        <!-- 9 Bookmark in card - full screen
+        <!-- 9 Bookmark in card - full screen ebColor2
         ================================================== -->
         <section class="fullImgContain ebColor2">
             <div class="wrapper">
-                    <video no-controls muted autoplay loop>
+                    <video no-controls muted autoplay loop class="softContainer">
                          <source src="video/motion-styleguide/booking-on-card.mp4" type="video/mp4">
                         <!-- <source src="video/motion-styleguide/booking-on-card.ogv" type="video/ogg"> -->
 
@@ -228,7 +228,7 @@
         <section class="textSnippet  columnLayout">
             <div class="wrapper animateUp">
                 <h3 class="gamma"> Building the motion framework from scratch</h3>
-                <p>We wanted to create a new consumer-centric visual system that balances the Eventbrite brand with the excitment of discovering something fun to do.</p>
+                <p>To unblock the effort I developed tokens around timing, easing and dealy. We used these tokens to create atoms such as fade out, and bounce.</p>
             </div>
         </section>
 
@@ -244,7 +244,7 @@
         ================================================== -->
         <section class="tokens bgColor1">
             <div class="wrapper">
-                <h3 class="sectionTitle">Motion tokens</h3></div>
+                <h3 class="sectionTitle">Motion Atoms</h3></div>
             <div class="wrapper">
 
                 <div class="thumbnail">
@@ -335,41 +335,41 @@
 
         <!-- 13 24 Hr Ticket - After effects
         ================================================== -->
-        <section class="mediaDescriber textLeft">
-            <div class="wrapper">
-                <div class="mediaContent">
-                    <video no-controls muted autoplay loop>
-                         <source src="video/eventbrite-app-onboarding-animation.mp4" type="video/mp4">
-                        <!-- <source src="video/eventbrite-app-onboarding-animation.ogv" type="video/ogg"> -->
+        <section>
+            <div class="wrapper flex paddingFix">
+                <div class="mediaContent phoneContent">
+                    <video no-controls muted autoplay loop class="softContainer">
+                         <source src="video/24-hour-ticket-animation.mp4" type="video/mp4">
+                        <!-- <source src="video/24-hour-ticket-animation.ogv" type="video/ogg"> -->
 
                     Your browser does not support the video tag.
                     </video>
                 </div>
                 <div class="info">
-                    <h3>24 hour ticket</h3>
-                    <p>Lorem ipsum ishe etchs simplse lette sarou up itima looh moh han dreac monst lotta.</p>
+                    <h3>24 Hour Ticket</h3>
+                    <p>Our users want to find their tickets as easily as possible so we concepted a 24hr modal that would ease in and transform up.</p>
                 </div>
             </div>
         </section>
 
         <!-- 14 Calendar - Framer
         ================================================== -->
-        <section class="mediaDescriber textRight">
-            <div class="wrapper">
-                <div class="info">
-                    <h3>Curated calendar</h3>
-                    <p>Lorem ipsum ishe etchs simplse lette sarou up itima looh moh han dreac monst lotta.</p>
-                    <div class="button">
-                        <a href="#" target="_blank" title="Framer Onboarding Prototype">See Prototype</a>
-                    </div>
-                </div>
-                <div class="mediaContent">
-                    <video no-controls muted autoplay loop>
-                         <source src="video/eventbrite-app-onboarding-animation.mp4" type="video/mp4">
-                        <!-- <source src="video/eventbrite-app-onboarding-animation.ogv" type="video/ogg"> -->
+        <section>
+            <div class="wrapper flex">
+                <div class="mediaContent phoneContent reverse">
+                    <video no-controls muted autoplay loop class="softContainer">
+                         <source src="video/calendar-prototype.mp4" type="video/mp4">
+                        <!-- <source src="video/calendar-prototype.ogv" type="video/ogg"> -->
 
                     Your browser does not support the video tag.
                     </video>
+                </div>
+                <div class="info reverse">
+                    <h3>Curated Calendar</h3>
+                    <p>The calendar as a method of browsing was new to our system, so to validate it’s interaction pattern I created this prototype to user test.</p>
+                    <div class="button">
+                        <a href="https://framer.cloud/dydjr" target="_blank" title="Framer Onboarding Prototype">See Prototype</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -379,7 +379,7 @@
         <section class="textSnippet  columnLayout">
             <div class="wrapper animateUp">
                 <h3 class="gamma">Logo &#38; badge animation exploration</h3>
-                <p>We wanted to create a new consumer-centric visual system that balances the Eventbrite brand with the excitment of discovering something fun to do.</p>
+                <p>Evenrbite's brand tenants should be reflected in every keyframe of the logo animation, so I explored using a generous amount of principles of animation.</p>
             </div>
         </section>
 

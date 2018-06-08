@@ -166,7 +166,7 @@
 	}
 
 	.wrapper{
-		padding: 340px 80px 220px 80px;
+		padding: 340px 8% 220px 8%;
 		// background-color: rgba(100,2,34,.2);
 		margin:0 auto;
 		cursor:pointer;
@@ -175,7 +175,7 @@
 			clear:both;
 		}
 		@media (min-width: 1600px){
-			padding: 500px 80px 420px 80px;
+			padding: 420px 40px 250px 40px;
 
 		}
 		@include media($medium){
