@@ -2580,104 +2580,45 @@
 		"oAP": "\/www\/about.html",
 		"oF": 0
 		},
-	"\/www\/apple-touch-icon-114x114.png": {
+	"\/www\/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 12242,
+		"iS": 10491,
 		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon-114x114.png",
+		"oAP": "\/www\/android-chrome-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/apple-touch-icon-120x120.png": {
+	"\/www\/android-chrome-512x512.png": {
 		"ft": 32768,
-		"iS": 10815,
+		"iS": 30169,
 		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon-120x120.png",
+		"oAP": "\/www\/android-chrome-512x512.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/apple-touch-icon-144x144.png": {
+	"\/www\/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 18980,
+		"iS": 4149,
 		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon-144x144.png",
+		"oAP": "\/www\/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/apple-touch-icon-152x152.png": {
-		"ft": 32768,
-		"iS": 19820,
+	"\/www\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon-152x152.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/apple-touch-icon-57x57.png": {
-		"ft": 32768,
-		"iS": 3893,
-		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon-57x57.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/apple-touch-icon-60x60.png": {
-		"ft": 32768,
-		"iS": 3898,
-		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon-60x60.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/apple-touch-icon-72x72.png": {
-		"ft": 32768,
-		"iS": 6019,
-		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon-72x72.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/apple-touch-icon-76x76.png": {
-		"ft": 32768,
-		"iS": 6580,
-		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon-76x76.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/apple-touch-icon-precomposed.png": {
-		"ft": 32768,
-		"iS": 4592,
-		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon-precomposed.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"oAP": "\/www\/browserconfig.xml",
+		"oF": 0
 		},
 	"\/www\/css\/style.css": {
 		"aP": 1,
@@ -2703,20 +2644,9 @@
 		"oAP": "\/www\/eventbrite-app.html",
 		"oF": 0
 		},
-	"\/www\/favicon-128.png": {
-		"ft": 32768,
-		"iS": 5918,
-		"oA": 0,
-		"oAP": "\/www\/favicon-128.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/www\/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 709,
+		"iS": 668,
 		"oA": 0,
 		"oAP": "\/www\/favicon-16x16.png",
 		"oF": 0,
@@ -2725,33 +2655,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/favicon-196x196.png": {
-		"ft": 32768,
-		"iS": 31231,
-		"oA": 0,
-		"oAP": "\/www\/favicon-196x196.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/www\/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 1436,
+		"iS": 1090,
 		"oA": 0,
 		"oAP": "\/www\/favicon-32x32.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/favicon-96x96.png": {
-		"ft": 32768,
-		"iS": 9215,
-		"oA": 0,
-		"oAP": "\/www\/favicon-96x96.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2764,17 +2672,6 @@
 		"oA": 0,
 		"oAP": "\/www\/favicon.ico",
 		"oF": 0
-		},
-	"\/www\/favicon.png": {
-		"ft": 32768,
-		"iS": 1653,
-		"oA": 0,
-		"oAP": "\/www\/favicon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/www\/humans.txt": {
 		"cB": 0,
@@ -4309,6 +4206,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/www\/img\/og-image.jpg": {
+		"ft": 16384,
+		"iS": 17021,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/www\/img\/og-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/www\/img\/pic-vegetables.jpg": {
 		"ft": 16384,
 		"iS": 343082,
@@ -5178,39 +5086,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/whattobring@2x.png": {
-		"ft": 32768,
-		"iS": 607023,
-		"oA": 0,
-		"oAP": "\/www\/img\/whattobring@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/whattoknow@2x.png": {
-		"ft": 32768,
-		"iS": 681535,
-		"oA": 0,
-		"oAP": "\/www\/img\/whattoknow@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/whattowear@2x.png": {
-		"ft": 32768,
-		"iS": 695730,
-		"oA": 0,
-		"oAP": "\/www\/img\/whattowear@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/www\/img\/wreaking_ball.jpg": {
 		"ft": 16384,
 		"iS": 131017,
@@ -5253,14 +5128,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www\/js\/fees-kiosk.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/www\/js\/fees-kiosk-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"\/www\/js\/images\/img_0.png": {
 		"ft": 32768,
 		"iS": 16897,
@@ -5271,6 +5138,14 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/www\/js\/kiosk-animation.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/www\/js\/kiosk-animation-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/www\/js\/libs\/jquery-1.10.1.min.js": {
 		"ft": 64,
@@ -5358,6 +5233,14 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/www\/js\/waiting-room-animation.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/www\/js\/waiting-room-animation-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/www\/lacuna.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -5385,6 +5268,17 @@
 		"oA": 0,
 		"oAP": "\/www\/motion-styleguide.html",
 		"oF": 0
+		},
+	"\/www\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 3742,
+		"oA": 0,
+		"oAP": "\/www\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/www\/oaklanize.html": {
 		"cB": 0,
@@ -5414,11 +5308,28 @@
 		"oAP": "\/www\/rythm-portfolio.html",
 		"oF": 0
 		},
+	"\/www\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/www\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/www\/sage-portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/www\/sage-portfolio.html",
+		"oF": 0
+		},
+	"\/www\/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/site.webmanifest",
 		"oF": 0
 		},
 	"\/www\/stellar-portfolio.html": {
@@ -5647,7 +5558,7 @@
 	"creationDate": 547856815,
 	"displayValue": "Portfolio-2018",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/www\/apple-touch-icon-114x114.png",
+	"iconImageName": "\/www\/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

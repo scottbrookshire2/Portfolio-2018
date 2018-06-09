@@ -26,7 +26,13 @@ img{
 $margin    :6%;
 $marginMobile    :13%;
 
+section.paddingFixBottom{
+  padding-bottom:0;
+}
 
+section.paddingFixTop{
+  padding-top:0;
+}
 // #main video {
 //   position:absolute;
 //   opacity:0;

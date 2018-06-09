@@ -79,12 +79,11 @@ nav{
     
 }
 
-.selected{
-    a{
+#brandedPage nav a.selected:link{
         color:$brandColor;
         opacity: 1;
     }
-}
+
 
 
 #brandedPage {

@@ -64,8 +64,16 @@ a{
 		color: darken($brandColor, 20%);
 	}
 	&.linkOnDark{
-	border-bottom: 1px solid $white;
-	text-decoration-skip: ink;
+		display:inline-block;
+		border-bottom: 1px solid $white;
+		// text-decoration: underline;
+		// text-decoration-skip: ink;
+		line-height: 1;
+		text-shadow:
+		1px 1px $grey900,
+		1px -1px $grey900,
+		-1px 1px $grey900,
+		-1px -1px $grey900;
 		&:hover{
 			border-color:$brandColor;
 			color:$brandColor;
@@ -76,6 +84,8 @@ a{
 .projectBrief a{
 	color: $grey500;
 	opacity: 1;
+	display:inline-block;
+	line-height:1;
 	font-family: $headlineFont;
 	border-bottom: 1px solid $grey500;
 	text-decoration-skip: ink;
