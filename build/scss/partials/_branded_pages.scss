@@ -26,6 +26,9 @@
 		h1{
 			color:$white;
 		}
+		span{
+			font-style:italic;
+		}
 		&.mixes{
 			@include media ($small){
 				padding-top:60%;
@@ -123,9 +126,6 @@
 }
 
 
-section.mixes:last-child{
-	background-color:red;
-}
 
 #brandedPage {
 	// section:last-child{
@@ -133,8 +133,6 @@ section.mixes:last-child{
 	// }
 
 	.flex{
-	// padding-top: $margin*.7;
-
 		@include media($small){
 		    align-items: center;
 			justify-content: center;
@@ -156,24 +154,11 @@ section.mixes:last-child{
 		}
 		.info{
 			h3{
-
 			}
-			// background-color:green;
-			// @include span-columns(4);
-			// @include shift(0);
-			// @include omega();
-			// padding-top:140px;
-			// @include media($medium){
-			// 	@include span-columns(6);
-			// 	padding-top:24px;
-			// }
 			@include media($small){
 				text-align:center;
 				padding-top:24px;
 			}			
-			// h3{
-			// 	padding-bottom: 24px;
-			// }
 		}
 	}	
 }

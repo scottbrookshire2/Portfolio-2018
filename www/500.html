@@ -2,15 +2,16 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <!-- Basics
         ================================================== -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Scott Brookshire – Portfolio</title>
-        <meta name="description" content="I am a visual + interactive designer based in San Francisco. This is my portfolio. Enjoy!">
+        <meta name="description" content="I'm a product & motion designer based in San Francisco. This is my portfolio. Enjoy!">
         <link rel="author" href="http://www.scottbrookshiredesign.com/humans.txt" />
+        <link rel="image_src" href="http://scottbrookshiredesign.com/img/home-hero.jpg" />
 
         <!-- Mobile Specific Metas
         ================================================== -->
@@ -20,6 +21,11 @@
         ================================================== -->
         <script src="//use.typekit.net/fmf1ejz.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
+
+        <!-- DELETE BEFORE PUSHING TO WEB!! -->
+        <!-- <link rel="stylesheet" href="https://use.typekit.net/ooh4tys.css"> -->
+
+
        <!-- <script src="//use.typekit.net/eae4twn.js"></script>
         <script>try{Typekit.load();}catch(e){}</script>
         -->
@@ -31,8 +37,30 @@
         ================================================== -->
         <script src="js/libs/modernizr-2.6.2.min.js"></script>
 
+        <!-- Lottie Animations
+        ================================================== --> <script src="js/lottie.js"></script>
+
+        <!-- Favicon
+        ================================================== -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ba4141">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Social share
+        ================================================== -->
+        <meta property="og:image:height" content="419">
+        <meta property="og:image:width" content="800">
+        <meta property="og:description" content="Product &amp; Motion Designer from San Francisco, here's some of my work. ">
+        <meta property="og:title" content="Scott Brookshire's Portfolio">
+        <meta property="og:url" content="http://scottbrookshiredesign.com/">
+        <meta property="og:image" content="http://scottbrookshiredesign.com/img/scott-brookshire-portfolio.jpg/og-image.jpg">
+
     </head>
-    <body>
+    <body id="brandedPage" class="aboutPage">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -41,248 +69,81 @@
         </div>
 
         <!--  <header > -->
-        <!--Logo -->
+
+        <!-- Logo
+        ================================================== -->
         <div class="logo pulseOver">
-            <a href="#main" class="scroll ">
-                <img src="img/icons/logo.svg" class="svg"/>
+            <a href="index.html" class="scroll ">
+                <img src="img/icons/logo.svg" class="svg" alt="Logo"/>
             </a>
         </div>
-        <!-- Menu Button -->
-        <div class="menu-btn pulseOver"> 
-            <img src="img/icons/overflow.svg" class="svg "/>    
-        </div> 
-        <!-- Pushy Menu -->
-        <nav class="pushy pushy-left">
-        <!-- <img src="img/icons/x.svg" class="svg xIcon"/> -->
-            <ul>
-             <!-- <h3 class="beta"> Scott Brookshire</h3>
-                <p>Crafting experiences and seeking to make the complex clear & beautiful.</p> -->
-                <li><a href="#projectMain" class="scroll">Portfolio</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="http://creativeclique.co/" target="_blank">Blog</a></li>
-                 <p class="contactMenu">You can contact me at <a href="mailto:scott.e.brookshire@gmail.com" title="Email">scott.e.brookshire@gmail.com</a></p>               
-            </ul>
-        </nav>
 
-        <!-- Site Overlay -->
+        <!-- Navigation 
+        ================================================== -->
+        <nav> 
+            <ul>
+                <li><a href="index.html" class="scroll">Work</a></li>
+                <li><a href="#brandedPage" class="scroll">About</a></li>
+                <li><a href="mixes.html">Mixes</a></li>
+                <li><a href="http://creativeclique.co/" target="_blank">Blog</a></li>    
+            </ul>
+        </nav> 
+
+        <div class="embelishments aboutEmbelishments">
+            <div class="name title"><h4>Scott Brookshire</h4></div>
+            <div class="headerEmbelishment"></div>
+            <div class="headerEmbelishment2"></div>
+            <div class="embelishment"></div>
+        </div>
+
+        <!-- Site Overlay
+        ================================================== -->
         <div class="site-overlay"></div>
 
-        <!-- Content
-        ================================================== -->
 
-        <section id="main" class="hero errorHero videoHero">
-         
-                <div class="tag">
-                    <h1 class="beta"> Oops, sorry</br>
-                   </h1>
-                  <!--   <p> Here are some of my projects</p> -->
-                </div>
-       
-            <a href="#projectMain" class="scroll " title="Check out my work">
-                <img src="img/icons/arrow.svg" class="svg arrow floating"/>
-            </a>
-        </section>
-        
-        <!-- About header
+        <!-- Hero
         ================================================== -->
-        <section class="projectBrief">
-            <div class="wrapper animateUp">
-                <div class="aboutDescription">
-                    <h4 class="title animateUp">I couldn't find the page you were looking for </h4>
-                    <p>Scroll down and check out some of my work, or accept this video of He-Man singing for 10 hours as my condolences. </p>
+         <!-- <section id="main" class="hero videoHero aboutHero" style="background-image:url("../img/about-hero.jpg"); background-size:cover;"> -->
+        <section id="main" class="hero videoHero aboutHero marginBottom">
+            <video id="bgvid" preload playsinline autoplay loop muted >
+                <source src="video/about-city.webm" type="video/webm">
+                <source src="video/about-city.mp4" type="video/mp4">
+            </video>
+            <div class="">
+                <div class="brandPageTag marginBottom">
+  
+                      <h1 class="title"> Oops, I couldn't find that page but fear not, you can check out my portfolio <a href="index.html" class="linkOnDark notMe">here</a></h1>
                 </div>
-                
             </div>
         </section>
 
 
-        <!-- About description
-        ================================================== -->
-        <section class="topVideo">
-            <div class="wrapper">
-                <div class="video1">
-                    <iframe width="100%" height="100%" src="//www.youtube.com/embed/eh7lp9umG2I" frameborder="0" allowfullscreen></iframe>
-                        
-                </div>
-            </div>
-        </section>
-        <!-- Top Projects
-        ================================================== -->
-
-        <!-- Stitch -->
-        <section id="projectMain">
-            <div class="topProject">
-                <a href="stitch.html" >
-                <figure class="projectHover">
-                    <figcaption class="wrapper">
-                        <div class="gridTitle">
-                            <h2 >Stitch</h2>
-                          <!--   <p>This is some infromation about Stitch. If you want, here is some more information about this project. </p> -->
-                            <h3>Mobile / UX / Motion</h3>
-
-                        </div>
-                    </figcaption>   
-                    </a>        
-                </figure>
-            </div>
-        
-        <!-- Enrich -->        
-            <div class="topProject">
-                <a href="enrich.html" >
-                <figure class="projectHover">
-                    <figcaption class="wrapper">
-                        <div class="gridTitle">
-                            <h2 >Enrich</h2>
-                          <!--   <p>This is some infromation about Stitch. If you want, here is some more information about this project. </p> -->
-                            <h3>Mobile / UX / Motion</h3>
-                        </div>
-                    </figcaption>   
-                    </a>        
-                </figure>
-            </div>
-        
-        <!-- Oaklanize -->        
-            <div class="topProject">
-                <a href="oaklanize.html" >
-                <figure class="projectHover">
-                    <figcaption class="wrapper">
-                        <div class="gridTitle">
-                            <h2 >Oaklanize</h2>
-                          <!--   <p>This is some infromation about Stitch. If you want, here is some more information about this project. </p> -->
-                            <h3>Web / Mobile / Motion</h3>
-                        </div>
-                    </figcaption>   
-                    </a>        
-                </figure>
-            </div>
-        </section>
-
-        <!-- Project Grid
-        ================================================== -->
-
-        <section class="projectGrid">
-            <!-- 50logos -->
-                <div class="gridItem">
-                    <a href="50-logos-50-days.html" title="50 Logos, 50 Days">
-                    <figure class="projectHover">
-                       
-                        <figcaption>
-                            <div class="gridTitle">
-                                <h2 >50 Logos, 50 Days</h2>
-                                <!-- <p>This is some infromation about Stitch.</p> -->
-                                <h3>Identity / Motion</h3>
-                            </div>
-                        </figcaption>   
-                        </a>        
-                    </figure>
-                </div>
-            <!-- Sage -->
-            <div class="gridItem">
-                    <a href="sage-portfolio.html" title="Enrich">
-                    <figure class="projectHover">
-                        <figcaption>
-                            <div class="gridTitle">
-                                <h2 >Sage</h2>
-                                <!-- <p>This is some infromation about Stitch.</p> -->
-                                <h3>Web / UX / Motion</h3>
-                            </div>
-                        </figcaption>   
-                        </a>        
-                    </figure>
-                </div>
-            <!-- Stellar -->
-            <div class="gridItem">
-                    <a href="stellar-portfolio.html" title="Stellar">
-                    <figure class="projectHover">
-                        <figcaption>
-                            <div class="gridTitle">
-                                <h2 >Stellar</h2>
-                                <!-- <p>This is some infromation about Stitch.</p> -->
-                                <h3>Web / Interaction / Music</h3>
-                            </div>
-                        </figcaption>   
-                        </a>        
-                    </figure>
-                </div>
-
-            <!-- Seasons -->
-            <div class="gridItem">
-                    <a href="seasons-portfolio.html" title="Enrich">
-                    <figure class="projectHover">
-                        <figcaption>
-                            <div class="gridTitle">
-                                <h2 >Seasons</h2>
-                                <!-- <p>This is some infromation about Stitch.</p> -->
-                                <h3>Web / Interaction / Music</h3>
-                            </div>
-                        </figcaption>   
-                        </a>        
-                    </figure>
-                </div>
-            
-            
-            <!-- Poster Project-->
-            <div class="gridItem">
-                    <a href="poster-project.html" title="Poster project">
-                    <figure class="projectHover">
-                        <figcaption>
-                            <div class="gridTitle">
-                                <h2 >Poster project</h2>
-                                <!-- <p>This is some infromation about Stitch.</p> -->
-                                <h3>Print / Silkscreen</h3>
-                            </div>
-                        </figcaption>   
-                        </a>        
-                    </figure>
-                </div>
-            <!-- Lacuna -->
-            <div class="gridItem">
-                    <a href="lacuna.html" title="Lacuna">
-                    <figure class="projectHover">
-                        <figcaption>
-                            <div class="gridTitle">
-                                <h2 >Lacuna</h2>
-                                <!-- <p>This is some infromation about Stitch.</p> -->
-                                <h3>Web / Motion / UX</h3>
-                            </div>
-                        </figcaption>   
-                        </a>        
-                    </figure>
-                </div>
-        </section>
-        
-        <!-- Home about me
-        ================================================== -->
-        <section id="homeAbout">
-            <div class="wrapper animateUp">
-                <h3 class="beta">I’m a concert going, nature seeking, design loving guy from the city </h3>
-                <p>I enjoy creating meaningful experiences through art and technology. Creating brands, building new products and crafting effortless experiences are just a few of the things I do. </p>
-            </div>
-        </section>
+    
+    
 
          <!-- Footer
         ================================================== -->
         <footer>
-            <div class="wrapper animateUp"> 
+            <div class="wrapper"> 
                 <div class="socialFoot">
-                    <h3>Interested in working together?
-                    </br>Contact me at <a href="mailto:scott.e.brookshire@gmail.com" title="Email">scott.e.brookshire@gmail.com</a></h3>
+                    <h5 class="delta">Interested in working together?
+                    </br>Contact me at <a href="mailto:scott.e.brookshire@gmail.com" title="Email" class="linkOnDark">scott.e.brookshire@gmail.com</a></h5>
                     <!-- Dribble -->
                     <div class="pulseOver socialIcons">
                         <a href="https://dribbble.com/scottbrookshire" title="Dribble" target="_blank">
                             <img src="img/icons/dribble.svg" class="svg" alt="Dribble" title="Check out my Dribble"/>
                         </a>
                     </div>
-                     <!-- Behance -->
-                    <div class="pulseOver socialIcons">
-                        <a href="https://www.behance.net/scottbrookshire" title="Behance" target="_blank">
-                            <img src="img/icons/behance.svg" class="svg " alt="Behance" title="Check out my Behance"/>
-                        </a>
-                    </div>
                     <!-- Vimeo -->
-                    <div class="pulseOver socialIcons">
+<!--                     <div class="pulseOver socialIcons">
                         <a href="https://vimeo.com/user25882394" title="Vimeo" target="_blank">
                             <img src="img/icons/vimeo.svg" class="svg" alt="Vimeo" title="Check out my Vimeo"/>
+                        </a>
+                    </div> -->
+                    <!-- Soundcloud -->
+                    <div class="pulseOver socialIcons">
+                        <a href="https://www.soudncloud.com/todo-mio" title="Soundcloud" target="_blank">
+                            <img src="img/icons/soundcloud.svg" class="svg " alt="Soundcloud" title="Check out my Soundcloud"/>
                         </a>
                     </div>
                      <!-- Linkedin -->
@@ -300,7 +161,7 @@
                 </div>
             
             <div class="cFoot">                    
-                    <h3>&copy; Scott Brookshire</h3>
+                    <h5 class="title delta">&copy; Scott Brookshire</h5>
                 </div>
             </div>
         </footer>
@@ -326,6 +187,21 @@
           ga('send', 'pageview');
         </script>
 
+        <!-- Logo Animation
+        ================================================== -->
+        <script>
+            var animData = {
+                wrapper: document.getElementById('logoAnimation'),
+                animType: 'svg',
+                loop: false,
+                prerender: true,
+                autoplay: true,
+                path: 'js/data.json'
+            };
+            var anim = bodymovin.loadAnimation(animData);
+                bodymovin.setSubframeRendering(false);
+        </script>
 
+        
     </body>
 </html>

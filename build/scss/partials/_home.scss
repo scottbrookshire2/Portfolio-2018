@@ -75,13 +75,13 @@
 				margin:0;
 			}
 		}
-		span{
-			font-weight: 100;
-			font-size: .5em;
-			@include media($small){
-				letter-spacing: .35em;
-			}
-		}
+		// span{
+		// 	font-weight: 100;
+		// 	font-size: .5em;
+		// 	@include media($small){
+		// 		letter-spacing: .35em;
+		// 	}
+		// }
 		// @extend .slideRight;
 	}
 	p{

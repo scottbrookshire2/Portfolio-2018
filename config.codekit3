@@ -2552,13 +2552,6 @@
 		"oAP": "\/www\/404.shtml",
 		"oF": 0
 		},
-	"\/www\/50-logos-50-days.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/50-logos-50-days.html",
-		"oF": 0
-		},
 	"\/www\/500.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2630,13 +2623,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/www\/enrich.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/enrich.html",
-		"oF": 0
-		},
 	"\/www\/eventbrite-app.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2687,105 +2673,6 @@
 		"oAP": "\/www\/illustrations.html",
 		"oF": 0
 		},
-	"\/www\/img\/50logos-chamucos.jpg": {
-		"ft": 16384,
-		"iS": 35740,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/50logos-chamucos.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/50logos-hero2.jpg": {
-		"ft": 16384,
-		"iS": 93366,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/50logos-hero2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/50logos-hero3.jpg": {
-		"ft": 16384,
-		"iS": 93371,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/50logos-hero3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/50logos-kll-bill.jpg": {
-		"ft": 16384,
-		"iS": 21016,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/50logos-kll-bill.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/50logos-major-tom.jpg": {
-		"ft": 16384,
-		"iS": 16631,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/50logos-major-tom.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/50logos-olympus.jpg": {
-		"ft": 16384,
-		"iS": 24698,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/50logos-olympus.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/50logos-thumb2.jpg": {
-		"ft": 16384,
-		"iS": 25537,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/50logos-thumb2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/50logos-winery.jpg": {
-		"ft": 16384,
-		"iS": 19015,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/50logos-winery.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/about-hero.jpg": {
-		"ft": 16384,
-		"iS": 211189,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/about-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/www\/img\/about-hero2.jpg": {
 		"ft": 16384,
 		"iS": 94617,
@@ -2817,245 +2704,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"\/www\/img\/enrich-1.jpg": {
-		"ft": 16384,
-		"iS": 39310,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-2.jpg": {
-		"ft": 16384,
-		"iS": 85893,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-3.jpg": {
-		"ft": 16384,
-		"iS": 38923,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-4.jpg": {
-		"ft": 16384,
-		"iS": 44548,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-5.jpg": {
-		"ft": 16384,
-		"iS": 75621,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-6.jpg": {
-		"ft": 16384,
-		"iS": 31508,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-7.jpg": {
-		"ft": 16384,
-		"iS": 40875,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-demo.gif": {
-		"ft": 4194304,
-		"iS": 1371829,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-demo.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/www\/img\/enrich-full-dashboard.jpg": {
-		"ft": 16384,
-		"iS": 142257,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-full-dashboard.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-full2.jpg": {
-		"ft": 16384,
-		"iS": 157626,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-full2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-hero.jpg": {
-		"ft": 16384,
-		"iS": 208190,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-hero2.jpg": {
-		"ft": 16384,
-		"iS": 154516,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-hero2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-hero3.jpg": {
-		"ft": 16384,
-		"iS": 179138,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-hero3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-process1.jpg": {
-		"ft": 16384,
-		"iS": 64275,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-process1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-process2.jpg": {
-		"ft": 16384,
-		"iS": 46240,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-process2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-process3.jpg": {
-		"ft": 16384,
-		"iS": 49156,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-process3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-process4.jpg": {
-		"ft": 16384,
-		"iS": 75138,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-process4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-process5.jpg": {
-		"ft": 16384,
-		"iS": 74830,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-process5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-process6.jpg": {
-		"ft": 16384,
-		"iS": 56146,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-process6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-process7.jpg": {
-		"ft": 16384,
-		"iS": 73562,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-process7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/enrich-process8.jpg": {
-		"ft": 16384,
-		"iS": 67306,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/enrich-process8.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/error-hero.jpg": {
-		"ft": 16384,
-		"iS": 194900,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/error-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/www\/img\/eventbrite-app-city-icons.png": {
@@ -3258,12 +2906,12 @@
 		},
 	"\/www\/img\/eventbrite-color-card-layout.png": {
 		"ft": 32768,
-		"iS": 531069,
+		"iS": 99372,
 		"oA": 0,
 		"oAP": "\/www\/img\/eventbrite-color-card-layout.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3519,12 +3167,12 @@
 		},
 	"\/www\/img\/illustrations-hero-mobile.png": {
 		"ft": 32768,
-		"iS": 9735,
+		"iS": 2682,
 		"oA": 0,
 		"oAP": "\/www\/img\/illustrations-hero-mobile.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3536,7 +3184,7 @@
 		"oAP": "\/www\/img\/illustrations-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/www\/img\/illustrations-kiosk.png": {
@@ -3684,7 +3332,7 @@
 		},
 	"\/www\/img\/illustrations-rally-mockup-1.png": {
 		"ft": 32768,
-		"iS": 204995,
+		"iS": 44903,
 		"oA": 0,
 		"oAP": "\/www\/img\/illustrations-rally-mockup-1.png",
 		"oF": 0,
@@ -3695,7 +3343,7 @@
 		},
 	"\/www\/img\/illustrations-rally-mockup-2.png": {
 		"ft": 32768,
-		"iS": 207927,
+		"iS": 46193,
 		"oA": 0,
 		"oAP": "\/www\/img\/illustrations-rally-mockup-2.png",
 		"oF": 0,
@@ -3706,7 +3354,7 @@
 		},
 	"\/www\/img\/illustrations-rally-mockup-3.png": {
 		"ft": 32768,
-		"iS": 172100,
+		"iS": 36544,
 		"oA": 0,
 		"oAP": "\/www\/img\/illustrations-rally-mockup-3.png",
 		"oF": 0,
@@ -3717,7 +3365,7 @@
 		},
 	"\/www\/img\/illustrations-rally-mockup-4.png": {
 		"ft": 32768,
-		"iS": 984312,
+		"iS": 287237,
 		"oA": 0,
 		"oAP": "\/www\/img\/illustrations-rally-mockup-4.png",
 		"oF": 0,
@@ -3761,7 +3409,7 @@
 		},
 	"\/www\/img\/illustrations-woman-dj.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 67103,
 		"oA": 0,
 		"oAP": "\/www\/img\/illustrations-woman-dj.png",
 		"oF": 0,
@@ -3772,93 +3420,9 @@
 		},
 	"\/www\/img\/illustrations-woman-sitting.png": {
 		"ft": 32768,
-		"iS": 62105,
+		"iS": 78726,
 		"oA": 0,
 		"oAP": "\/www\/img\/illustrations-woman-sitting.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/lacuna-hero": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/img\/lacuna-hero",
-		"oF": 0
-		},
-	"\/www\/img\/lacuna-hero.jpg": {
-		"ft": 16384,
-		"iS": 187106,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/lacuna-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/lacuna-mockup.jpg": {
-		"ft": 16384,
-		"iS": 213600,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/lacuna-mockup.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/lacuna-thumb.jpg": {
-		"ft": 16384,
-		"iS": 54725,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/lacuna-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/lacuna-ui.jpg": {
-		"ft": 16384,
-		"iS": 68035,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/lacuna-ui.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/lacuna-ui2.jpg": {
-		"ft": 16384,
-		"iS": 74336,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/lacuna-ui2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/listings-home.jpg": {
-		"ft": 16384,
-		"iS": 830037,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/listings-home.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/www\/img\/listings-home.png": {
-		"ft": 32768,
-		"iS": 1444523,
-		"oA": 0,
-		"oAP": "\/www\/img\/listings-home.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3867,29 +3431,29 @@
 		},
 	"\/www\/img\/mixes-chill-1.png": {
 		"ft": 32768,
-		"iS": 602861,
+		"iS": 142819,
 		"oA": 0,
 		"oAP": "\/www\/img\/mixes-chill-1.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/www\/img\/mixes-chill-2.png": {
 		"ft": 32768,
-		"iS": 602861,
+		"iS": 416313,
 		"oA": 0,
 		"oAP": "\/www\/img\/mixes-chill-2.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/www\/img\/mixes-summer-daze.png": {
 		"ft": 32768,
-		"iS": 1708229,
+		"iS": 509518,
 		"oA": 0,
 		"oAP": "\/www\/img\/mixes-summer-daze.png",
 		"oF": 0,
@@ -3900,7 +3464,7 @@
 		},
 	"\/www\/img\/mixes-summer-nites.png": {
 		"ft": 32768,
-		"iS": 1316729,
+		"iS": 378854,
 		"oA": 0,
 		"oAP": "\/www\/img\/mixes-summer-nites.png",
 		"oF": 0,
@@ -3911,7 +3475,7 @@
 		},
 	"\/www\/img\/mixes-throwback.png": {
 		"ft": 32768,
-		"iS": 1252409,
+		"iS": 1240266,
 		"oA": 0,
 		"oAP": "\/www\/img\/mixes-throwback.png",
 		"oF": 0,
@@ -3922,7 +3486,7 @@
 		},
 	"\/www\/img\/mixes-upside-down.png": {
 		"ft": 32768,
-		"iS": 1089577,
+		"iS": 234927,
 		"oA": 0,
 		"oAP": "\/www\/img\/mixes-upside-down.png",
 		"oF": 0,
@@ -3966,7 +3530,7 @@
 		},
 	"\/www\/img\/motion-styleguide-token-code.png": {
 		"ft": 32768,
-		"iS": 528918,
+		"iS": 136513,
 		"oA": 0,
 		"oAP": "\/www\/img\/motion-styleguide-token-code.png",
 		"oF": 0,
@@ -3975,276 +3539,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/oaklanize-app1.png": {
-		"ft": 32768,
-		"iS": 40910,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-app1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-app2.png": {
-		"ft": 32768,
-		"iS": 38321,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-app2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-app3.png": {
-		"ft": 32768,
-		"iS": 39970,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-app3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-app4.png": {
-		"ft": 32768,
-		"iS": 55247,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-app4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-app5.png": {
-		"ft": 32768,
-		"iS": 58587,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-app5.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-app6.png": {
-		"ft": 32768,
-		"iS": 57293,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-app6.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-app_grid.jpg": {
-		"ft": 16384,
-		"iS": 203517,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-app_grid.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-hero.jpg": {
-		"ft": 16384,
-		"iS": 162110,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-hero1.jpg": {
-		"ft": 16384,
-		"iS": 193122,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-hero1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-hero2.jpg": {
-		"ft": 16384,
-		"iS": 181278,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-hero2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-macbook.jpg": {
-		"ft": 16384,
-		"iS": 102064,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-macbook.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process.jpg": {
-		"ft": 16384,
-		"iS": 42546,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process10.jpg": {
-		"ft": 16384,
-		"iS": 41899,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process10.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process11.jpg": {
-		"ft": 16384,
-		"iS": 33561,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process11.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process2.jpg": {
-		"ft": 16384,
-		"iS": 43130,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process3.jpg": {
-		"ft": 16384,
-		"iS": 49666,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process4.jpg": {
-		"ft": 16384,
-		"iS": 50765,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process5.jpg": {
-		"ft": 16384,
-		"iS": 50969,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process6.jpg": {
-		"ft": 16384,
-		"iS": 40142,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process7.jpg": {
-		"ft": 16384,
-		"iS": 47365,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process8.jpg": {
-		"ft": 16384,
-		"iS": 41079,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process8.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-process9.jpg": {
-		"ft": 16384,
-		"iS": 46770,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-process9.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/oaklanize-web1.jpg": {
-		"ft": 16384,
-		"iS": 808513,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/oaklanize-web1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/www\/img\/og-image.jpg": {
 		"ft": 16384,
 		"iS": 17021,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/www\/img\/og-image.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/pic-vegetables.jpg": {
-		"ft": 16384,
-		"iS": 343082,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/pic-vegetables.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4415,22 +3715,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/preloader.GIF": {
-		"ft": 4194304,
-		"iS": 34030,
-		"oA": 0,
-		"oAP": "\/www\/img\/preloader.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/www\/img\/preloader2.GIF": {
-		"ft": 4194304,
-		"iS": 19592,
-		"oA": 0,
-		"oAP": "\/www\/img\/preloader2.gif",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/www\/img\/preloader3.gif": {
 		"ft": 4194304,
 		"iS": 22918,
@@ -4439,178 +3723,12 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/www\/img\/project-page.jpg": {
-		"ft": 16384,
-		"iS": 134065,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/project-page.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/project2.jpg": {
-		"ft": 16384,
-		"iS": 109757,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/project2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/record-player.png": {
-		"ft": 32768,
-		"iS": 936462,
-		"oA": 0,
-		"oAP": "\/www\/img\/record-player.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/sage-hero.jpg": {
-		"ft": 16384,
-		"iS": 114463,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/sage-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/sage-mockup.jpg": {
-		"ft": 16384,
-		"iS": 202123,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/sage-mockup.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/sage-thumb.jpg": {
-		"ft": 16384,
-		"iS": 49532,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/sage-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/sage-web1.jpg": {
-		"ft": 16384,
-		"iS": 715489,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/sage-web1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/sage-web2.jpg": {
-		"ft": 16384,
-		"iS": 148387,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/sage-web2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/www\/img\/scott-brookshire-wreaking_ball.jpg": {
 		"ft": 16384,
 		"iS": 131017,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/www\/img\/scott-brookshire-wreaking_ball.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/seasons-demo.gif": {
-		"ft": 4194304,
-		"iS": 9003652,
-		"oA": 0,
-		"oAP": "\/www\/img\/seasons-demo.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/www\/img\/seasons-thumb.jpg": {
-		"ft": 16384,
-		"iS": 70557,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/seasons-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/seasons-thumb2.jpg": {
-		"ft": 16384,
-		"iS": 27065,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/seasons-thumb2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/stellar-demo.gif": {
-		"ft": 4194304,
-		"iS": 6266525,
-		"oA": 0,
-		"oAP": "\/www\/img\/stellar-demo.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/www\/img\/stellar-hero.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/img\/stellar-hero.html",
-		"oF": 0
-		},
-	"\/www\/img\/stellar-hero.jpg": {
-		"ft": 16384,
-		"iS": 166088,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/stellar-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/stellar-mockup.jpg": {
-		"ft": 16384,
-		"iS": 109916,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/stellar-mockup.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/stellar-thumb.jpg": {
-		"ft": 16384,
-		"iS": 33170,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/stellar-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4945,7 +4063,7 @@
 		},
 	"\/www\/img\/unlabel-facebook.png": {
 		"ft": 32768,
-		"iS": 611288,
+		"iS": 183112,
 		"oA": 0,
 		"oAP": "\/www\/img\/unlabel-facebook.png",
 		"oF": 0,
@@ -4956,7 +4074,7 @@
 		},
 	"\/www\/img\/unlabel-favorites.png": {
 		"ft": 32768,
-		"iS": 295149,
+		"iS": 78074,
 		"oA": 0,
 		"oAP": "\/www\/img\/unlabel-favorites.png",
 		"oF": 0,
@@ -4967,7 +4085,7 @@
 		},
 	"\/www\/img\/unlabel-feed.png": {
 		"ft": 32768,
-		"iS": 387430,
+		"iS": 115557,
 		"oA": 0,
 		"oAP": "\/www\/img\/unlabel-feed.png",
 		"oF": 0,
@@ -4978,7 +4096,7 @@
 		},
 	"\/www\/img\/unlabel-filters.png": {
 		"ft": 32768,
-		"iS": 168123,
+		"iS": 48980,
 		"oA": 0,
 		"oAP": "\/www\/img\/unlabel-filters.png",
 		"oF": 0,
@@ -4989,7 +4107,7 @@
 		},
 	"\/www\/img\/unlabel-following-empty.png": {
 		"ft": 32768,
-		"iS": 77861,
+		"iS": 20336,
 		"oA": 0,
 		"oAP": "\/www\/img\/unlabel-following-empty.png",
 		"oF": 0,
@@ -5086,28 +4204,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/visualizer-hero.jpg": {
-		"ft": 16384,
-		"iS": 160335,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/visualizer-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/visualizer-mockup.jpg": {
-		"ft": 16384,
-		"iS": 114912,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/visualizer-mockup.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/www\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -5138,17 +4234,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/www\/js\/images\/img_0.png": {
-		"ft": 32768,
-		"iS": 16897,
-		"oA": 0,
-		"oAP": "\/www\/js\/images\/img_0.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/www\/js\/kiosk-animation.json": {
 		"ft": 524288,
@@ -5252,20 +4337,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www\/lacuna.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/lacuna.html",
-		"oF": 0
-		},
-	"\/www\/map.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/map.html",
-		"oF": 0
-		},
 	"\/www\/mixes.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -5291,13 +4362,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/oaklanize.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/oaklanize.html",
-		"oF": 0
-		},
 	"\/www\/poster-project.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -5312,13 +4376,6 @@
 		"oAP": "\/www\/resume-scott_brookshire.pdf",
 		"oF": 0
 		},
-	"\/www\/rythm-portfolio.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/rythm-portfolio.html",
-		"oF": 0
-		},
 	"\/www\/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -5329,25 +4386,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/sage-portfolio.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/sage-portfolio.html",
-		"oF": 0
-		},
 	"\/www\/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/www\/site.webmanifest",
-		"oF": 0
-		},
-	"\/www\/stellar-portfolio.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/stellar-portfolio.html",
 		"oF": 0
 		},
 	"\/www\/stitch.html": {

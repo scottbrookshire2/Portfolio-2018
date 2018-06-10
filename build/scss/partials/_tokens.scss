@@ -1,11 +1,11 @@
 /* Tokens
 --------------------------------------------------------------------------------- */
 // -- TIMING -- //
-$animation-delay-increment: 40ms;
-$instantly: 0ms;  
+$animation-delay-increment: 80ms;
 
-$immediately: $animation-delay-increment;
-$quickly: $animation-delay-increment * 4; // 160ms
+$instantly: 0ms;  
+$immediately: 80ms;
+$quickly: 160ms; // 
 $promptly: 240ms;
 $slowly: 340ms;
 

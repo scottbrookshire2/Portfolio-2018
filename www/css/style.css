@@ -582,6 +582,9 @@ section.paddingFixTop {
 .paddingBottom {
   padding-bottom: 6%; }
 
+.marginBottom {
+  margin-bottom: 6%; }
+
 #main video {
   position: absolute;
   border-radius: 0px 4px 4px 0px;
@@ -851,13 +854,6 @@ html, body {
   @media screen and (max-width: 640px) {
     .hero h1::after {
       margin: 0; } }
-
-.hero h1 span {
-  font-weight: 100;
-  font-size: .5em; }
-  @media screen and (max-width: 640px) {
-    .hero h1 span {
-      letter-spacing: .35em; } }
 
 .hero p {
   color: #828385;
@@ -2226,6 +2222,8 @@ footer {
         margin-right: 0; } }
   .brandPageTag h1 {
     color: #fff; }
+  .brandPageTag span {
+    font-style: italic; }
   @media screen and (max-width: 640px) {
     .brandPageTag.mixes {
       padding-top: 60%; } }
@@ -2345,9 +2343,6 @@ footer {
   @media screen and (max-width: 640px) {
     #map {
       height: 15em; } }
-
-section.mixes:last-child {
-  background-color: red; }
 
 @media screen and (max-width: 640px) {
   #brandedPage .flex {

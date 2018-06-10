@@ -2,15 +2,16 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <!-- Basics
         ================================================== -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Scott Brookshire – Portfolio</title>
-        <meta name="description" content="I am a visual + interactive designer based in San Francisco. This is my portfolio. Enjoy!">
+        <meta name="description" content="I'm a product & motion designer based in San Francisco. This is my portfolio. Enjoy!">
         <link rel="author" href="http://www.scottbrookshiredesign.com/humans.txt" />
+        <link rel="image_src" href="http://scottbrookshiredesign.com/img/home-hero.jpg" />
 
         <!-- Mobile Specific Metas
         ================================================== -->
@@ -22,8 +23,12 @@
         <script>try{Typekit.load();}catch(e){}</script>
 
         <!-- DELETE BEFORE PUSHING TO WEB!! -->
-        <link rel="stylesheet" href="https://use.typekit.net/ooh4tys.css">
+        <!-- <link rel="stylesheet" href="https://use.typekit.net/ooh4tys.css"> -->
 
+
+       <!-- <script src="//use.typekit.net/eae4twn.js"></script>
+        <script>try{Typekit.load();}catch(e){}</script>
+        -->
         <!-- CSS/ SASS
         ================================================== -->
         <link rel="stylesheet" href="css/style.css">
@@ -42,47 +47,14 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
 
-
-<!--         <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-                <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAi-qPfu3IK4nwODs8t2HLfa-E4dOn6btI"></script> -->
-        <!-- <script type="text/javascript">
-            // When the window has finished loading create our google map below
-            google.maps.event.addDomListener(window, 'load', init);
-        
-            function init() {
-                // Basic options for a simple Google Map
-                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                var mapOptions = {
-                    // How zoomed in you want the map to start at (always required)
-                    zoom: 11,
-                    disableDefaultUI: true,
-
-                    // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(37.773972, -122.431297), // New York
-
-                    // How you would like to style the map. 
-                    // This is where you would paste any style found on Snazzy Maps.
-                    styles: [{"featureType":"all","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"administrative.province","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"administrative.neighborhood","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"on"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"visibility":"off"},{"hue":"#ff0000"}]},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape.man_made","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#944242"}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ffffff"}]},{"featureType":"landscape.natural","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#ffffff"}]},{"featureType":"landscape.natural.landcover","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"landscape.natural.terrain","elementType":"geometry","stylers":[{"visibility":"off"},{"saturation":"-1"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"poi.attraction","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#292929"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"visibility":"off"},{"color":"#494949"},{"saturation":"-85"}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#888888"},{"visibility":"on"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"road.local","elementType":"geometry.fill","stylers":[{"color":"#7f7f7f"}]},{"featureType":"transit","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.station","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.airport","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.bus","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"transit.station.rail","elementType":"geometry","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#dddddd"}]},{"featureType":"water","elementType":"geometry.fill","stylers":[{"color":"#eeeeee"}]},{"featureType":"water","elementType":"geometry.stroke","stylers":[{"visibility":"off"}]}]
-                };
-
-
-                // Get the HTML DOM element that will contain your map 
-                // We are using a div with id="map" seen below in the <body>
-                var mapElement = document.getElementById('map');
-
-                // Create the Google Map using our element and options defined above
-                var map = new google.maps.Map(mapElement, mapOptions);
-
-                // Let's also add a marker while we're at it
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
-                    map: map,
-                    title: 'Snazzy!'
-                });
-            }
-        </script> -->
-
-
+        <!-- Social share
+        ================================================== -->
+        <meta property="og:image:height" content="419">
+        <meta property="og:image:width" content="800">
+        <meta property="og:description" content="Product &amp; Motion Designer from San Francisco, here's some of my work. ">
+        <meta property="og:title" content="Scott Brookshire's Portfolio">
+        <meta property="og:url" content="http://scottbrookshiredesign.com/">
+        <meta property="og:image" content="http://scottbrookshiredesign.com/img/scott-brookshire-portfolio.jpg/og-image.jpg">
 
     </head>
     <body id="brandedPage" class="aboutPage">
@@ -99,7 +71,7 @@
         ================================================== -->
         <div class="logo pulseOver">
             <a href="index.html" class="scroll ">
-                <img src="img/icons/logo.svg" class="svg"/>
+                <img src="img/icons/logo.svg" class="svg" alt="Logo"/>
             </a>
         </div>
 
@@ -108,7 +80,7 @@
         <nav> 
             <ul>
                 <li><a href="index.html" class="scroll">Work</a></li>
-                <li><a href="#brandedPage" class="scroll selected">About</a></li>
+                <li><a href="#brandedPage" class="scroll">About</a></li>
                 <li><a href="mixes.html">Mixes</a></li>
                 <li><a href="http://creativeclique.co/" target="_blank">Blog</a></li>    
             </ul>
@@ -136,7 +108,11 @@
             </video>
             <div class="">
                 <div class="brandPageTag">
-                    <h1 class="title"> Hello, I'm Scott — I design things at <a href="https://www.eventbrite.com/d/ny--new-york/events/" class="linkOnDark notMe" target="_blank">Eventbrite</a> &#38; occasionally play music with my friends</h1>
+                    <h1 class="title"> Hello, I'm Scott — I'm a product designer in San Francisco &#38; an <span> okay</span> musician with my friends</h1>
+
+
+
+                    <!--   <h1 class="title"> Hello, I'm Scott — I design things at <a href="https://www.eventbrite.com/d/ny--new-york/events/" class="linkOnDark notMe" target="_blank">Eventbrite</a> &#38; play music with my friends</h1> -->
                 </div>
             </div>
         </section>
@@ -145,7 +121,7 @@
         ================================================== -->
         <section class="blurb">
             <div class="wrapper">
-                <h3 class="gamma"> I'm currently working to make Eventbrite’s marketplace a destination for finding fun things to do.</h3>
+                <h3 class="gamma"> I'm currently working to make <a href="https://www.eventbrite.com/d/ny--new-york/events/" class="linkOnDark notMe" target="_blank">Eventbrite's</a> marketplace a destination for finding fun things to do.</h3>
             </div>
         </section>
         
@@ -160,7 +136,7 @@
                 <div class="column2">
                     <p>I have 5+ years of experience designing end-to-end systems for native apps and desktop + mobile web. I love creating rich experiences that are both intuitive and delightful. I have a passion for creating prototypes, animations and motion graphics throughout the design process. I have experience working with both enterprise level as well as consumer-facing products.</p><
                     </br>
-                    <p>I went to school at UCLA for Psychology before transferring to the Academy of Art University for Web Design and New Media. On my free time I play guitar (poorly), mess around in Abelton (not great), and look for ways to eat breakfast all day (suggestions?).</p>
+                    <p>I went to school at UCLA for Psychology before transferring to the Academy of Art University for Web Design and New Media. In my free time I play guitar (poorly), mess around in Abelton (not great), and look for ways to eat breakfast all day (suggestions?).</p>
                     </br>
                     <p>Interested in working together? Shoot me an email at <a href="mailto:scott.e.brookshire@gmail.com" class="linkOnDark" target="_blank">scott.e.brookshire@gmail.com</a></p>
                 </div>
