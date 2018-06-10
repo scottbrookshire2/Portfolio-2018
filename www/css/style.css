@@ -217,13 +217,13 @@ p {
   .button a:active, .button a:visited {
     fill: #6e2727; }
 
-#brandedPage .mediaDescriber a {
+#brandedPage .flex a {
   color: #fff;
   border-color: #fff; }
-  #brandedPage .mediaDescriber a:hover {
+  #brandedPage .flex a:hover {
     color: #19191C;
     border-color: #BA4141; }
-  #brandedPage .mediaDescriber a:active, #brandedPage .mediaDescriber a:visited {
+  #brandedPage .flex a:active, #brandedPage .flex a:visited {
     fill: #6e2727; }
 
 a {
@@ -243,6 +243,8 @@ a {
     a.linkOnDark:hover {
       border-color: #BA4141;
       color: #BA4141; }
+  a.linkOnDark.notMe {
+    text-shadow: none; }
 
 .projectBrief a {
   color: #505256;
@@ -577,6 +579,9 @@ section.paddingFixBottom {
 section.paddingFixTop {
   padding-top: 0; }
 
+.paddingBottom {
+  padding-bottom: 6%; }
+
 #main video {
   position: absolute;
   border-radius: 0px 4px 4px 0px;
@@ -882,6 +887,9 @@ html, body {
     background-image: url("../img/unlabel-home.jpg"); }
   .topProject:nth-child(4) {
     background-image: url("../img/illustration-hero.png"); }
+    @media screen and (max-width: 640px) {
+      .topProject:nth-child(4) {
+        background-image: url("../img/illustrations-hero-mobile.png"); } }
     .topProject:nth-child(4) h2, .topProject:nth-child(4) h3 {
       color: #fff; }
     .topProject:nth-child(4) p {
@@ -2338,85 +2346,18 @@ footer {
     #map {
       height: 15em; } }
 
-#brandedPage .mediaDescriber {
-  padding-top: 4.2%; }
-  @media screen and (max-width: 640px) {
-    #brandedPage .mediaDescriber {
-      padding-top: 32px;
-      padding-bottom: 40px; } }
-  #brandedPage .mediaDescriber .mediaContent {
-    padding: 10px;
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 48.821174201%;
-    margin-left: 8.5298042998%; }
-    #brandedPage .mediaDescriber .mediaContent:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 899px) {
-      #brandedPage .mediaDescriber .mediaContent {
-        margin-left: 0%; } }
-    @media screen and (max-width: 640px) {
-      #brandedPage .mediaDescriber .mediaContent {
-        padding: 8px 0 16px 4px;
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%;
-        margin-left: 0%; }
-        #brandedPage .mediaDescriber .mediaContent:last-child {
-          margin-right: 0; } }
-  #brandedPage .mediaDescriber .info {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 31.7615656014%;
-    margin-left: 0%;
-    margin-right: 0;
-    padding-top: 140px; }
-    #brandedPage .mediaDescriber .info:last-child {
-      margin-right: 0; }
-    @media screen and (max-width: 899px) {
-      #brandedPage .mediaDescriber .info {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 48.821174201%;
-        padding-top: 24px; }
-        #brandedPage .mediaDescriber .info:last-child {
-          margin-right: 0; } }
-    @media screen and (max-width: 640px) {
-      #brandedPage .mediaDescriber .info {
-        float: left;
-        display: block;
-        margin-right: 2.3576515979%;
-        width: 100%;
-        padding-top: 24px; }
-        #brandedPage .mediaDescriber .info:last-child {
-          margin-right: 0; } }
-    #brandedPage .mediaDescriber .info h3 {
-      padding-bottom: 24px; }
-  #brandedPage .mediaDescriber.textRight .mediaContent {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 40.2913699012%;
-    margin-left: 8.5298042998%; }
-    #brandedPage .mediaDescriber.textRight .mediaContent:last-child {
-      margin-right: 0; }
-  #brandedPage .mediaDescriber.textRight .info {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 31.7615656014%;
-    margin-left: 8.5298042998%;
-    margin-right: 0;
-    padding-top: 260px;
-    vertical-align: middle; }
-    #brandedPage .mediaDescriber.textRight .info:last-child {
-      margin-right: 0; }
-    #brandedPage .mediaDescriber.textRight .info h3 {
-      padding-bottom: 24px; }
+section.mixes:last-child {
+  background-color: red; }
+
+@media screen and (max-width: 640px) {
+  #brandedPage .flex {
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (max-width: 640px) {
+  #brandedPage .flex .info {
+    text-align: center;
+    padding-top: 24px; } }
 
 /* Tokens
 --------------------------------------------------------------------------------- */

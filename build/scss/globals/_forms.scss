@@ -30,7 +30,7 @@
 }
 
 #brandedPage{
-	.mediaDescriber{
+	.flex{
 		a{
 			color:$white;
 			border-color:$white;
@@ -78,6 +78,9 @@ a{
 			border-color:$brandColor;
 			color:$brandColor;
 		}
+	}
+	&.linkOnDark.notMe{
+		text-shadow:none;
 	}
 }
 

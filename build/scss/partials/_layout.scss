@@ -33,6 +33,10 @@ section.paddingFixBottom{
 section.paddingFixTop{
   padding-top:0;
 }
+
+.paddingBottom{
+  padding-bottom:$margin;
+}
 // #main video {
 //   position:absolute;
 //   opacity:0;

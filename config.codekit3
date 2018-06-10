@@ -3539,6 +3539,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/www\/img\/illustrations-hero-mobile.png": {
+		"ft": 32768,
+		"iS": 9735,
+		"oA": 0,
+		"oAP": "\/www\/img\/illustrations-hero-mobile.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/www\/img\/illustrations-hero.jpg": {
 		"ft": 16384,
 		"iS": 82629,
@@ -3903,6 +3914,72 @@
 		"iS": 1235538,
 		"oA": 0,
 		"oAP": "\/www\/img\/mix2-artwork.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/www\/img\/mixes-chill-1.png": {
+		"ft": 32768,
+		"iS": 602861,
+		"oA": 0,
+		"oAP": "\/www\/img\/mixes-chill-1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/www\/img\/mixes-chill-2.png": {
+		"ft": 32768,
+		"iS": 602861,
+		"oA": 0,
+		"oAP": "\/www\/img\/mixes-chill-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/www\/img\/mixes-summer-daze.png": {
+		"ft": 32768,
+		"iS": 1708229,
+		"oA": 0,
+		"oAP": "\/www\/img\/mixes-summer-daze.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/www\/img\/mixes-summer-nites.png": {
+		"ft": 32768,
+		"iS": 1316729,
+		"oA": 0,
+		"oAP": "\/www\/img\/mixes-summer-nites.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/www\/img\/mixes-throwback.png": {
+		"ft": 32768,
+		"iS": 1252409,
+		"oA": 0,
+		"oAP": "\/www\/img\/mixes-throwback.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/www\/img\/mixes-upside-down.png": {
+		"ft": 32768,
+		"iS": 1089577,
+		"oA": 0,
+		"oAP": "\/www\/img\/mixes-upside-down.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4415,7 +4492,7 @@
 		"oA": 0,
 		"oAP": "\/www\/img\/preloader3.gif",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/www\/img\/project-page.jpg": {
 		"ft": 16384,
