@@ -3190,17 +3190,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-onboarding-1@2x.png": {
-		"ft": 32768,
-		"iS": 307114,
-		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-onboarding-1@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/www\/img\/eventbrite-app-onboarding-2.png": {
 		"ft": 32768,
 		"iS": 178133,
@@ -3220,17 +3209,6 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/eventbrite-app-onboarding-3@2x.png": {
-		"ft": 32768,
-		"iS": 132791,
-		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-onboarding-3@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -3881,39 +3859,6 @@
 		"iS": 1444523,
 		"oA": 0,
 		"oAP": "\/www\/img\/listings-home.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/mix1-artwork.jpg": {
-		"ft": 16384,
-		"iS": 241645,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/mix1-artwork.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/mix1-artwork.png": {
-		"ft": 32768,
-		"iS": 1098108,
-		"oA": 0,
-		"oAP": "\/www\/img\/mix1-artwork.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/www\/img\/mix2-artwork.png": {
-		"ft": 32768,
-		"iS": 1235538,
-		"oA": 0,
-		"oAP": "\/www\/img\/mix2-artwork.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4582,6 +4527,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/www\/img\/scott-brookshire-wreaking_ball.jpg": {
+		"ft": 16384,
+		"iS": 131017,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/www\/img\/scott-brookshire-wreaking_ball.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/www\/img\/seasons-demo.gif": {
 		"ft": 4194304,
 		"iS": 9003652,
@@ -5086,17 +5042,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-home.png": {
-		"ft": 32768,
-		"iS": 1193159,
-		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-home.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/www\/img\/unlabel-listings.png": {
 		"ft": 32768,
 		"iS": 609831,
@@ -5158,17 +5103,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/www\/img\/visualizer-mockup.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/www\/img\/wreaking_ball.jpg": {
-		"ft": 16384,
-		"iS": 131017,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/www\/img\/wreaking_ball.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
