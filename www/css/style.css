@@ -127,7 +127,7 @@ p, ul, ol {
 h1, h2 {
   color: #19191C;
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
-  letter-spacing: .5px; }
+  letter-spacing: .2px; }
 
 h1 {
   font-weight: 300; }
@@ -159,13 +159,13 @@ h3, h4, h5, h6 {
   color: #505256;
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
   font-weight: 400;
-  letter-spacing: .5px; }
+  letter-spacing: .2px; }
 
 li {
   color: #828385;
   font-family: "din-2014", "ff-din-web", "Verdana", sans-serif;
   font-weight: regular;
-  letter-spacing: 0.5px; }
+  letter-spacing: 0.2px; }
   @media screen and (max-width: 640px) {
     li {
       font-size: .9em; } }
@@ -173,7 +173,7 @@ li {
 p {
   font-family: "din-2014", "ff-din-web", "Helvetica", sans-serif;
   line-height: 1.8;
-  letter-spacing: .5px;
+  letter-spacing: .2px;
   color: #828385;
   font-weight: 400; }
   @media screen and (max-width: 640px) {
@@ -1435,7 +1435,7 @@ figure figcaption > a {
     .fullImg {
       height: 20em; } }
   .fullImg.eventbriteAppGrid {
-    background-image: url("../img/eventbrite-app-masonry-layout-scott-brookshire.jpg"); }
+    background-image: url("../img/eventbrite-app-masonry-layout-scott-brookshire.png"); }
   .fullImg.eventbriteAppColor {
     background-image: url("../img/eventbrite-app-color-study.jpg");
     height: 100%; }

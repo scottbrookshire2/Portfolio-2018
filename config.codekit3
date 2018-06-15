@@ -2811,8 +2811,8 @@
 		"oA": 0,
 		"oAP": "\/www\/img\/eventbrite-app-listing.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2825,6 +2825,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/www\/img\/eventbrite-app-masonry-layout-scott-brookshire.png": {
+		"ft": 32768,
+		"iS": 270250,
+		"oA": 0,
+		"oAP": "\/www\/img\/eventbrite-app-masonry-layout-scott-brookshire.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/www\/img\/eventbrite-app-onboarding-1.png": {
@@ -4367,13 +4378,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/www\/poster-project.html",
-		"oF": 0
-		},
-	"\/www\/resume-scott_brookshire.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/www\/resume-scott_brookshire.pdf",
 		"oF": 0
 		},
 	"\/www\/safari-pinned-tab.svg": {
