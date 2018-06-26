@@ -3734,6 +3734,17 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/www\/img\/scott-brookshire-photo.jpg": {
+		"ft": 16384,
+		"iS": 260520,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/www\/img\/scott-brookshire-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/www\/img\/scott-brookshire-wreaking_ball.jpg": {
 		"ft": 16384,
 		"iS": 131017,
@@ -4378,6 +4389,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/www\/poster-project.html",
+		"oF": 0
+		},
+	"\/www\/resume-scott_brookshire.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/www\/resume-scott_brookshire.pdf",
 		"oF": 0
 		},
 	"\/www\/safari-pinned-tab.svg": {

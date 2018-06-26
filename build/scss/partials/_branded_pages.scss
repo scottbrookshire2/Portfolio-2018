@@ -79,7 +79,7 @@
 	}
 	.column1{
 		@include span-columns(4.5);
-		padding:2em 2em 0 2em;
+		padding:3em 3em 0 4em;
 		@include media($medium){
 			@include span-columns(4);
 			// padding:0% 30% 5% 30%;
