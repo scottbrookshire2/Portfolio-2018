@@ -820,7 +820,7 @@ nav {
   top: 90%; }
 
 html, body {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   /* disable webkit tap highlight */ }
 
 /* Container */
@@ -1019,20 +1019,20 @@ figure figcaption > a {
 .hero {
   display: relative; }
   .hero.eventbriteAppHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/eventbrite-app-home.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/eventbrite-app-home.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/eventbrite-app-home.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/eventbrite-app-home.jpg"); }
   .hero.motionStyleGuideHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/motion-styleguide-hero.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/motion-styleguide-hero.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/motion-styleguide-hero.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/motion-styleguide-hero.jpg"); }
   .hero.unlabelHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/unlabel-hero.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/unlabel-hero.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/unlabel-hero.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/unlabel-hero.jpg"); }
   .hero.illustrationsHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/illustrations-hero.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/illustrations-hero.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/illustrations-hero.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/illustrations-hero.jpg"); }
   .hero.stitchHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/stitch-hero5.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/stitch-hero5.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/stitch-hero5.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/stitch-hero5.jpg"); }
     .hero.stitchHero h1 {
       color: #fff; }
   .hero.enrichHero {
@@ -1053,17 +1053,17 @@ figure figcaption > a {
     .hero.posterHero h1 {
       color: #fff; }
   .hero.lacunaHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/lacuna-hero.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/lacuna-hero.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/lacuna-hero.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/lacuna-hero.jpg"); }
   .hero.visualizerHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/visualizer-hero.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/visualizer-hero.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/visualizer-hero.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/visualizer-hero.jpg"); }
   .hero.stellarHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/stellar-hero.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/stellar-hero.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/stellar-hero.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/stellar-hero.jpg"); }
   .hero.errorHero {
-    background-image: -webkit-linear-gradient(bottom, transparent, transparent), url("../img/error-hero.jpg");
-    background-image: linear-gradient(to top, transparent, transparent), url("../img/error-hero.jpg"); }
+    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/error-hero.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../img/error-hero.jpg"); }
   .hero .projectTitle {
     position: absolute;
     display: box;
@@ -2234,7 +2234,7 @@ footer {
   float: left;
   display: block;
   margin-right: 2.3576515979%;
-  width: 36.8794481813%;
+  width: 39.4383894712%;
   margin-left: 32.4132563393%;
   margin-right: 0; }
   .blurb:last-child {

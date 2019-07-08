@@ -39,7 +39,7 @@
 .blurb{
 	background-image:none;
 	padding:10% 0 11% 0;
-	@include span-columns(4.6);
+	@include span-columns(4.9);
 	@include shift(3.8);
 	@include omega();
 	@include media ($medium){

@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,661 +7,750 @@
 		"uuidString": "5AFF315F-41D3-409B-BF22-3BE3E41E5D9C"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "29156",
 "files": {
-	"\/.gitattributes": {
+	"/.gitattributes": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/.gitattributes",
+		"oAP": "/.gitattributes",
 		"oF": 0
 		},
-	"\/build\/css\/style.css": {
+	"/build/css/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/css\/style-min.css",
+		"oAP": "/build/css/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/build\/js\/min\/scripts-min.js": {
+	"/build/js/min/scripts-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/min\/min\/scripts-min-min.js",
+		"oAP": "/build/js/min/min/scripts-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/build\/js\/plugins.js": {
+	"/build/js/plugins.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/build\/js\/min\/plugins-min.js",
+		"oAP": "/build/js/min/plugins-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/build\/js\/scripts.js": {
+	"/build/js/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/www\/js\/scripts.js",
+		"oAP": "/www/js/scripts.js",
 		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_button.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_button.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_button.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_button.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_clearfix.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_clearfix.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_clearfix.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_clearfix.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_font-family.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_font-family.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_font-family.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_font-family.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_hide-text.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_hide-text.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_hide-text.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_hide-text.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_html5-input-types.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_html5-input-types.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_html5-input-types.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_html5-input-types.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_position.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_position.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_position.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_position.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_prefixer.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_prefixer.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_prefixer.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_prefixer.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_retina-image.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_retina-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_retina-image.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_retina-image.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_size.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_size.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_size.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_size.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_timing-functions.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_timing-functions.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_timing-functions.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_timing-functions.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_triangle.scssc": {
+	"/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_triangle.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2\/_triangle.scssc",
+		"oAP": "/build/scss/.sass-cache/00c4d035ed3a42d7451ebbf810f1ea48c64f55d2/_triangle.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/06f610dd848448a9c431b7dfa8e82ce86308ab03\/style.scssc": {
+	"/build/scss/.sass-cache/06f610dd848448a9c431b7dfa8e82ce86308ab03/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/build\/scss\/.sass-cache\/06f610dd848448a9c431b7dfa8e82ce86308ab03\/style.scssc",
+		"oAP": "/build/scss/.sass-cache/06f610dd848448a9c431b7dfa8e82ce86308ab03/style.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/24b11fd54694c8e8b0ee92652a88060e24c7ff84\/_bourbon-deprecated-upcoming.scssc": {
+	"/build/scss/.sass-cache/24b11fd54694c8e8b0ee92652a88060e24c7ff84/_bourbon-deprecated-upcoming.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/24b11fd54694c8e8b0ee92652a88060e24c7ff84\/_bourbon-deprecated-upcoming.scssc",
+		"oAP": "/build/scss/.sass-cache/24b11fd54694c8e8b0ee92652a88060e24c7ff84/_bourbon-deprecated-upcoming.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/24b11fd54694c8e8b0ee92652a88060e24c7ff84\/_bourbon.scssc": {
+	"/build/scss/.sass-cache/24b11fd54694c8e8b0ee92652a88060e24c7ff84/_bourbon.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/24b11fd54694c8e8b0ee92652a88060e24c7ff84\/_bourbon.scssc",
+		"oAP": "/build/scss/.sass-cache/24b11fd54694c8e8b0ee92652a88060e24c7ff84/_bourbon.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/39bf4f5b0e8e4624a95ce9c0c983b7acd598b168\/_neat-helpers.scssc": {
+	"/build/scss/.sass-cache/39bf4f5b0e8e4624a95ce9c0c983b7acd598b168/_neat-helpers.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/39bf4f5b0e8e4624a95ce9c0c983b7acd598b168\/_neat-helpers.scssc",
+		"oAP": "/build/scss/.sass-cache/39bf4f5b0e8e4624a95ce9c0c983b7acd598b168/_neat-helpers.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/39bf4f5b0e8e4624a95ce9c0c983b7acd598b168\/_neat.scssc": {
+	"/build/scss/.sass-cache/39bf4f5b0e8e4624a95ce9c0c983b7acd598b168/_neat.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/39bf4f5b0e8e4624a95ce9c0c983b7acd598b168\/_neat.scssc",
+		"oAP": "/build/scss/.sass-cache/39bf4f5b0e8e4624a95ce9c0c983b7acd598b168/_neat.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_deprecated-webkit-gradient.scssc": {
+	"/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_deprecated-webkit-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_deprecated-webkit-gradient.scssc",
+		"oAP": "/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_deprecated-webkit-gradient.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_gradient-positions-parser.scssc": {
+	"/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_gradient-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_gradient-positions-parser.scssc",
+		"oAP": "/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_gradient-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_linear-positions-parser.scssc": {
+	"/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_linear-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_linear-positions-parser.scssc",
+		"oAP": "/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_linear-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_radial-arg-parser.scssc": {
+	"/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_radial-arg-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_radial-arg-parser.scssc",
+		"oAP": "/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_radial-arg-parser.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_radial-positions-parser.scssc": {
+	"/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_radial-positions-parser.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_radial-positions-parser.scssc",
+		"oAP": "/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_radial-positions-parser.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_render-gradients.scssc": {
+	"/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_render-gradients.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_render-gradients.scssc",
+		"oAP": "/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_render-gradients.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_shape-size-stripper.scssc": {
+	"/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_shape-size-stripper.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/41ae53d448f8b116acba5581c59d0ae60362b401\/_shape-size-stripper.scssc",
+		"oAP": "/build/scss/.sass-cache/41ae53d448f8b116acba5581c59d0ae60362b401/_shape-size-stripper.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_compact.scssc": {
+	"/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_compact.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_compact.scssc",
+		"oAP": "/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_compact.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_flex-grid.scssc": {
+	"/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_flex-grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_flex-grid.scssc",
+		"oAP": "/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_flex-grid.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_grid-width.scssc": {
+	"/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_grid-width.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_grid-width.scssc",
+		"oAP": "/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_grid-width.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_linear-gradient.scssc": {
+	"/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_linear-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_linear-gradient.scssc",
+		"oAP": "/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_linear-gradient.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_modular-scale.scssc": {
+	"/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_modular-scale.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_modular-scale.scssc",
+		"oAP": "/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_modular-scale.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_px-to-em.scssc": {
+	"/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_px-to-em.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_px-to-em.scssc",
+		"oAP": "/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_px-to-em.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_radial-gradient.scssc": {
+	"/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_radial-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_radial-gradient.scssc",
+		"oAP": "/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_radial-gradient.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_tint-shade.scssc": {
+	"/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_tint-shade.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_tint-shade.scssc",
+		"oAP": "/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_tint-shade.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_transition-property-name.scssc": {
+	"/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_transition-property-name.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798\/_transition-property-name.scssc",
+		"oAP": "/build/scss/.sass-cache/4cbdb4c49e8043919dc2ff307f7b10ebb94ee798/_transition-property-name.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_animation.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_animation.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_animation.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_animation.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_appearance.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_appearance.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_appearance.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_appearance.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_backface-visibility.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_backface-visibility.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_backface-visibility.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_backface-visibility.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_background-image.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_background-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_background-image.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_background-image.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_background.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_background.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_background.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_background.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_border-image.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_border-image.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_border-image.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_border-image.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_border-radius.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_border-radius.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_border-radius.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_border-radius.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_box-sizing.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_box-sizing.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_box-sizing.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_box-sizing.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_columns.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_columns.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_columns.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_columns.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_flex-box.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_flex-box.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_flex-box.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_flex-box.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_font-face.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_font-face.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_font-face.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_font-face.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_hidpi-media-query.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_hidpi-media-query.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_hidpi-media-query.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_hidpi-media-query.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_image-rendering.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_image-rendering.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_image-rendering.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_image-rendering.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_inline-block.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_inline-block.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_inline-block.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_inline-block.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_keyframes.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_keyframes.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_keyframes.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_keyframes.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_linear-gradient.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_linear-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_linear-gradient.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_linear-gradient.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_perspective.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_perspective.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_perspective.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_perspective.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_placeholder.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_placeholder.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_placeholder.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_placeholder.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_radial-gradient.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_radial-gradient.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_radial-gradient.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_radial-gradient.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_transform.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_transform.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_transform.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_transform.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_transition.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_transition.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_transition.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_transition.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_user-select.scssc": {
+	"/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_user-select.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/4fde891a117e44900474848fa4ba7b53f2011665\/_user-select.scssc",
+		"oAP": "/build/scss/.sass-cache/4fde891a117e44900474848fa4ba7b53f2011665/_user-select.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_about.scssc": {
+	"/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_about.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_about.scssc",
+		"oAP": "/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_about.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_footer.scssc": {
+	"/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_footer.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_footer.scssc",
+		"oAP": "/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_footer.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_header.scssc": {
+	"/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_header.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_header.scssc",
+		"oAP": "/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_header.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_home.scssc": {
+	"/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_home.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_home.scssc",
+		"oAP": "/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_home.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_layout.scssc": {
+	"/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_layout.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_layout.scssc",
+		"oAP": "/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_layout.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_projects.scssc": {
+	"/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_projects.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/52d83beab3b2d22bac314a44c1c79fbc8cd3d745\/_projects.scssc",
+		"oAP": "/build/scss/.sass-cache/52d83beab3b2d22bac314a44c1c79fbc8cd3d745/_projects.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/53896fea08c43aaaed1737156c3029fb39ca0a5c\/_new-breakpoint.scssc": {
+	"/build/scss/.sass-cache/53896fea08c43aaaed1737156c3029fb39ca0a5c/_new-breakpoint.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/53896fea08c43aaaed1737156c3029fb39ca0a5c\/_new-breakpoint.scssc",
+		"oAP": "/build/scss/.sass-cache/53896fea08c43aaaed1737156c3029fb39ca0a5c/_new-breakpoint.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/53896fea08c43aaaed1737156c3029fb39ca0a5c\/_private.scssc": {
+	"/build/scss/.sass-cache/53896fea08c43aaaed1737156c3029fb39ca0a5c/_private.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/53896fea08c43aaaed1737156c3029fb39ca0a5c\/_private.scssc",
+		"oAP": "/build/scss/.sass-cache/53896fea08c43aaaed1737156c3029fb39ca0a5c/_private.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_animations.scssc": {
+	"/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_animations.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_animations.scssc",
+		"oAP": "/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_animations.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_colors.scssc": {
+	"/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_colors.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_colors.scssc",
+		"oAP": "/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_colors.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_forms.scssc": {
+	"/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_forms.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_forms.scssc",
+		"oAP": "/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_forms.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_grid-settings.scssc": {
+	"/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_grid-settings.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_grid-settings.scssc",
+		"oAP": "/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_grid-settings.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_mixins.scssc": {
+	"/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_mixins.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_mixins.scssc",
+		"oAP": "/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_mixins.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_reset.scssc": {
+	"/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_reset.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_reset.scssc",
+		"oAP": "/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_reset.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_typography.scssc": {
+	"/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/5b69ed0016f91bba5263eccd0d5028678a7a5dee\/_typography.scssc",
+		"oAP": "/build/scss/.sass-cache/5b69ed0016f91bba5263eccd0d5028678a7a5dee/_typography.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_fill-parent.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_fill-parent.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_fill-parent.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_fill-parent.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_grid.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_grid.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_grid.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_media.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_media.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_media.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_media.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_omega.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_omega.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_omega.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_omega.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_outer-container.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_outer-container.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_outer-container.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_outer-container.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_pad.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_pad.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_pad.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_pad.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_private.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_private.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_private.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_private.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_reset.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_reset.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_reset.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_reset.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_row.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_row.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_row.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_row.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_shift.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_shift.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_shift.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_shift.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_span-columns.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_span-columns.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_span-columns.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_span-columns.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_to-deprecate.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_to-deprecate.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_to-deprecate.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_to-deprecate.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_visual-grid.scssc": {
+	"/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_visual-grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/7df2ef393bb93a9d5ae5386f0144743b75cb5f14\/_visual-grid.scssc",
+		"oAP": "/build/scss/.sass-cache/7df2ef393bb93a9d5ae5386f0144743b75cb5f14/_visual-grid.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/ee7de63df019756e09bdf66bb0b2aeaf1dc72357\/_grid.scssc": {
+	"/build/scss/.sass-cache/ee7de63df019756e09bdf66bb0b2aeaf1dc72357/_grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/ee7de63df019756e09bdf66bb0b2aeaf1dc72357\/_grid.scssc",
+		"oAP": "/build/scss/.sass-cache/ee7de63df019756e09bdf66bb0b2aeaf1dc72357/_grid.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/.sass-cache\/ee7de63df019756e09bdf66bb0b2aeaf1dc72357\/_visual-grid.scssc": {
+	"/build/scss/.sass-cache/ee7de63df019756e09bdf66bb0b2aeaf1dc72357/_visual-grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/.sass-cache\/ee7de63df019756e09bdf66bb0b2aeaf1dc72357\/_visual-grid.scssc",
+		"oAP": "/build/scss/.sass-cache/ee7de63df019756e09bdf66bb0b2aeaf1dc72357/_visual-grid.scssc",
 		"oF": 0
 		},
-	"\/build\/scss\/config.rb": {
+	"/build/scss/config.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/build\/scss\/config.rb",
+		"oAP": "/build/scss/config.rb",
 		"oF": 0
 		},
-	"\/build\/scss\/css\/_containers.css": {
+	"/build/scss/css/_containers.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_containers-min.css",
+		"oAP": "/build/scss/css/_containers-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/build\/scss\/globals\/_animations.scss": {
+	"/build/scss/globals/_animations.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -669,12 +758,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_animations.css",
+		"oAP": "/build/scss/css/_animations.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/globals\/_colors.scss": {
+	"/build/scss/globals/_colors.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -682,12 +771,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_colors.css",
+		"oAP": "/build/scss/css/_colors.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/globals\/_forms.scss": {
+	"/build/scss/globals/_forms.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -695,12 +784,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_forms.css",
+		"oAP": "/build/scss/css/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/globals\/_grid-settings.scss": {
+	"/build/scss/globals/_grid-settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -708,12 +797,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_grid-settings.css",
+		"oAP": "/build/scss/css/_grid-settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/globals\/_mixins.scss": {
+	"/build/scss/globals/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -721,12 +810,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_mixins.css",
+		"oAP": "/build/scss/css/_mixins.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/globals\/_reset.scss": {
+	"/build/scss/globals/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -734,12 +823,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_reset.css",
+		"oAP": "/build/scss/css/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/globals\/_typography.scss": {
+	"/build/scss/globals/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -747,19 +836,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_typography.css",
+		"oAP": "/build/scss/css/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/globals\/config.rb": {
+	"/build/scss/globals/config.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/build\/scss\/globals\/config.rb",
+		"oAP": "/build/scss/globals/config.rb",
 		"oF": 0
 		},
-	"\/build\/scss\/libs\/bourbon\/_bourbon-deprecated-upcoming.scss": {
+	"/build/scss/libs/bourbon/_bourbon-deprecated-upcoming.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -767,12 +857,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/css\/_bourbon-deprecated-upcoming.css",
+		"oAP": "/build/scss/libs/css/_bourbon-deprecated-upcoming.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/_bourbon.scss": {
+	"/build/scss/libs/bourbon/_bourbon.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -780,12 +870,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/css\/_bourbon.css",
+		"oAP": "/build/scss/libs/css/_bourbon.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_button.scss": {
+	"/build/scss/libs/bourbon/addons/_button.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -793,12 +883,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_button.css",
+		"oAP": "/build/scss/libs/bourbon/css/_button.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_clearfix.scss": {
+	"/build/scss/libs/bourbon/addons/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -806,12 +896,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_clearfix.css",
+		"oAP": "/build/scss/libs/bourbon/css/_clearfix.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_font-family.scss": {
+	"/build/scss/libs/bourbon/addons/_font-family.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -819,12 +909,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_font-family.css",
+		"oAP": "/build/scss/libs/bourbon/css/_font-family.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_hide-text.scss": {
+	"/build/scss/libs/bourbon/addons/_hide-text.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -832,12 +922,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_hide-text.css",
+		"oAP": "/build/scss/libs/bourbon/css/_hide-text.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_html5-input-types.scss": {
+	"/build/scss/libs/bourbon/addons/_html5-input-types.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -845,12 +935,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_html5-input-types.css",
+		"oAP": "/build/scss/libs/bourbon/css/_html5-input-types.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_position.scss": {
+	"/build/scss/libs/bourbon/addons/_position.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -858,12 +948,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_position.css",
+		"oAP": "/build/scss/libs/bourbon/css/_position.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_prefixer.scss": {
+	"/build/scss/libs/bourbon/addons/_prefixer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -871,12 +961,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_prefixer.css",
+		"oAP": "/build/scss/libs/bourbon/css/_prefixer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_retina-image.scss": {
+	"/build/scss/libs/bourbon/addons/_retina-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -884,12 +974,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_retina-image.css",
+		"oAP": "/build/scss/libs/bourbon/css/_retina-image.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_size.scss": {
+	"/build/scss/libs/bourbon/addons/_size.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -897,12 +987,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_size.css",
+		"oAP": "/build/scss/libs/bourbon/css/_size.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_timing-functions.scss": {
+	"/build/scss/libs/bourbon/addons/_timing-functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -910,12 +1000,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_timing-functions.css",
+		"oAP": "/build/scss/libs/bourbon/css/_timing-functions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/addons\/_triangle.scss": {
+	"/build/scss/libs/bourbon/addons/_triangle.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -923,12 +1013,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_triangle.css",
+		"oAP": "/build/scss/libs/bourbon/css/_triangle.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/_bourbon-deprecated-upcoming.scss": {
+	"/build/scss/libs/bourbon/bourbon/_bourbon-deprecated-upcoming.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -936,12 +1026,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_bourbon-deprecated-upcoming.css",
+		"oAP": "/build/scss/libs/bourbon/css/_bourbon-deprecated-upcoming.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/_bourbon.scss": {
+	"/build/scss/libs/bourbon/bourbon/_bourbon.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -949,12 +1039,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_bourbon.css",
+		"oAP": "/build/scss/libs/bourbon/css/_bourbon.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_button.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_button.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -962,12 +1052,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_button.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_button.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_clearfix.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_clearfix.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -975,12 +1065,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_clearfix.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_clearfix.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_font-family.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_font-family.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -988,12 +1078,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_font-family.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_font-family.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_hide-text.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_hide-text.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1001,12 +1091,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_hide-text.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_hide-text.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_html5-input-types.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_html5-input-types.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1014,12 +1104,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_html5-input-types.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_html5-input-types.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_position.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_position.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1027,12 +1117,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_position.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_position.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_prefixer.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_prefixer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1040,12 +1130,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_prefixer.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_prefixer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_retina-image.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_retina-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1053,12 +1143,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_retina-image.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_retina-image.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_size.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_size.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1066,12 +1156,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_size.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_size.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_timing-functions.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_timing-functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1079,12 +1169,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_timing-functions.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_timing-functions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/addons\/_triangle.scss": {
+	"/build/scss/libs/bourbon/bourbon/addons/_triangle.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1092,12 +1182,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_triangle.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_triangle.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_animation.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_animation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1105,12 +1195,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_animation.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_animation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_appearance.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_appearance.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1118,12 +1208,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_appearance.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_appearance.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_backface-visibility.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_backface-visibility.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1131,12 +1221,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_backface-visibility.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_backface-visibility.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_background-image.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_background-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1144,12 +1234,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_background-image.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_background-image.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_background.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_background.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1157,12 +1247,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_background.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_background.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_border-image.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_border-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1170,12 +1260,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_border-image.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_border-image.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_border-radius.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_border-radius.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1183,12 +1273,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_border-radius.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_border-radius.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_box-sizing.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_box-sizing.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1196,12 +1286,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_box-sizing.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_box-sizing.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_columns.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_columns.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1209,12 +1299,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_columns.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_columns.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_flex-box.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_flex-box.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1222,12 +1312,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_flex-box.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_flex-box.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_font-face.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_font-face.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1235,12 +1325,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_font-face.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_font-face.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_hidpi-media-query.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_hidpi-media-query.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1248,12 +1338,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_hidpi-media-query.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_hidpi-media-query.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_image-rendering.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_image-rendering.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1261,12 +1351,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_image-rendering.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_image-rendering.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_inline-block.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_inline-block.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1274,12 +1364,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_inline-block.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_inline-block.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_keyframes.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_keyframes.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1287,12 +1377,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_keyframes.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_keyframes.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_linear-gradient.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_linear-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1300,12 +1390,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_linear-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_linear-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_perspective.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_perspective.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1313,12 +1403,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_perspective.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_perspective.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_placeholder.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_placeholder.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1326,12 +1416,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_placeholder.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_placeholder.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_radial-gradient.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_radial-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1339,12 +1429,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_radial-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_radial-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transform.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_transform.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1352,12 +1442,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_transform.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_transform.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_transition.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_transition.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1365,12 +1455,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_transition.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_transition.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/css3\/_user-select.scss": {
+	"/build/scss/libs/bourbon/bourbon/css3/_user-select.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1378,12 +1468,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_user-select.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_user-select.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_compact.scss": {
+	"/build/scss/libs/bourbon/bourbon/functions/_compact.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1391,12 +1481,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_compact.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_compact.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_flex-grid.scss": {
+	"/build/scss/libs/bourbon/bourbon/functions/_flex-grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1404,12 +1494,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_flex-grid.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_flex-grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_grid-width.scss": {
+	"/build/scss/libs/bourbon/bourbon/functions/_grid-width.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1417,12 +1507,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_grid-width.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_grid-width.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_linear-gradient.scss": {
+	"/build/scss/libs/bourbon/bourbon/functions/_linear-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1430,12 +1520,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_linear-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_linear-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_modular-scale.scss": {
+	"/build/scss/libs/bourbon/bourbon/functions/_modular-scale.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1443,12 +1533,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_modular-scale.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_modular-scale.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_px-to-em.scss": {
+	"/build/scss/libs/bourbon/bourbon/functions/_px-to-em.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1456,12 +1546,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_px-to-em.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_px-to-em.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_radial-gradient.scss": {
+	"/build/scss/libs/bourbon/bourbon/functions/_radial-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1469,12 +1559,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_radial-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_radial-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_tint-shade.scss": {
+	"/build/scss/libs/bourbon/bourbon/functions/_tint-shade.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1482,12 +1572,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_tint-shade.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_tint-shade.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/functions\/_transition-property-name.scss": {
+	"/build/scss/libs/bourbon/bourbon/functions/_transition-property-name.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1495,12 +1585,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_transition-property-name.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_transition-property-name.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_deprecated-webkit-gradient.scss": {
+	"/build/scss/libs/bourbon/bourbon/helpers/_deprecated-webkit-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1508,12 +1598,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_deprecated-webkit-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_deprecated-webkit-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_gradient-positions-parser.scss": {
+	"/build/scss/libs/bourbon/bourbon/helpers/_gradient-positions-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1521,12 +1611,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_gradient-positions-parser.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_gradient-positions-parser.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_linear-positions-parser.scss": {
+	"/build/scss/libs/bourbon/bourbon/helpers/_linear-positions-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1534,12 +1624,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_linear-positions-parser.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_linear-positions-parser.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_radial-arg-parser.scss": {
+	"/build/scss/libs/bourbon/bourbon/helpers/_radial-arg-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1547,12 +1637,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_radial-arg-parser.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_radial-arg-parser.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_radial-positions-parser.scss": {
+	"/build/scss/libs/bourbon/bourbon/helpers/_radial-positions-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1560,12 +1650,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_radial-positions-parser.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_radial-positions-parser.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_render-gradients.scss": {
+	"/build/scss/libs/bourbon/bourbon/helpers/_render-gradients.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1573,12 +1663,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_render-gradients.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_render-gradients.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/bourbon\/helpers\/_shape-size-stripper.scss": {
+	"/build/scss/libs/bourbon/bourbon/helpers/_shape-size-stripper.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1586,22 +1676,22 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/bourbon\/css\/_shape-size-stripper.css",
+		"oAP": "/build/scss/libs/bourbon/bourbon/css/_shape-size-stripper.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css\/_bourbon.css": {
+	"/build/scss/libs/bourbon/css/_bourbon.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_bourbon-min.css",
+		"oAP": "/build/scss/libs/bourbon/css/_bourbon-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_animation.scss": {
+	"/build/scss/libs/bourbon/css3/_animation.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1609,12 +1699,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_animation.css",
+		"oAP": "/build/scss/libs/bourbon/css/_animation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_appearance.scss": {
+	"/build/scss/libs/bourbon/css3/_appearance.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1622,12 +1712,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_appearance.css",
+		"oAP": "/build/scss/libs/bourbon/css/_appearance.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_backface-visibility.scss": {
+	"/build/scss/libs/bourbon/css3/_backface-visibility.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1635,12 +1725,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_backface-visibility.css",
+		"oAP": "/build/scss/libs/bourbon/css/_backface-visibility.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_background-image.scss": {
+	"/build/scss/libs/bourbon/css3/_background-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1648,12 +1738,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_background-image.css",
+		"oAP": "/build/scss/libs/bourbon/css/_background-image.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_background.scss": {
+	"/build/scss/libs/bourbon/css3/_background.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1661,12 +1751,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_background.css",
+		"oAP": "/build/scss/libs/bourbon/css/_background.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_border-image.scss": {
+	"/build/scss/libs/bourbon/css3/_border-image.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1674,12 +1764,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_border-image.css",
+		"oAP": "/build/scss/libs/bourbon/css/_border-image.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_border-radius.scss": {
+	"/build/scss/libs/bourbon/css3/_border-radius.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1687,12 +1777,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_border-radius.css",
+		"oAP": "/build/scss/libs/bourbon/css/_border-radius.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_box-sizing.scss": {
+	"/build/scss/libs/bourbon/css3/_box-sizing.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1700,12 +1790,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_box-sizing.css",
+		"oAP": "/build/scss/libs/bourbon/css/_box-sizing.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_columns.scss": {
+	"/build/scss/libs/bourbon/css3/_columns.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1713,12 +1803,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_columns.css",
+		"oAP": "/build/scss/libs/bourbon/css/_columns.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_flex-box.scss": {
+	"/build/scss/libs/bourbon/css3/_flex-box.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1726,12 +1816,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_flex-box.css",
+		"oAP": "/build/scss/libs/bourbon/css/_flex-box.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_font-face.scss": {
+	"/build/scss/libs/bourbon/css3/_font-face.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1739,12 +1829,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_font-face.css",
+		"oAP": "/build/scss/libs/bourbon/css/_font-face.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_hidpi-media-query.scss": {
+	"/build/scss/libs/bourbon/css3/_hidpi-media-query.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1752,12 +1842,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_hidpi-media-query.css",
+		"oAP": "/build/scss/libs/bourbon/css/_hidpi-media-query.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_image-rendering.scss": {
+	"/build/scss/libs/bourbon/css3/_image-rendering.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1765,12 +1855,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_image-rendering.css",
+		"oAP": "/build/scss/libs/bourbon/css/_image-rendering.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_inline-block.scss": {
+	"/build/scss/libs/bourbon/css3/_inline-block.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1778,12 +1868,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_inline-block.css",
+		"oAP": "/build/scss/libs/bourbon/css/_inline-block.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_keyframes.scss": {
+	"/build/scss/libs/bourbon/css3/_keyframes.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1791,12 +1881,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_keyframes.css",
+		"oAP": "/build/scss/libs/bourbon/css/_keyframes.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_linear-gradient.scss": {
+	"/build/scss/libs/bourbon/css3/_linear-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1804,12 +1894,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_linear-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/css/_linear-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_perspective.scss": {
+	"/build/scss/libs/bourbon/css3/_perspective.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1817,12 +1907,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_perspective.css",
+		"oAP": "/build/scss/libs/bourbon/css/_perspective.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_placeholder.scss": {
+	"/build/scss/libs/bourbon/css3/_placeholder.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1830,12 +1920,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_placeholder.css",
+		"oAP": "/build/scss/libs/bourbon/css/_placeholder.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_radial-gradient.scss": {
+	"/build/scss/libs/bourbon/css3/_radial-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1843,12 +1933,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_radial-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/css/_radial-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_transform.scss": {
+	"/build/scss/libs/bourbon/css3/_transform.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1856,12 +1946,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_transform.css",
+		"oAP": "/build/scss/libs/bourbon/css/_transform.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_transition.scss": {
+	"/build/scss/libs/bourbon/css3/_transition.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1869,12 +1959,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_transition.css",
+		"oAP": "/build/scss/libs/bourbon/css/_transition.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/css3\/_user-select.scss": {
+	"/build/scss/libs/bourbon/css3/_user-select.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1882,12 +1972,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_user-select.css",
+		"oAP": "/build/scss/libs/bourbon/css/_user-select.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/functions\/_compact.scss": {
+	"/build/scss/libs/bourbon/functions/_compact.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1895,12 +1985,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_compact.css",
+		"oAP": "/build/scss/libs/bourbon/css/_compact.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/functions\/_flex-grid.scss": {
+	"/build/scss/libs/bourbon/functions/_flex-grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1908,12 +1998,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_flex-grid.css",
+		"oAP": "/build/scss/libs/bourbon/css/_flex-grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/functions\/_grid-width.scss": {
+	"/build/scss/libs/bourbon/functions/_grid-width.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1921,12 +2011,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_grid-width.css",
+		"oAP": "/build/scss/libs/bourbon/css/_grid-width.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/functions\/_linear-gradient.scss": {
+	"/build/scss/libs/bourbon/functions/_linear-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1934,12 +2024,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_linear-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/css/_linear-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/functions\/_modular-scale.scss": {
+	"/build/scss/libs/bourbon/functions/_modular-scale.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1947,12 +2037,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_modular-scale.css",
+		"oAP": "/build/scss/libs/bourbon/css/_modular-scale.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/functions\/_px-to-em.scss": {
+	"/build/scss/libs/bourbon/functions/_px-to-em.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1960,12 +2050,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_px-to-em.css",
+		"oAP": "/build/scss/libs/bourbon/css/_px-to-em.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/functions\/_radial-gradient.scss": {
+	"/build/scss/libs/bourbon/functions/_radial-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1973,12 +2063,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_radial-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/css/_radial-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/functions\/_tint-shade.scss": {
+	"/build/scss/libs/bourbon/functions/_tint-shade.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1986,12 +2076,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_tint-shade.css",
+		"oAP": "/build/scss/libs/bourbon/css/_tint-shade.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/functions\/_transition-property-name.scss": {
+	"/build/scss/libs/bourbon/functions/_transition-property-name.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1999,12 +2089,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_transition-property-name.css",
+		"oAP": "/build/scss/libs/bourbon/css/_transition-property-name.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/helpers\/_deprecated-webkit-gradient.scss": {
+	"/build/scss/libs/bourbon/helpers/_deprecated-webkit-gradient.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2012,12 +2102,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_deprecated-webkit-gradient.css",
+		"oAP": "/build/scss/libs/bourbon/css/_deprecated-webkit-gradient.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/helpers\/_gradient-positions-parser.scss": {
+	"/build/scss/libs/bourbon/helpers/_gradient-positions-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2025,12 +2115,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_gradient-positions-parser.css",
+		"oAP": "/build/scss/libs/bourbon/css/_gradient-positions-parser.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/helpers\/_linear-positions-parser.scss": {
+	"/build/scss/libs/bourbon/helpers/_linear-positions-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2038,12 +2128,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_linear-positions-parser.css",
+		"oAP": "/build/scss/libs/bourbon/css/_linear-positions-parser.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/helpers\/_radial-arg-parser.scss": {
+	"/build/scss/libs/bourbon/helpers/_radial-arg-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2051,12 +2141,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_radial-arg-parser.css",
+		"oAP": "/build/scss/libs/bourbon/css/_radial-arg-parser.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/helpers\/_radial-positions-parser.scss": {
+	"/build/scss/libs/bourbon/helpers/_radial-positions-parser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2064,12 +2154,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_radial-positions-parser.css",
+		"oAP": "/build/scss/libs/bourbon/css/_radial-positions-parser.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/helpers\/_render-gradients.scss": {
+	"/build/scss/libs/bourbon/helpers/_render-gradients.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2077,12 +2167,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_render-gradients.css",
+		"oAP": "/build/scss/libs/bourbon/css/_render-gradients.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/bourbon\/helpers\/_shape-size-stripper.scss": {
+	"/build/scss/libs/bourbon/helpers/_shape-size-stripper.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2090,12 +2180,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/bourbon\/css\/_shape-size-stripper.css",
+		"oAP": "/build/scss/libs/bourbon/css/_shape-size-stripper.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/_neat-helpers.scss": {
+	"/build/scss/libs/neat/_neat-helpers.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2103,12 +2193,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/css\/_neat-helpers.css",
+		"oAP": "/build/scss/libs/css/_neat-helpers.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/_neat.scss": {
+	"/build/scss/libs/neat/_neat.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2116,12 +2206,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/css\/_neat.css",
+		"oAP": "/build/scss/libs/css/_neat.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/functions\/_new-breakpoint.scss": {
+	"/build/scss/libs/neat/functions/_new-breakpoint.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2129,12 +2219,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_new-breakpoint.css",
+		"oAP": "/build/scss/libs/neat/css/_new-breakpoint.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/functions\/_private.scss": {
+	"/build/scss/libs/neat/functions/_private.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2142,12 +2232,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_private.css",
+		"oAP": "/build/scss/libs/neat/css/_private.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_fill-parent.scss": {
+	"/build/scss/libs/neat/grid/_fill-parent.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2155,12 +2245,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_fill-parent.css",
+		"oAP": "/build/scss/libs/neat/css/_fill-parent.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_grid.scss": {
+	"/build/scss/libs/neat/grid/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2168,12 +2258,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_grid.css",
+		"oAP": "/build/scss/libs/neat/css/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_media.scss": {
+	"/build/scss/libs/neat/grid/_media.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2181,12 +2271,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_media.css",
+		"oAP": "/build/scss/libs/neat/css/_media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_omega.scss": {
+	"/build/scss/libs/neat/grid/_omega.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2194,12 +2284,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_omega.css",
+		"oAP": "/build/scss/libs/neat/css/_omega.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_outer-container.scss": {
+	"/build/scss/libs/neat/grid/_outer-container.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2207,12 +2297,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_outer-container.css",
+		"oAP": "/build/scss/libs/neat/css/_outer-container.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_pad.scss": {
+	"/build/scss/libs/neat/grid/_pad.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2220,12 +2310,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_pad.css",
+		"oAP": "/build/scss/libs/neat/css/_pad.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_private.scss": {
+	"/build/scss/libs/neat/grid/_private.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2233,12 +2323,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_private.css",
+		"oAP": "/build/scss/libs/neat/css/_private.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_reset.scss": {
+	"/build/scss/libs/neat/grid/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2246,12 +2336,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_reset.css",
+		"oAP": "/build/scss/libs/neat/css/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_row.scss": {
+	"/build/scss/libs/neat/grid/_row.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2259,12 +2349,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_row.css",
+		"oAP": "/build/scss/libs/neat/css/_row.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_shift.scss": {
+	"/build/scss/libs/neat/grid/_shift.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2272,12 +2362,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_shift.css",
+		"oAP": "/build/scss/libs/neat/css/_shift.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_span-columns.scss": {
+	"/build/scss/libs/neat/grid/_span-columns.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2285,12 +2375,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_span-columns.css",
+		"oAP": "/build/scss/libs/neat/css/_span-columns.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_to-deprecate.scss": {
+	"/build/scss/libs/neat/grid/_to-deprecate.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2298,12 +2388,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_to-deprecate.css",
+		"oAP": "/build/scss/libs/neat/css/_to-deprecate.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/grid\/_visual-grid.scss": {
+	"/build/scss/libs/neat/grid/_visual-grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2311,12 +2401,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_visual-grid.css",
+		"oAP": "/build/scss/libs/neat/css/_visual-grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/settings\/_grid.scss": {
+	"/build/scss/libs/neat/settings/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2324,12 +2414,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_grid.css",
+		"oAP": "/build/scss/libs/neat/css/_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/libs\/neat\/settings\/_visual-grid.scss": {
+	"/build/scss/libs/neat/settings/_visual-grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2337,12 +2427,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/libs\/neat\/css\/_visual-grid.css",
+		"oAP": "/build/scss/libs/neat/css/_visual-grid.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/partials\/_branded_pages.scss": {
+	"/build/scss/partials/_branded_pages.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2350,12 +2440,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_branded_pages.css",
+		"oAP": "/build/scss/css/_branded_pages.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/partials\/_containers.scss": {
+	"/build/scss/partials/_containers.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2363,12 +2453,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_containers.css",
+		"oAP": "/build/scss/css/_containers.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/partials\/_footer.scss": {
+	"/build/scss/partials/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2376,12 +2466,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_footer.css",
+		"oAP": "/build/scss/css/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/partials\/_header.scss": {
+	"/build/scss/partials/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2389,12 +2479,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_header.css",
+		"oAP": "/build/scss/css/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/partials\/_home.scss": {
+	"/build/scss/partials/_home.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2402,12 +2492,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_home.css",
+		"oAP": "/build/scss/css/_home.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/partials\/_layout.scss": {
+	"/build/scss/partials/_layout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2415,12 +2505,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_layout.css",
+		"oAP": "/build/scss/css/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/partials\/_projects.scss": {
+	"/build/scss/partials/_projects.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2428,12 +2518,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_projects.css",
+		"oAP": "/build/scss/css/_projects.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/partials\/_tokens.scss": {
+	"/build/scss/partials/_tokens.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2441,19 +2531,20 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/build\/scss\/css\/_tokens.css",
+		"oAP": "/build/scss/css/_tokens.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/build\/scss\/partials\/config.rb": {
+	"/build/scss/partials/config.rb": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/build\/scss\/partials\/config.rb",
+		"oAP": "/build/scss/partials/config.rb",
 		"oF": 0
 		},
-	"\/build\/scss\/style.scss": {
+	"/build/scss/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -2461,12 +2552,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/www\/css\/style.css",
+		"oAP": "/www/css/style.css",
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/README.md": {
+	"/README.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 0,
@@ -2474,8 +2565,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/README.html",
+		"oAP": "/README.html",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -2484,2145 +2576,2201 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/test-animation\/data.json": {
+	"/test-animation/data.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/test-animation\/data-min.json",
+		"oAP": "/test-animation/data-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/test-animation\/images\/img_0.png": {
+	"/test-animation/images/img_0.png": {
 		"ft": 32768,
 		"iS": 16897,
 		"oA": 0,
-		"oAP": "\/test-animation\/images\/img_0.png",
+		"oAP": "/test-animation/images/img_0.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/test-animation\/images\/img_1.png": {
+	"/test-animation/images/img_1.png": {
 		"ft": 32768,
 		"iS": 15202,
 		"oA": 0,
-		"oAP": "\/test-animation\/images\/img_1.png",
+		"oAP": "/test-animation/images/img_1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/test-animation\/index.html": {
+	"/test-animation/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/test-animation\/index.html",
+		"oAP": "/test-animation/index.html",
 		"oF": 0
 		},
-	"\/test-animation\/lottie.js": {
+	"/test-animation/lottie.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/test-animation\/min\/lottie-min.js",
+		"oAP": "/test-animation/min/lottie-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/test-animation\/stylesheet": {
+	"/test-animation/stylesheet": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/test-animation\/stylesheet",
+		"oAP": "/test-animation/stylesheet",
 		"oF": 0
 		},
-	"\/www\/404.html": {
+	"/www/404.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/404.html",
+		"oAP": "/www/404.html",
 		"oF": 0
 		},
-	"\/www\/404.shtml": {
+	"/www/404.shtml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/404.shtml",
+		"oAP": "/www/404.shtml",
 		"oF": 0
 		},
-	"\/www\/500.html": {
+	"/www/500.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/500.html",
+		"oAP": "/www/500.html",
 		"oF": 0
 		},
-	"\/www\/500.shtml": {
+	"/www/500.shtml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/500.shtml",
+		"oAP": "/www/500.shtml",
 		"oF": 0
 		},
-	"\/www\/about.html": {
+	"/www/about.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/about.html",
+		"oAP": "/www/about.html",
 		"oF": 0
 		},
-	"\/www\/android-chrome-192x192.png": {
+	"/www/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 10491,
 		"oA": 0,
-		"oAP": "\/www\/android-chrome-192x192.png",
+		"oAP": "/www/android-chrome-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/android-chrome-512x512.png": {
+	"/www/android-chrome-512x512.png": {
 		"ft": 32768,
 		"iS": 30169,
 		"oA": 0,
-		"oAP": "\/www\/android-chrome-512x512.png",
+		"oAP": "/www/android-chrome-512x512.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/apple-touch-icon.png": {
+	"/www/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 4149,
 		"oA": 0,
-		"oAP": "\/www\/apple-touch-icon.png",
+		"oAP": "/www/apple-touch-icon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/browserconfig.xml": {
+	"/www/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/browserconfig.xml",
+		"oAP": "/www/browserconfig.xml",
 		"oF": 0
 		},
-	"\/www\/css\/style.css": {
+	"/www/css/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/www\/css\/style-min.css",
+		"oAP": "/www/css/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/www\/eventbrite-app.html": {
+	"/www/eventbrite-app.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/eventbrite-app.html",
+		"oAP": "/www/eventbrite-app.html",
 		"oF": 0
 		},
-	"\/www\/favicon-16x16.png": {
+	"/www/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 668,
 		"oA": 0,
-		"oAP": "\/www\/favicon-16x16.png",
+		"oAP": "/www/favicon-16x16.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/favicon-32x32.png": {
+	"/www/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1090,
 		"oA": 0,
-		"oAP": "\/www\/favicon-32x32.png",
+		"oAP": "/www/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/favicon.ico": {
+	"/www/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/favicon.ico",
+		"oAP": "/www/favicon.ico",
 		"oF": 0
 		},
-	"\/www\/humans.txt": {
+	"/www/humans.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/humans.txt",
+		"oAP": "/www/humans.txt",
 		"oF": 0
 		},
-	"\/www\/illustrations.html": {
+	"/www/illustrations.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/illustrations.html",
+		"oAP": "/www/illustrations.html",
 		"oF": 0
 		},
-	"\/www\/img\/about-hero2.jpg": {
+	"/www/img/about-hero2.jpg": {
 		"ft": 16384,
 		"iS": 94617,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/about-hero2.jpg",
+		"oAP": "/www/img/about-hero2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/background-wave-1.jpg": {
+	"/www/img/background-wave-1.jpg": {
 		"ft": 16384,
 		"iS": 48470,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/background-wave-1.jpg",
+		"oAP": "/www/img/background-wave-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/background-wave-2.jpg": {
+	"/www/img/background-wave-2.jpg": {
 		"ft": 16384,
 		"iS": 46675,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/background-wave-2.jpg",
+		"oAP": "/www/img/background-wave-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-city-icons.png": {
+	"/www/img/eventbrite-app-city-icons.png": {
 		"ft": 32768,
 		"iS": 110458,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-city-icons.png",
+		"oAP": "/www/img/eventbrite-app-city-icons.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-color-1.jpg": {
+	"/www/img/eventbrite-app-color-1.jpg": {
 		"ft": 16384,
 		"iS": 12289,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-color-1.jpg",
+		"oAP": "/www/img/eventbrite-app-color-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-color-2.jpg": {
+	"/www/img/eventbrite-app-color-2.jpg": {
 		"ft": 16384,
 		"iS": 17079,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-color-2.jpg",
+		"oAP": "/www/img/eventbrite-app-color-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-color-study.jpg": {
+	"/www/img/eventbrite-app-color-study.jpg": {
 		"ft": 16384,
 		"iS": 57273,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-color-study.jpg",
+		"oAP": "/www/img/eventbrite-app-color-study.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-feed.png": {
+	"/www/img/eventbrite-app-feed.png": {
 		"ft": 32768,
 		"iS": 532259,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-feed.png",
+		"oAP": "/www/img/eventbrite-app-feed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-hero.jpg": {
+	"/www/img/eventbrite-app-hero.jpg": {
 		"ft": 16384,
 		"iS": 557552,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-hero.jpg",
+		"oAP": "/www/img/eventbrite-app-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-home.jpg": {
+	"/www/img/eventbrite-app-home.jpg": {
 		"ft": 16384,
 		"iS": 438693,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-home.jpg",
+		"oAP": "/www/img/eventbrite-app-home.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-home.png": {
+	"/www/img/eventbrite-app-home.png": {
 		"ft": 32768,
 		"iS": 650263,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-home.png",
+		"oAP": "/www/img/eventbrite-app-home.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-icons.png": {
+	"/www/img/eventbrite-app-icons.png": {
 		"ft": 32768,
 		"iS": 54680,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-icons.png",
+		"oAP": "/www/img/eventbrite-app-icons.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-listing.png": {
+	"/www/img/eventbrite-app-listing.png": {
 		"ft": 32768,
 		"iS": 719756,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-listing.png",
+		"oAP": "/www/img/eventbrite-app-listing.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-masonry-layout-scott-brookshire.jpg": {
+	"/www/img/eventbrite-app-masonry-layout-scott-brookshire.jpg": {
 		"ft": 16384,
 		"iS": 197962,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-masonry-layout-scott-brookshire.jpg",
+		"oAP": "/www/img/eventbrite-app-masonry-layout-scott-brookshire.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-masonry-layout-scott-brookshire.png": {
+	"/www/img/eventbrite-app-masonry-layout-scott-brookshire.png": {
 		"ft": 32768,
 		"iS": 270250,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-masonry-layout-scott-brookshire.png",
+		"oAP": "/www/img/eventbrite-app-masonry-layout-scott-brookshire.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-onboarding-1.png": {
+	"/www/img/eventbrite-app-onboarding-1.png": {
 		"ft": 32768,
 		"iS": 281988,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-onboarding-1.png",
+		"oAP": "/www/img/eventbrite-app-onboarding-1.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-onboarding-2.png": {
+	"/www/img/eventbrite-app-onboarding-2.png": {
 		"ft": 32768,
 		"iS": 178133,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-onboarding-2.png",
+		"oAP": "/www/img/eventbrite-app-onboarding-2.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-onboarding-3.png": {
+	"/www/img/eventbrite-app-onboarding-3.png": {
 		"ft": 32768,
 		"iS": 114610,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-onboarding-3.png",
+		"oAP": "/www/img/eventbrite-app-onboarding-3.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-profile.png": {
+	"/www/img/eventbrite-app-profile.png": {
 		"ft": 32768,
 		"iS": 603112,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-profile.png",
+		"oAP": "/www/img/eventbrite-app-profile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-search-results.png": {
+	"/www/img/eventbrite-app-search-results.png": {
 		"ft": 32768,
 		"iS": 320663,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-search-results.png",
+		"oAP": "/www/img/eventbrite-app-search-results.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-search.png": {
+	"/www/img/eventbrite-app-search.png": {
 		"ft": 32768,
 		"iS": 334344,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-search.png",
+		"oAP": "/www/img/eventbrite-app-search.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-app-type.png": {
+	"/www/img/eventbrite-app-type.png": {
 		"ft": 32768,
 		"iS": 243020,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-app-type.png",
+		"oAP": "/www/img/eventbrite-app-type.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/eventbrite-color-card-layout.png": {
+	"/www/img/eventbrite-color-card-layout.png": {
 		"ft": 32768,
 		"iS": 99372,
 		"oA": 0,
-		"oAP": "\/www\/img\/eventbrite-color-card-layout.png",
+		"oAP": "/www/img/eventbrite-color-card-layout.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/Group 26@2x.png": {
+	"/www/img/Group 26@2x.png": {
 		"ft": 32768,
 		"iS": 242302,
 		"oA": 0,
-		"oAP": "\/www\/img\/Group 26@2x.png",
+		"oAP": "/www/img/Group 26@2x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/home-hero.jpg": {
+	"/www/img/home-hero.jpg": {
 		"ft": 16384,
 		"iS": 111406,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/home-hero.jpg",
+		"oAP": "/www/img/home-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/icons\/arrow.svg": {
+	"/www/img/icons/arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/arrow.svg",
+		"oAP": "/www/img/icons/arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/behance.svg": {
+	"/www/img/icons/behance.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/behance.svg",
+		"oAP": "/www/img/icons/behance.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/dribble.svg": {
+	"/www/img/icons/dribble.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/dribble.svg",
+		"oAP": "/www/img/icons/dribble.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/facebook-square.svg": {
+	"/www/img/icons/facebook-square.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/facebook-square.svg",
+		"oAP": "/www/img/icons/facebook-square.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/instagram.svg": {
+	"/www/img/icons/instagram.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/instagram.svg",
+		"oAP": "/www/img/icons/instagram.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/lastfm.svg": {
+	"/www/img/icons/lastfm.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/lastfm.svg",
+		"oAP": "/www/img/icons/lastfm.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/linkedin.svg": {
+	"/www/img/icons/linkedin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/linkedin.svg",
+		"oAP": "/www/img/icons/linkedin.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/logo.svg": {
+	"/www/img/icons/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/logo.svg",
+		"oAP": "/www/img/icons/logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/mail.svg": {
+	"/www/img/icons/mail.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/mail.svg",
+		"oAP": "/www/img/icons/mail.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/overflow.svg": {
+	"/www/img/icons/overflow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/overflow.svg",
+		"oAP": "/www/img/icons/overflow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/resume.svg": {
+	"/www/img/icons/resume.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/resume.svg",
+		"oAP": "/www/img/icons/resume.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/soundcloud.svg": {
+	"/www/img/icons/soundcloud.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/soundcloud.svg",
+		"oAP": "/www/img/icons/soundcloud.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/vimeo.svg": {
+	"/www/img/icons/vimeo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/vimeo.svg",
+		"oAP": "/www/img/icons/vimeo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/icons\/x.svg": {
+	"/www/img/icons/x.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/img\/icons\/x.svg",
+		"oAP": "/www/img/icons/x.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/img\/illustration-hero.png": {
+	"/www/img/illustration-hero.png": {
 		"ft": 32768,
 		"iS": 25890,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustration-hero.png",
+		"oAP": "/www/img/illustration-hero.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-4.png": {
+	"/www/img/illustrations-4.png": {
 		"ft": 32768,
 		"iS": 37664,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-4.png",
+		"oAP": "/www/img/illustrations-4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-building.png": {
+	"/www/img/illustrations-building.png": {
 		"ft": 32768,
 		"iS": 124406,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-building.png",
+		"oAP": "/www/img/illustrations-building.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-dancing.png": {
+	"/www/img/illustrations-dancing.png": {
 		"ft": 32768,
 		"iS": 14903,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-dancing.png",
+		"oAP": "/www/img/illustrations-dancing.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-double.png": {
+	"/www/img/illustrations-double.png": {
 		"ft": 32768,
 		"iS": 19537,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-double.png",
+		"oAP": "/www/img/illustrations-double.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-exploration-mockup.jpg": {
+	"/www/img/illustrations-exploration-mockup.jpg": {
 		"ft": 16384,
 		"iS": 306685,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-exploration-mockup.jpg",
+		"oAP": "/www/img/illustrations-exploration-mockup.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-exploration-mockup.png": {
+	"/www/img/illustrations-exploration-mockup.png": {
 		"ft": 32768,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-exploration-mockup.png",
+		"oAP": "/www/img/illustrations-exploration-mockup.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-fruit.png": {
+	"/www/img/illustrations-fruit.png": {
 		"ft": 32768,
 		"iS": 10179,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-fruit.png",
+		"oAP": "/www/img/illustrations-fruit.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-hero-mobile.png": {
+	"/www/img/illustrations-hero-mobile.png": {
 		"ft": 32768,
 		"iS": 2682,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-hero-mobile.png",
+		"oAP": "/www/img/illustrations-hero-mobile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-hero.jpg": {
+	"/www/img/illustrations-hero.jpg": {
 		"ft": 16384,
 		"iS": 82629,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-hero.jpg",
+		"oAP": "/www/img/illustrations-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-kiosk.png": {
+	"/www/img/illustrations-kiosk.png": {
 		"ft": 32768,
 		"iS": 37709,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-kiosk.png",
+		"oAP": "/www/img/illustrations-kiosk.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-lightbulb.png": {
+	"/www/img/illustrations-lightbulb.png": {
 		"ft": 32768,
 		"iS": 52593,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-lightbulb.png",
+		"oAP": "/www/img/illustrations-lightbulb.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-microphone.png": {
+	"/www/img/illustrations-microphone.png": {
 		"ft": 32768,
 		"iS": 54578,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-microphone.png",
+		"oAP": "/www/img/illustrations-microphone.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-mount-1.png": {
+	"/www/img/illustrations-mount-1.png": {
 		"ft": 32768,
 		"iS": 36998,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-mount-1.png",
+		"oAP": "/www/img/illustrations-mount-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-mountain-1.jpg": {
+	"/www/img/illustrations-mountain-1.jpg": {
 		"ft": 16384,
 		"iS": 465428,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-mountain-1.jpg",
+		"oAP": "/www/img/illustrations-mountain-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-mountain-1.png": {
+	"/www/img/illustrations-mountain-1.png": {
 		"ft": 32768,
 		"iS": 36998,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-mountain-1.png",
+		"oAP": "/www/img/illustrations-mountain-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-mountain-2.jpg": {
+	"/www/img/illustrations-mountain-2.jpg": {
 		"ft": 16384,
 		"iS": 219391,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-mountain-2.jpg",
+		"oAP": "/www/img/illustrations-mountain-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-mountain-2.png": {
+	"/www/img/illustrations-mountain-2.png": {
 		"ft": 32768,
 		"iS": 26118,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-mountain-2.png",
+		"oAP": "/www/img/illustrations-mountain-2.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-mountain-3.jpg": {
+	"/www/img/illustrations-mountain-3.jpg": {
 		"ft": 16384,
 		"iS": 195791,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-mountain-3.jpg",
+		"oAP": "/www/img/illustrations-mountain-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-mountain-3.png": {
+	"/www/img/illustrations-mountain-3.png": {
 		"ft": 32768,
 		"iS": 30362,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-mountain-3.png",
+		"oAP": "/www/img/illustrations-mountain-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-pig.png": {
+	"/www/img/illustrations-pig.png": {
 		"ft": 32768,
 		"iS": 45769,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-pig.png",
+		"oAP": "/www/img/illustrations-pig.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-rally-cocktail.png": {
+	"/www/img/illustrations-rally-cocktail.png": {
 		"ft": 32768,
 		"iS": 23458,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-rally-cocktail.png",
+		"oAP": "/www/img/illustrations-rally-cocktail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-rally-four.png": {
+	"/www/img/illustrations-rally-four.png": {
 		"ft": 32768,
 		"iS": 47663,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-rally-four.png",
+		"oAP": "/www/img/illustrations-rally-four.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-rally-mockup-1.png": {
+	"/www/img/illustrations-rally-mockup-1.png": {
 		"ft": 32768,
 		"iS": 44903,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-rally-mockup-1.png",
+		"oAP": "/www/img/illustrations-rally-mockup-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-rally-mockup-2.png": {
+	"/www/img/illustrations-rally-mockup-2.png": {
 		"ft": 32768,
 		"iS": 46193,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-rally-mockup-2.png",
+		"oAP": "/www/img/illustrations-rally-mockup-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-rally-mockup-3.png": {
+	"/www/img/illustrations-rally-mockup-3.png": {
 		"ft": 32768,
 		"iS": 36544,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-rally-mockup-3.png",
+		"oAP": "/www/img/illustrations-rally-mockup-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-rally-mockup-4.png": {
+	"/www/img/illustrations-rally-mockup-4.png": {
 		"ft": 32768,
 		"iS": 287237,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-rally-mockup-4.png",
+		"oAP": "/www/img/illustrations-rally-mockup-4.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-rally-trees.png": {
+	"/www/img/illustrations-rally-trees.png": {
 		"ft": 32768,
 		"iS": 23695,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-rally-trees.png",
+		"oAP": "/www/img/illustrations-rally-trees.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-rally-two.png": {
+	"/www/img/illustrations-rally-two.png": {
 		"ft": 32768,
 		"iS": 24964,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-rally-two.png",
+		"oAP": "/www/img/illustrations-rally-two.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-record.png": {
+	"/www/img/illustrations-record.png": {
 		"ft": 32768,
 		"iS": 57134,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-record.png",
+		"oAP": "/www/img/illustrations-record.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-woman-dj.png": {
+	"/www/img/illustrations-woman-dj.png": {
 		"ft": 32768,
 		"iS": 67103,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-woman-dj.png",
+		"oAP": "/www/img/illustrations-woman-dj.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/illustrations-woman-sitting.png": {
+	"/www/img/illustrations-woman-sitting.png": {
 		"ft": 32768,
 		"iS": 78726,
 		"oA": 0,
-		"oAP": "\/www\/img\/illustrations-woman-sitting.png",
+		"oAP": "/www/img/illustrations-woman-sitting.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/mixes-chill-1.png": {
+	"/www/img/mixes-chill-1.png": {
 		"ft": 32768,
 		"iS": 142819,
 		"oA": 0,
-		"oAP": "\/www\/img\/mixes-chill-1.png",
+		"oAP": "/www/img/mixes-chill-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/mixes-chill-2.png": {
+	"/www/img/mixes-chill-2.png": {
 		"ft": 32768,
 		"iS": 416313,
 		"oA": 0,
-		"oAP": "\/www\/img\/mixes-chill-2.png",
+		"oAP": "/www/img/mixes-chill-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/mixes-summer-daze.png": {
+	"/www/img/mixes-summer-daze.png": {
 		"ft": 32768,
 		"iS": 509518,
 		"oA": 0,
-		"oAP": "\/www\/img\/mixes-summer-daze.png",
+		"oAP": "/www/img/mixes-summer-daze.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/mixes-summer-nites.png": {
+	"/www/img/mixes-summer-nites.png": {
 		"ft": 32768,
 		"iS": 378854,
 		"oA": 0,
-		"oAP": "\/www\/img\/mixes-summer-nites.png",
+		"oAP": "/www/img/mixes-summer-nites.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/mixes-throwback.png": {
+	"/www/img/mixes-throwback.png": {
 		"ft": 32768,
 		"iS": 1240266,
 		"oA": 0,
-		"oAP": "\/www\/img\/mixes-throwback.png",
+		"oAP": "/www/img/mixes-throwback.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/mixes-upside-down.png": {
+	"/www/img/mixes-upside-down.png": {
 		"ft": 32768,
 		"iS": 234927,
 		"oA": 0,
-		"oAP": "\/www\/img\/mixes-upside-down.png",
+		"oAP": "/www/img/mixes-upside-down.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/motion-styleguide-hero.jpg": {
+	"/www/img/motion-styleguide-hero.jpg": {
 		"ft": 16384,
 		"iS": 32291,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/motion-styleguide-hero.jpg",
+		"oAP": "/www/img/motion-styleguide-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/motion-styleguide-home.jpg": {
+	"/www/img/motion-styleguide-home.jpg": {
 		"ft": 16384,
 		"iS": 354752,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/motion-styleguide-home.jpg",
+		"oAP": "/www/img/motion-styleguide-home.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/motion-styleguide-home.png": {
+	"/www/img/motion-styleguide-home.png": {
 		"ft": 32768,
 		"iS": 648215,
 		"oA": 0,
-		"oAP": "\/www\/img\/motion-styleguide-home.png",
+		"oAP": "/www/img/motion-styleguide-home.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/motion-styleguide-token-code.png": {
+	"/www/img/motion-styleguide-token-code.png": {
 		"ft": 32768,
 		"iS": 136513,
 		"oA": 0,
-		"oAP": "\/www\/img\/motion-styleguide-token-code.png",
+		"oAP": "/www/img/motion-styleguide-token-code.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/og-image.jpg": {
+	"/www/img/og-image.jpg": {
 		"ft": 16384,
 		"iS": 17021,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/og-image.jpg",
+		"oAP": "/www/img/og-image.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-2001-1.jpg": {
+	"/www/img/posters-2001-1.jpg": {
 		"ft": 16384,
 		"iS": 42956,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-2001-1.jpg",
+		"oAP": "/www/img/posters-2001-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-2001-2.jpg": {
+	"/www/img/posters-2001-2.jpg": {
 		"ft": 16384,
 		"iS": 33142,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-2001-2.jpg",
+		"oAP": "/www/img/posters-2001-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-2001-3.jpg": {
+	"/www/img/posters-2001-3.jpg": {
 		"ft": 16384,
 		"iS": 36493,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-2001-3.jpg",
+		"oAP": "/www/img/posters-2001-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-2001-4.jpg": {
+	"/www/img/posters-2001-4.jpg": {
 		"ft": 16384,
 		"iS": 35650,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-2001-4.jpg",
+		"oAP": "/www/img/posters-2001-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-2001-5.jpg": {
+	"/www/img/posters-2001-5.jpg": {
 		"ft": 16384,
 		"iS": 61007,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-2001-5.jpg",
+		"oAP": "/www/img/posters-2001-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-alien-1.jpg": {
+	"/www/img/posters-alien-1.jpg": {
 		"ft": 16384,
 		"iS": 25092,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-alien-1.jpg",
+		"oAP": "/www/img/posters-alien-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-alien-2.jpg": {
+	"/www/img/posters-alien-2.jpg": {
 		"ft": 16384,
 		"iS": 32411,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-alien-2.jpg",
+		"oAP": "/www/img/posters-alien-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-birds-1.jpg": {
+	"/www/img/posters-birds-1.jpg": {
 		"ft": 16384,
 		"iS": 46594,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-birds-1.jpg",
+		"oAP": "/www/img/posters-birds-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-birds-2.jpg": {
+	"/www/img/posters-birds-2.jpg": {
 		"ft": 16384,
 		"iS": 39498,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-birds-2.jpg",
+		"oAP": "/www/img/posters-birds-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-carrie-1.jpg": {
+	"/www/img/posters-carrie-1.jpg": {
 		"ft": 16384,
 		"iS": 47207,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-carrie-1.jpg",
+		"oAP": "/www/img/posters-carrie-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-carrie-2.jpg": {
+	"/www/img/posters-carrie-2.jpg": {
 		"ft": 16384,
 		"iS": 34416,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-carrie-2.jpg",
+		"oAP": "/www/img/posters-carrie-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-hero.jpg": {
+	"/www/img/posters-hero.jpg": {
 		"ft": 16384,
 		"iS": 216202,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-hero.jpg",
+		"oAP": "/www/img/posters-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-rear-window-1.jpg": {
+	"/www/img/posters-rear-window-1.jpg": {
 		"ft": 16384,
 		"iS": 47765,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-rear-window-1.jpg",
+		"oAP": "/www/img/posters-rear-window-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-rear-window-2.jpg": {
+	"/www/img/posters-rear-window-2.jpg": {
 		"ft": 16384,
 		"iS": 38824,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-rear-window-2.jpg",
+		"oAP": "/www/img/posters-rear-window-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/posters-thumb.jpg": {
+	"/www/img/posters-thumb.jpg": {
 		"ft": 16384,
 		"iS": 36696,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/posters-thumb.jpg",
+		"oAP": "/www/img/posters-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/preloader3.gif": {
+	"/www/img/preloader3.gif": {
 		"ft": 4194304,
 		"iS": 22918,
 		"oA": 0,
-		"oAP": "\/www\/img\/preloader3.gif",
+		"oAP": "/www/img/preloader3.gif",
 		"oF": 0,
 		"opt": 1
 		},
-	"\/www\/img\/scott-brookshire-photo.jpg": {
+	"/www/img/scott-brookshire-photo.jpg": {
 		"ft": 16384,
 		"iS": 260520,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/scott-brookshire-photo.jpg",
+		"oAP": "/www/img/scott-brookshire-photo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/scott-brookshire-wreaking_ball.jpg": {
+	"/www/img/scott-brookshire-wreaking_ball.jpg": {
 		"ft": 16384,
 		"iS": 131017,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/scott-brookshire-wreaking_ball.jpg",
+		"oAP": "/www/img/scott-brookshire-wreaking_ball.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-colors.jpg": {
+	"/www/img/stitch-colors.jpg": {
 		"ft": 16384,
 		"iS": 34945,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-colors.jpg",
+		"oAP": "/www/img/stitch-colors.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-demo.gif": {
+	"/www/img/stitch-demo.gif": {
 		"ft": 4194304,
 		"iS": 3225783,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-demo.gif",
+		"oAP": "/www/img/stitch-demo.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/www\/img\/stitch-demographics.jpg": {
+	"/www/img/stitch-demographics.jpg": {
 		"ft": 16384,
 		"iS": 69512,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-demographics.jpg",
+		"oAP": "/www/img/stitch-demographics.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-flow.jpg": {
+	"/www/img/stitch-flow.jpg": {
 		"ft": 16384,
 		"iS": 83406,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-flow.jpg",
+		"oAP": "/www/img/stitch-flow.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-hero.jpg": {
+	"/www/img/stitch-hero.jpg": {
 		"ft": 16384,
 		"iS": 111751,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-hero.jpg",
+		"oAP": "/www/img/stitch-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-hero2.jpg": {
+	"/www/img/stitch-hero2.jpg": {
 		"ft": 16384,
 		"iS": 177516,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-hero2.jpg",
+		"oAP": "/www/img/stitch-hero2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-hero3.jpg": {
+	"/www/img/stitch-hero3.jpg": {
 		"ft": 16384,
 		"iS": 130308,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-hero3.jpg",
+		"oAP": "/www/img/stitch-hero3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-hero4.jpg": {
+	"/www/img/stitch-hero4.jpg": {
 		"ft": 16384,
 		"iS": 210400,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-hero4.jpg",
+		"oAP": "/www/img/stitch-hero4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-hero5.jpg": {
+	"/www/img/stitch-hero5.jpg": {
 		"ft": 16384,
 		"iS": 199937,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-hero5.jpg",
+		"oAP": "/www/img/stitch-hero5.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-home.jpg": {
+	"/www/img/stitch-home.jpg": {
 		"ft": 16384,
 		"iS": 220792,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-home.jpg",
+		"oAP": "/www/img/stitch-home.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-home2.jpg": {
+	"/www/img/stitch-home2.jpg": {
 		"ft": 16384,
 		"iS": 239485,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-home2.jpg",
+		"oAP": "/www/img/stitch-home2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-home3.jpg": {
+	"/www/img/stitch-home3.jpg": {
 		"ft": 16384,
 		"iS": 191222,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-home3.jpg",
+		"oAP": "/www/img/stitch-home3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-home4.jpg": {
+	"/www/img/stitch-home4.jpg": {
 		"ft": 16384,
 		"iS": 207236,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-home4.jpg",
+		"oAP": "/www/img/stitch-home4.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-invision.jpg": {
+	"/www/img/stitch-invision.jpg": {
 		"ft": 16384,
 		"iS": 88906,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-invision.jpg",
+		"oAP": "/www/img/stitch-invision.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-invision.png": {
+	"/www/img/stitch-invision.png": {
 		"ft": 32768,
 		"iS": 696758,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-invision.png",
+		"oAP": "/www/img/stitch-invision.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/stitch-japandroids.jpg": {
+	"/www/img/stitch-japandroids.jpg": {
 		"ft": 16384,
 		"iS": 68494,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-japandroids.jpg",
+		"oAP": "/www/img/stitch-japandroids.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-logo.jpg": {
+	"/www/img/stitch-logo.jpg": {
 		"ft": 16384,
 		"iS": 49049,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-logo.jpg",
+		"oAP": "/www/img/stitch-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-motion_concert.jpg": {
+	"/www/img/stitch-motion_concert.jpg": {
 		"ft": 16384,
 		"iS": 21176,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-motion_concert.jpg",
+		"oAP": "/www/img/stitch-motion_concert.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-problem.jpg": {
+	"/www/img/stitch-problem.jpg": {
 		"ft": 16384,
 		"iS": 54851,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-problem.jpg",
+		"oAP": "/www/img/stitch-problem.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-quartz.jpg": {
+	"/www/img/stitch-quartz.jpg": {
 		"ft": 16384,
 		"iS": 45234,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-quartz.jpg",
+		"oAP": "/www/img/stitch-quartz.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-solution.jpg": {
+	"/www/img/stitch-solution.jpg": {
 		"ft": 16384,
 		"iS": 49416,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-solution.jpg",
+		"oAP": "/www/img/stitch-solution.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-swot.jpg": {
+	"/www/img/stitch-swot.jpg": {
 		"ft": 16384,
 		"iS": 71443,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-swot.jpg",
+		"oAP": "/www/img/stitch-swot.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-type.jpg": {
+	"/www/img/stitch-type.jpg": {
 		"ft": 16384,
 		"iS": 44388,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-type.jpg",
+		"oAP": "/www/img/stitch-type.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-ui.png": {
+	"/www/img/stitch-ui.png": {
 		"ft": 32768,
 		"iS": 150260,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-ui.png",
+		"oAP": "/www/img/stitch-ui.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/stitch-user1.jpg": {
+	"/www/img/stitch-user1.jpg": {
 		"ft": 16384,
 		"iS": 87573,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-user1.jpg",
+		"oAP": "/www/img/stitch-user1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-user2.jpg": {
+	"/www/img/stitch-user2.jpg": {
 		"ft": 16384,
 		"iS": 57634,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-user2.jpg",
+		"oAP": "/www/img/stitch-user2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-video-icon.jpg": {
+	"/www/img/stitch-video-icon.jpg": {
 		"ft": 16384,
 		"iS": 28263,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-video-icon.jpg",
+		"oAP": "/www/img/stitch-video-icon.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-video_slide.jpg": {
+	"/www/img/stitch-video_slide.jpg": {
 		"ft": 16384,
 		"iS": 50667,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-video_slide.jpg",
+		"oAP": "/www/img/stitch-video_slide.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/stitch-word.jpg": {
+	"/www/img/stitch-word.jpg": {
 		"ft": 16384,
 		"iS": 58558,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/stitch-word.jpg",
+		"oAP": "/www/img/stitch-word.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-color-study.png": {
+	"/www/img/unlabel-color-study.png": {
 		"ft": 32768,
 		"iS": 52637,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-color-study.png",
+		"oAP": "/www/img/unlabel-color-study.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-facebook.png": {
+	"/www/img/unlabel-facebook.png": {
 		"ft": 32768,
 		"iS": 183112,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-facebook.png",
+		"oAP": "/www/img/unlabel-facebook.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-favorites.png": {
+	"/www/img/unlabel-favorites.png": {
 		"ft": 32768,
 		"iS": 78074,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-favorites.png",
+		"oAP": "/www/img/unlabel-favorites.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-feed.png": {
+	"/www/img/unlabel-feed.png": {
 		"ft": 32768,
 		"iS": 115557,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-feed.png",
+		"oAP": "/www/img/unlabel-feed.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-filters.png": {
+	"/www/img/unlabel-filters.png": {
 		"ft": 32768,
 		"iS": 48980,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-filters.png",
+		"oAP": "/www/img/unlabel-filters.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-following-empty.png": {
+	"/www/img/unlabel-following-empty.png": {
 		"ft": 32768,
 		"iS": 20336,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-following-empty.png",
+		"oAP": "/www/img/unlabel-following-empty.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-following.png": {
+	"/www/img/unlabel-following.png": {
 		"ft": 32768,
 		"iS": 602389,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-following.png",
+		"oAP": "/www/img/unlabel-following.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-full-image.jpg": {
+	"/www/img/unlabel-full-image.jpg": {
 		"ft": 16384,
 		"iS": 112908,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-full-image.jpg",
+		"oAP": "/www/img/unlabel-full-image.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-hero.jpg": {
+	"/www/img/unlabel-hero.jpg": {
 		"ft": 16384,
 		"iS": 170043,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-hero.jpg",
+		"oAP": "/www/img/unlabel-hero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-home.jpg": {
+	"/www/img/unlabel-home.jpg": {
 		"ft": 16384,
 		"iS": 652000,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-home.jpg",
+		"oAP": "/www/img/unlabel-home.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-listings.png": {
+	"/www/img/unlabel-listings.png": {
 		"ft": 32768,
 		"iS": 609831,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-listings.png",
+		"oAP": "/www/img/unlabel-listings.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-nav.png": {
+	"/www/img/unlabel-nav.png": {
 		"ft": 32768,
 		"iS": 90833,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-nav.png",
+		"oAP": "/www/img/unlabel-nav.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-splash.png": {
+	"/www/img/unlabel-splash.png": {
 		"ft": 32768,
 		"iS": 860425,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-splash.png",
+		"oAP": "/www/img/unlabel-splash.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/img\/unlabel-type-specimen.png": {
+	"/www/img/unlabel-type-specimen.png": {
 		"ft": 32768,
 		"iS": 115181,
 		"oA": 0,
-		"oAP": "\/www\/img\/unlabel-type-specimen.png",
+		"oAP": "/www/img/unlabel-type-specimen.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/index.html": {
+	"/www/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/index.html",
+		"oAP": "/www/index.html",
 		"oF": 0
 		},
-	"\/www\/js\/badge-animation.json": {
+	"/www/js/badge-animation.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/www\/js\/badge-animation-min.json",
+		"oAP": "/www/js/badge-animation-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www\/js\/data.json": {
+	"/www/js/data.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/www\/js\/data-min.json",
+		"oAP": "/www/js/data-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www\/js\/eb-logo-animation.json": {
+	"/www/js/eb-logo-animation.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/www\/js\/eb-logo-animation-min.json",
+		"oAP": "/www/js/eb-logo-animation-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www\/js\/kiosk-animation.json": {
+	"/www/js/kiosk-animation.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/www\/js\/kiosk-animation-min.json",
+		"oAP": "/www/js/kiosk-animation-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www\/js\/libs\/jquery-1.10.1.min.js": {
+	"/www/js/libs/jquery-1.10.1.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/www\/js\/libs\/min\/jquery-1.10.1.min-min.js",
+		"oAP": "/www/js/libs/min/jquery-1.10.1.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/www\/js\/libs\/jquery.easing.1.3.js": {
+	"/www/js/libs/jquery.easing.1.3.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/www\/js\/libs\/min\/jquery.easing.1.3-min.js",
+		"oAP": "/www/js/libs/min/jquery.easing.1.3-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/www\/js\/libs\/modernizr-2.6.2.min.js": {
+	"/www/js/libs/modernizr-2.6.2.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/www\/js\/libs\/min\/modernizr-2.6.2.min-min.js",
+		"oAP": "/www/js/libs/min/modernizr-2.6.2.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/www\/js\/lottie.js": {
+	"/www/js/lottie.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/www\/js\/min\/lottie-min.js",
+		"oAP": "/www/js/min/lottie-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/www\/js\/min\/lottie-min.js": {
+	"/www/js/min/lottie-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/www\/js\/min\/min\/lottie-min-min.js",
+		"oAP": "/www/js/min/min/lottie-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/www\/js\/motion-abstract.json": {
+	"/www/js/motion-abstract.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/www\/js\/motion-abstract-min.json",
+		"oAP": "/www/js/motion-abstract-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www\/js\/motion-header.json": {
+	"/www/js/motion-header.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/www\/js\/motion-header-min.json",
+		"oAP": "/www/js/motion-header-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www\/js\/plugins.js": {
+	"/www/js/plugins.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/www\/js\/min\/plugins-min.js",
+		"oAP": "/www/js/min/plugins-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/www\/js\/scripts.js": {
+	"/www/js/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/www\/js\/min\/scripts-min.js",
+		"oAP": "/www/js/min/scripts-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"\/www\/js\/waiting-room-animation.json": {
+	"/www/js/waiting-room-animation.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/www\/js\/waiting-room-animation-min.json",
+		"oAP": "/www/js/waiting-room-animation-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/www\/mixes.html": {
+	"/www/mixes.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/mixes.html",
+		"oAP": "/www/mixes.html",
 		"oF": 0
 		},
-	"\/www\/motion-styleguide.html": {
+	"/www/motion-styleguide.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/motion-styleguide.html",
+		"oAP": "/www/motion-styleguide.html",
 		"oF": 0
 		},
-	"\/www\/mstile-150x150.png": {
+	"/www/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 3742,
 		"oA": 0,
-		"oAP": "\/www\/mstile-150x150.png",
+		"oAP": "/www/mstile-150x150.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/www\/poster-project.html": {
+	"/www/poster-project.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/poster-project.html",
+		"oAP": "/www/poster-project.html",
 		"oF": 0
 		},
-	"\/www\/resume-scott_brookshire.pdf": {
+	"/www/resume-scott_brookshire.pdf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/resume-scott_brookshire.pdf",
+		"oAP": "/www/resume-scott_brookshire.pdf",
 		"oF": 0
 		},
-	"\/www\/safari-pinned-tab.svg": {
+	"/www/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/www\/safari-pinned-tab.svg",
+		"oAP": "/www/safari-pinned-tab.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/www\/site.webmanifest": {
+	"/www/site.webmanifest": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/site.webmanifest",
+		"oAP": "/www/site.webmanifest",
 		"oF": 0
 		},
-	"\/www\/stitch.html": {
+	"/www/stitch.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/stitch.html",
+		"oAP": "/www/stitch.html",
 		"oF": 0
 		},
-	"\/www\/unlabel.html": {
+	"/www/unlabel.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/unlabel.html",
+		"oAP": "/www/unlabel.html",
 		"oF": 0
 		},
-	"\/www\/video\/24-hour-ticket-animation.mp4": {
+	"/www/video/24-hour-ticket-animation.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/24-hour-ticket-animation.mp4",
+		"oAP": "/www/video/24-hour-ticket-animation.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/about-city.mp4": {
+	"/www/video/about-city.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/about-city.mp4",
+		"oAP": "/www/video/about-city.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/about-city.webm": {
+	"/www/video/about-city.webm": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/about-city.webm",
+		"oAP": "/www/video/about-city.webm",
 		"oF": 0
 		},
-	"\/www\/video\/calendar-prototype.mp4": {
+	"/www/video/calendar-prototype.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/calendar-prototype.mp4",
+		"oAP": "/www/video/calendar-prototype.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/enrich-demo.mp4": {
+	"/www/video/enrich-demo.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/enrich-demo.mp4",
+		"oAP": "/www/video/enrich-demo.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/enrich-demo.ogv": {
+	"/www/video/enrich-demo.ogv": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/enrich-demo.ogv",
+		"oAP": "/www/video/enrich-demo.ogv",
 		"oF": 0
 		},
-	"\/www\/video\/eventbrite-app-onboarding-animation.mov": {
+	"/www/video/eventbrite-app-onboarding-animation.mov": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/eventbrite-app-onboarding-animation.mov",
+		"oAP": "/www/video/eventbrite-app-onboarding-animation.mov",
 		"oF": 0
 		},
-	"\/www\/video\/eventbrite-app-onboarding-animation.mp4": {
+	"/www/video/eventbrite-app-onboarding-animation.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/eventbrite-app-onboarding-animation.mp4",
+		"oAP": "/www/video/eventbrite-app-onboarding-animation.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/eventbrite-app-onboarding-animation.ogv": {
+	"/www/video/eventbrite-app-onboarding-animation.ogv": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/eventbrite-app-onboarding-animation.ogv",
+		"oAP": "/www/video/eventbrite-app-onboarding-animation.ogv",
 		"oF": 0
 		},
-	"\/www\/video\/eventbrite-app-onboarding-animation.webm": {
+	"/www/video/eventbrite-app-onboarding-animation.webm": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/eventbrite-app-onboarding-animation.webm",
+		"oAP": "/www/video/eventbrite-app-onboarding-animation.webm",
 		"oF": 0
 		},
-	"\/www\/video\/hero-home.mp4": {
+	"/www/video/hero-home.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/hero-home.mp4",
+		"oAP": "/www/video/hero-home.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/hero-home.webm": {
+	"/www/video/hero-home.webm": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/hero-home.webm",
+		"oAP": "/www/video/hero-home.webm",
 		"oF": 0
 		},
-	"\/www\/video\/live-events-prototype.mp4": {
+	"/www/video/live-events-prototype.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/live-events-prototype.mp4",
+		"oAP": "/www/video/live-events-prototype.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/motion-styleguide\/badge-mockup-animation.mp4": {
+	"/www/video/motion-styleguide/badge-mockup-animation.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/motion-styleguide\/badge-mockup-animation.mp4",
+		"oAP": "/www/video/motion-styleguide/badge-mockup-animation.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/motion-styleguide\/badge-solo-animation.mp4": {
+	"/www/video/motion-styleguide/badge-solo-animation.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/motion-styleguide\/badge-solo-animation.mp4",
+		"oAP": "/www/video/motion-styleguide/badge-solo-animation.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/motion-styleguide\/booking-on-card.mp4": {
+	"/www/video/motion-styleguide/booking-on-card.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/motion-styleguide\/booking-on-card.mp4",
+		"oAP": "/www/video/motion-styleguide/booking-on-card.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/motion-styleguide\/bookmark-animation.mp4": {
+	"/www/video/motion-styleguide/bookmark-animation.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/motion-styleguide\/bookmark-animation.mp4",
+		"oAP": "/www/video/motion-styleguide/bookmark-animation.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/motion-styleguide\/card-transition.mp4": {
+	"/www/video/motion-styleguide/card-transition.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/motion-styleguide\/card-transition.mp4",
+		"oAP": "/www/video/motion-styleguide/card-transition.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/motion-styleguide\/logo-solo.mp4": {
+	"/www/video/motion-styleguide/logo-solo.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/motion-styleguide\/logo-solo.mp4",
+		"oAP": "/www/video/motion-styleguide/logo-solo.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/motion-styleguide\/quantity-selection-animation.mp4": {
+	"/www/video/motion-styleguide/quantity-selection-animation.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/motion-styleguide\/quantity-selection-animation.mp4",
+		"oAP": "/www/video/motion-styleguide/quantity-selection-animation.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/motion-styleguide\/tab-transition.mp4": {
+	"/www/video/motion-styleguide/tab-transition.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/motion-styleguide\/tab-transition.mp4",
+		"oAP": "/www/video/motion-styleguide/tab-transition.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/Seasons gif perspective.webmhd.webm": {
+	"/www/video/Seasons gif perspective.webmhd.webm": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/Seasons gif perspective.webmhd.webm",
+		"oAP": "/www/video/Seasons gif perspective.webmhd.webm",
 		"oF": 0
 		},
-	"\/www\/video\/seasons-demo.mp4": {
+	"/www/video/seasons-demo.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/seasons-demo.mp4",
+		"oAP": "/www/video/seasons-demo.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/seasons-demo.ogv": {
+	"/www/video/seasons-demo.ogv": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/seasons-demo.ogv",
+		"oAP": "/www/video/seasons-demo.ogv",
 		"oF": 0
 		},
-	"\/www\/video\/stellar-demo.mp4": {
+	"/www/video/stellar-demo.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/stellar-demo.mp4",
+		"oAP": "/www/video/stellar-demo.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/stellar-demo.ogv": {
+	"/www/video/stellar-demo.ogv": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/stellar-demo.ogv",
+		"oAP": "/www/video/stellar-demo.ogv",
 		"oF": 0
 		},
-	"\/www\/video\/stitch-demo.mp4": {
+	"/www/video/stitch-demo.mp4": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/stitch-demo.mp4",
+		"oAP": "/www/video/stitch-demo.mp4",
 		"oF": 0
 		},
-	"\/www\/video\/stitch-demo.ogv": {
+	"/www/video/stitch-demo.ogv": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "\/www\/video\/stitch-demo.ogv",
+		"oAP": "/www/video/stitch-demo.ogv",
 		"oF": 0
 		}
 	},
@@ -4634,7 +4782,7 @@
 	"creationDate": 547856815,
 	"displayValue": "Portfolio-2018",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "\/www\/apple-touch-icon.png",
+	"iconImageName": "/www/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -4642,141 +4790,100 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
 		"inline-environment-variables": {
 			"active": 0
 			},
+		"instanceof": {
+			"active": 0
+			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -4788,7 +4895,58 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
+			"active": 0
+			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -4800,7 +4958,28 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -4830,59 +5009,58 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
 			"active": 0
 			},
+		"remove-undefined": {
+			"active": 0
+			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -4891,6 +5069,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -5248,6 +5427,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -5259,6 +5442,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -5304,6 +5491,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -5322,10 +5513,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -5524,9 +5711,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -5776,6 +5967,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -5880,6 +6075,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -5908,6 +6107,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -5915,6 +6118,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -5970,7 +6177,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -6030,7 +6237,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -6425,8 +6632,8 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -6444,10 +6651,11 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*-min.js",
-		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -6470,25 +6678,26 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -6509,6 +6718,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -6518,7 +6728,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -6539,12 +6750,13 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -6568,12 +6780,13 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -6597,36 +6810,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 0,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
-			"active": 0,
+		"arguments": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6634,23 +6881,27 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"booleans_as_integers": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"braces": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -6662,6 +6913,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -6669,6 +6924,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -6678,7 +6937,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -6686,24 +6953,36 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"if_return": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"indent_level": {
 			"active": 0,
 			"flagValue": 4
 			},
-		"indent-start": {
+		"indent_start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
-			"active": 0,
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -6714,21 +6993,33 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
 			},
 		"properties": {
 			"active": 1,
@@ -6738,11 +7029,23 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6754,23 +7057,59 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6782,11 +7121,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},
